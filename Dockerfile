@@ -14,7 +14,7 @@ ARG HELM_DIFF_VERSION=3.1.1
 # (e.g. curl, awscli, gpg, sops)
 COPY argocd-helmfile.sh /usr/local/bin/argocd-helmfile
 RUN apt-get update && \
-    apt-get install -y curl gpg apt-utils git-crypt && \
+    apt-get install -y curl gpg apt-utils git-crypt joe && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* && \
     curl -o /usr/local/bin/helmfile -L https://github.com/roboll/helmfile/releases/download/${HELMFILE_VERSION}/helmfile_linux_amd64 && \
