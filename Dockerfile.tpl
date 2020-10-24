@@ -7,9 +7,9 @@ LABEL maintainer="shinya@chatwork.com"
 USER root
 
 ARG HELMFILE_VERSION=v{{ .helmfile_version }}
-ARG KUBECTL_VERSION=1.17.5
-ARG SOPS_VERSION=3.2.0
-ARG HELM_DIFF_VERSION=3.1.1
+ARG KUBECTL_VERSION=1.18.10
+ARG SOPS_VERSION=3.3.1
+ARG HELM_DIFF_VERSION=3.1.3
 # Install tools needed for your repo-server to retrieve & decrypt secrets, render manifests
 # (e.g. curl, awscli, gpg, sops)
 COPY argocd-helmfile.sh /usr/local/bin/argocd-helmfile
