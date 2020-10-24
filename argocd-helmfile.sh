@@ -4,6 +4,14 @@
 #
 set -eo pipefail
 
+cat >&2 <<EOF
+Phase           : $phase
+Helm version    : $(helm version --short)
+Helmfile version: $(helmfile --version)
+Environment     :
+EOF
+printenv | egrep '^(ARGOCD_APP|HELM_|HELMFILE_|GNUPGHOME)' | sort | sed 's/^/  /g' >&2
+
 function is_bin_in_path() {
   builtin type -P "$1" &> /dev/null
 }
@@ -47,12 +55,6 @@ fi
 if [[ "${HELMFILE_GLOBAL_OPTIONS}" ]]; then
   helmfile="${helmfile} ${HELMFILE_GLOBAL_OPTIONS}"
 fi
-
-cat >&2 <<EOF
-Phase           : $phase
-Helm version    : $(helm version --short)
-Helmfile version: $(helmfile --version)
-EOF
 
 if [[ -v HELMFILE_HELMFILE_PATH ]]; then
   helmfile="${helmfile} -f ${HELMFILE_HELMFILE_PATH}"
