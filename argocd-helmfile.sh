@@ -4,6 +4,10 @@
 #
 set -eo pipefail
 
+# This is needed so that git crypt finds the keyring
+GNUPGHOME=/app/config/gpg/keys/
+export GNUPGHOME
+
 cat >&2 <<EOF
 Phase           : $phase
 Helm version    : $(helm version --short)
