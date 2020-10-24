@@ -5,6 +5,7 @@ export COMPOSE_DOCKER_CLI_BUILD=1
 
 .PHONY: build
 build:
+	mod build
 	docker build -t elementalnet/`basename $$PWD` .;
 	@version=$$(docker inspect -f {{.Config.Labels.version}} elementalnet/`basename $$PWD`); \
 		if [ -n "$$version" ]; then \
