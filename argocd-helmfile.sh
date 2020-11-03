@@ -8,14 +8,6 @@ set -eo pipefail
 GNUPGHOME=/app/config/gpg/keys/
 export GNUPGHOME
 
-cat >&2 <<EOF
-Phase           : $phase
-Helm version    : $(helm version --short)
-Helmfile version: $(helmfile --version)
-Environment     :
-EOF
-printenv | egrep '^(ARGOCD_APP|HELM_|HELMFILE_|GNUPGHOME)' | sort | sed 's/^/  /g' >&2
-
 function is_bin_in_path() {
   builtin type -P "$1" &> /dev/null
 }
@@ -36,6 +28,14 @@ if [[ $# != 1 || ($1 != generate && $1 != init)]]; then
   exit 1
 fi
 phase=$1
+
+cat >&2 <<EOF
+Phase           : $phase
+Helm version    : $(helm version --short)
+Helmfile version: $(helmfile --version)
+Environment     :
+EOF
+printenv | egrep '^(ARGOCD_APP|HELM_|HELMFILE_|GNUPGHOME)' | sort | sed 's/^/  /g' >&2
 
 # expand nested variables
 if [[ -v HELMFILE_GLOBAL_OPTIONS ]]; then
