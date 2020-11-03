@@ -82,7 +82,7 @@ case $phase in
       echo "${HELMFILE_HELMFILE}" >helmfile.yaml
     fi
 
-    ${helmfile} repos
+    ${helmfile} deps # includes repos step
     ;;
 
   "generate")
