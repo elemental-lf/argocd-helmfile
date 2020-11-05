@@ -1,7 +1,7 @@
 FROM argoproj/argocd:v{{ .argocd_version }}
 
 LABEL version="{{ .argocd_version }}-{{ .helmfile_version }}"
-LABEL maintainer="shinya@chatwork.com"
+LABEL maintainer="lf@elemental.net"
 
 # Switch to root for the ability to perform install
 USER root
