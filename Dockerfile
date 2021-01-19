@@ -1,12 +1,12 @@
-FROM argoproj/argocd:v1.7.7
+FROM argoproj/argocd:v1.8.2
 
-LABEL version="1.7.7-0.130.0"
-LABEL maintainer="shinya@chatwork.com"
+LABEL version="1.8.2-0.137.0"
+LABEL maintainer="lf@elemental.net"
 
 # Switch to root for the ability to perform install
 USER root
 
-ARG HELMFILE_VERSION=v0.130.0
+ARG HELMFILE_VERSION=v0.137.0
 ARG KUBECTL_VERSION=1.18.10
 ARG SOPS_VERSION=3.3.1
 ARG HELM_DIFF_VERSION=3.1.3
