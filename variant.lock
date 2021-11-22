@@ -1,24 +1,23 @@
 dependencies:
   argocd:
-    version: 1.8.2
-    previousVersion: 1.7.7
+    version: 2.1.7
     versions:
-    - 1.8.2
+    - 2.1.7
     githubRelease:
       assets:
-      - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v1.8.2/argocd-darwin-amd64
+      - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v2.1.7/argocd-darwin-amd64
         content_type: application/octet-stream
-        created_at: "2021-01-10T05:47:11Z"
-        download_count: 93
-        id: 30493365
+        created_at: "2021-11-17T22:19:02Z"
+        download_count: 61
+        id: 49706710
         label: ""
         name: argocd-darwin-amd64
-        node_id: MDEyOlJlbGVhc2VBc3NldDMwNDkzMzY1
-        size: 75792352
+        node_id: RA_kwDOBzS60s4C9nbW
+        size: 109992448
         state: uploaded
-        updated_at: "2021-01-10T05:47:13Z"
+        updated_at: "2021-11-17T22:19:05Z"
         uploader:
-          avatar_url: https://avatars2.githubusercontent.com/in/15368?v=4
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
           events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
           followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
           following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
@@ -36,20 +35,20 @@ dependencies:
           subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
           type: Bot
           url: https://api.github.com/users/github-actions%5Bbot%5D
-        url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/30493365
-      - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v1.8.2/argocd-linux-amd64
+        url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/49706710
+      - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v2.1.7/argocd-linux-amd64
         content_type: application/octet-stream
-        created_at: "2021-01-10T05:47:09Z"
-        download_count: 2126
-        id: 30493364
+        created_at: "2021-11-17T22:18:59Z"
+        download_count: 1952
+        id: 49706706
         label: ""
         name: argocd-linux-amd64
-        node_id: MDEyOlJlbGVhc2VBc3NldDMwNDkzMzY0
-        size: 76477548
+        node_id: RA_kwDOBzS60s4C9nbS
+        size: 110746731
         state: uploaded
-        updated_at: "2021-01-10T05:47:11Z"
+        updated_at: "2021-11-17T22:19:01Z"
         uploader:
-          avatar_url: https://avatars2.githubusercontent.com/in/15368?v=4
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
           events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
           followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
           following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
@@ -67,20 +66,20 @@ dependencies:
           subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
           type: Bot
           url: https://api.github.com/users/github-actions%5Bbot%5D
-        url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/30493364
-      - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v1.8.2/argocd-windows-amd64.exe
+        url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/49706706
+      - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v2.1.7/argocd-windows-amd64.exe
         content_type: application/octet-stream
-        created_at: "2021-01-10T05:47:13Z"
-        download_count: 108
-        id: 30493366
+        created_at: "2021-11-17T22:19:05Z"
+        download_count: 73
+        id: 49706711
         label: ""
         name: argocd-windows-amd64.exe
-        node_id: MDEyOlJlbGVhc2VBc3NldDMwNDkzMzY2
-        size: 76291072
+        node_id: RA_kwDOBzS60s4C9nbX
+        size: 112275456
         state: uploaded
-        updated_at: "2021-01-10T05:47:15Z"
+        updated_at: "2021-11-17T22:19:07Z"
         uploader:
-          avatar_url: https://avatars2.githubusercontent.com/in/15368?v=4
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
           events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
           followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
           following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
@@ -98,10 +97,10 @@ dependencies:
           subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
           type: Bot
           url: https://api.github.com/users/github-actions%5Bbot%5D
-        url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/30493366
-      assets_url: https://api.github.com/repos/argoproj/argo-cd/releases/36189400/assets
+        url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/49706711
+      assets_url: https://api.github.com/repos/argoproj/argo-cd/releases/53595298/assets
       author:
-        avatar_url: https://avatars2.githubusercontent.com/in/15368?v=4
+        avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
         events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
         followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
         following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
@@ -124,101 +123,65 @@ dependencies:
 
         ### Non-HA:
 
-        ```
+        ```bash
         kubectl create namespace argocd
-        kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/v1.8.2/manifests/install.yaml
+        kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/v2.1.7/manifests/install.yaml
         ```
 
-        ### HA:
+        #### HA:
 
-        ```
+        ```bash
         kubectl create namespace argocd
-        kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/v1.8.2/manifests/ha/install.yaml
+        kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/v2.1.7/manifests/ha/install.yaml
         ```
 
         #### Bug Fixes
 
-        * fix: updating cluster drops secret (#5220)
-        * fix: remove invalid assumption about OCI helm chart path (#5179)
-        * fix: Possible nil pointer dereference in repository API (#5128)
-        * fix: Possible nil pointer dereference in repocreds API (#5130)
-        * fix: use json serialization to store cache instead of github.com/vmihailenco/msgpack (#4965)
-        * fix: add liveness probe to restart repo server if it fails to server tls requests (#5110) (#5119)
-        * fix: Allow correct SSO redirect URL for CLI static client (#5098)
-        * fix: add grpc health check (#5060)
-        * fix: setting 'revision history limit' errors in UI (#5035)
-        * fix: add api-server liveness probe that catches bad data in informer (#5026)
-
-        #### Refactoring
-
-        * chore: Update Dex to v2.27.0 (#5058)
-        * chore: Upgrade gorilla/handlers and gorilla/websocket (#5186)
-        * chore: Upgrade jwt-go to 4.0.0-preview1 (#5184)
-      created_at: "2021-01-10T05:30:48Z"
+        - Fix: Kuberenetes manifest to have new Github.com ssh known host keys for ArgoCD deployments (#7722)
+      created_at: "2021-11-17T22:02:58Z"
       draft: false
-      html_url: https://github.com/argoproj/argo-cd/releases/tag/v1.8.2
-      id: 36189400
-      name: v1.8.2
-      node_id: MDc6UmVsZWFzZTM2MTg5NDAw
+      html_url: https://github.com/argoproj/argo-cd/releases/tag/v2.1.7
+      id: 53595298
+      name: v2.1.7
+      node_id: RE_kwDOBzS60s4DMcyi
       prerelease: false
-      published_at: "2021-01-10T05:47:08Z"
-      tag_name: v1.8.2
-      tarball_url: https://api.github.com/repos/argoproj/argo-cd/tarball/v1.8.2
-      target_commitish: 7b2946962df59a909addf85c8c83c5419b099f60
-      upload_url: https://uploads.github.com/repos/argoproj/argo-cd/releases/36189400/assets{?name,label}
-      url: https://api.github.com/repos/argoproj/argo-cd/releases/36189400
-      zipball_url: https://api.github.com/repos/argoproj/argo-cd/zipball/v1.8.2
+      published_at: "2021-11-17T22:18:58Z"
+      reactions:
+        "+1": 0
+        "-1": 0
+        confused: 0
+        eyes: 0
+        heart: 0
+        hooray: 12
+        laugh: 0
+        rocket: 0
+        total_count: 12
+        url: https://api.github.com/repos/argoproj/argo-cd/releases/53595298/reactions
+      tag_name: v2.1.7
+      tarball_url: https://api.github.com/repos/argoproj/argo-cd/tarball/v2.1.7
+      target_commitish: 5679e4060ebc18a37ea674ce5ddca68d162970c7
+      upload_url: https://uploads.github.com/repos/argoproj/argo-cd/releases/53595298/assets{?name,label}
+      url: https://api.github.com/repos/argoproj/argo-cd/releases/53595298
+      zipball_url: https://api.github.com/repos/argoproj/argo-cd/zipball/v2.1.7
   helmfile:
-    version: 0.137.0
-    previousVersion: 0.130.0
+    version: 0.142.0
     versions:
-    - 0.137.0
+    - 0.142.0
     githubRelease:
       assets:
-      - browser_download_url: https://github.com/roboll/helmfile/releases/download/v0.137.0/helmfile_darwin_386
+      - browser_download_url: https://github.com/roboll/helmfile/releases/download/v0.142.0/helmfile_darwin_amd64
         content_type: application/octet-stream
-        created_at: "2021-01-12T01:39:09Z"
-        download_count: 14
-        id: 30566098
-        label: ""
-        name: helmfile_darwin_386
-        node_id: MDEyOlJlbGVhc2VBc3NldDMwNTY2MDk4
-        size: 42153064
-        state: uploaded
-        updated_at: "2021-01-12T01:39:11Z"
-        uploader:
-          avatar_url: https://avatars2.githubusercontent.com/u/1259631?v=4
-          events_url: https://api.github.com/users/roboll/events{/privacy}
-          followers_url: https://api.github.com/users/roboll/followers
-          following_url: https://api.github.com/users/roboll/following{/other_user}
-          gists_url: https://api.github.com/users/roboll/gists{/gist_id}
-          gravatar_id: ""
-          html_url: https://github.com/roboll
-          id: 1259631
-          login: roboll
-          node_id: MDQ6VXNlcjEyNTk2MzE=
-          organizations_url: https://api.github.com/users/roboll/orgs
-          received_events_url: https://api.github.com/users/roboll/received_events
-          repos_url: https://api.github.com/users/roboll/repos
-          site_admin: false
-          starred_url: https://api.github.com/users/roboll/starred{/owner}{/repo}
-          subscriptions_url: https://api.github.com/users/roboll/subscriptions
-          type: User
-          url: https://api.github.com/users/roboll
-        url: https://api.github.com/repos/roboll/helmfile/releases/assets/30566098
-      - browser_download_url: https://github.com/roboll/helmfile/releases/download/v0.137.0/helmfile_darwin_amd64
-        content_type: application/octet-stream
-        created_at: "2021-01-12T01:39:09Z"
-        download_count: 71
-        id: 30566099
+        created_at: "2021-11-04T01:14:26Z"
+        download_count: 127
+        id: 48575755
         label: ""
         name: helmfile_darwin_amd64
-        node_id: MDEyOlJlbGVhc2VBc3NldDMwNTY2MDk5
-        size: 48651128
+        node_id: RA_kwDOBHDEHc4C5TUL
+        size: 43933488
         state: uploaded
-        updated_at: "2021-01-12T01:39:11Z"
+        updated_at: "2021-11-04T01:14:28Z"
         uploader:
-          avatar_url: https://avatars2.githubusercontent.com/u/1259631?v=4
+          avatar_url: https://avatars.githubusercontent.com/u/1259631?v=4
           events_url: https://api.github.com/users/roboll/events{/privacy}
           followers_url: https://api.github.com/users/roboll/followers
           following_url: https://api.github.com/users/roboll/following{/other_user}
@@ -236,20 +199,20 @@ dependencies:
           subscriptions_url: https://api.github.com/users/roboll/subscriptions
           type: User
           url: https://api.github.com/users/roboll
-        url: https://api.github.com/repos/roboll/helmfile/releases/assets/30566099
-      - browser_download_url: https://github.com/roboll/helmfile/releases/download/v0.137.0/helmfile_linux_386
+        url: https://api.github.com/repos/roboll/helmfile/releases/assets/48575755
+      - browser_download_url: https://github.com/roboll/helmfile/releases/download/v0.142.0/helmfile_linux_386
         content_type: application/octet-stream
-        created_at: "2021-01-12T01:39:09Z"
-        download_count: 37
-        id: 30566094
+        created_at: "2021-11-04T01:14:26Z"
+        download_count: 68
+        id: 48575756
         label: ""
         name: helmfile_linux_386
-        node_id: MDEyOlJlbGVhc2VBc3NldDMwNTY2MDk0
-        size: 42493973
+        node_id: RA_kwDOBHDEHc4C5TUM
+        size: 38429900
         state: uploaded
-        updated_at: "2021-01-12T01:39:11Z"
+        updated_at: "2021-11-04T01:14:28Z"
         uploader:
-          avatar_url: https://avatars2.githubusercontent.com/u/1259631?v=4
+          avatar_url: https://avatars.githubusercontent.com/u/1259631?v=4
           events_url: https://api.github.com/users/roboll/events{/privacy}
           followers_url: https://api.github.com/users/roboll/followers
           following_url: https://api.github.com/users/roboll/following{/other_user}
@@ -267,20 +230,20 @@ dependencies:
           subscriptions_url: https://api.github.com/users/roboll/subscriptions
           type: User
           url: https://api.github.com/users/roboll
-        url: https://api.github.com/repos/roboll/helmfile/releases/assets/30566094
-      - browser_download_url: https://github.com/roboll/helmfile/releases/download/v0.137.0/helmfile_linux_amd64
+        url: https://api.github.com/repos/roboll/helmfile/releases/assets/48575756
+      - browser_download_url: https://github.com/roboll/helmfile/releases/download/v0.142.0/helmfile_linux_amd64
         content_type: application/octet-stream
-        created_at: "2021-01-12T01:39:09Z"
-        download_count: 681
-        id: 30566095
+        created_at: "2021-11-04T01:14:26Z"
+        download_count: 5063
+        id: 48575752
         label: ""
         name: helmfile_linux_amd64
-        node_id: MDEyOlJlbGVhc2VBc3NldDMwNTY2MDk1
-        size: 49093947
+        node_id: RA_kwDOBHDEHc4C5TUI
+        size: 44314838
         state: uploaded
-        updated_at: "2021-01-12T01:39:11Z"
+        updated_at: "2021-11-04T01:14:28Z"
         uploader:
-          avatar_url: https://avatars2.githubusercontent.com/u/1259631?v=4
+          avatar_url: https://avatars.githubusercontent.com/u/1259631?v=4
           events_url: https://api.github.com/users/roboll/events{/privacy}
           followers_url: https://api.github.com/users/roboll/followers
           following_url: https://api.github.com/users/roboll/following{/other_user}
@@ -298,20 +261,20 @@ dependencies:
           subscriptions_url: https://api.github.com/users/roboll/subscriptions
           type: User
           url: https://api.github.com/users/roboll
-        url: https://api.github.com/repos/roboll/helmfile/releases/assets/30566095
-      - browser_download_url: https://github.com/roboll/helmfile/releases/download/v0.137.0/helmfile_linux_arm64
+        url: https://api.github.com/repos/roboll/helmfile/releases/assets/48575752
+      - browser_download_url: https://github.com/roboll/helmfile/releases/download/v0.142.0/helmfile_linux_arm64
         content_type: application/octet-stream
-        created_at: "2021-01-12T01:39:09Z"
-        download_count: 46
-        id: 30566096
+        created_at: "2021-11-04T01:14:26Z"
+        download_count: 119
+        id: 48575754
         label: ""
         name: helmfile_linux_arm64
-        node_id: MDEyOlJlbGVhc2VBc3NldDMwNTY2MDk2
-        size: 47046966
+        node_id: RA_kwDOBHDEHc4C5TUK
+        size: 42097366
         state: uploaded
-        updated_at: "2021-01-12T01:39:11Z"
+        updated_at: "2021-11-04T01:14:27Z"
         uploader:
-          avatar_url: https://avatars2.githubusercontent.com/u/1259631?v=4
+          avatar_url: https://avatars.githubusercontent.com/u/1259631?v=4
           events_url: https://api.github.com/users/roboll/events{/privacy}
           followers_url: https://api.github.com/users/roboll/followers
           following_url: https://api.github.com/users/roboll/following{/other_user}
@@ -329,20 +292,20 @@ dependencies:
           subscriptions_url: https://api.github.com/users/roboll/subscriptions
           type: User
           url: https://api.github.com/users/roboll
-        url: https://api.github.com/repos/roboll/helmfile/releases/assets/30566096
-      - browser_download_url: https://github.com/roboll/helmfile/releases/download/v0.137.0/helmfile_windows_386.exe
+        url: https://api.github.com/repos/roboll/helmfile/releases/assets/48575754
+      - browser_download_url: https://github.com/roboll/helmfile/releases/download/v0.142.0/helmfile_windows_386.exe
         content_type: application/x-msdos-program
-        created_at: "2021-01-12T01:39:09Z"
-        download_count: 21
-        id: 30566093
+        created_at: "2021-11-04T01:14:26Z"
+        download_count: 23
+        id: 48575757
         label: ""
         name: helmfile_windows_386.exe
-        node_id: MDEyOlJlbGVhc2VBc3NldDMwNTY2MDkz
-        size: 42545152
+        node_id: RA_kwDOBHDEHc4C5TUN
+        size: 39784448
         state: uploaded
-        updated_at: "2021-01-12T01:39:11Z"
+        updated_at: "2021-11-04T01:14:28Z"
         uploader:
-          avatar_url: https://avatars2.githubusercontent.com/u/1259631?v=4
+          avatar_url: https://avatars.githubusercontent.com/u/1259631?v=4
           events_url: https://api.github.com/users/roboll/events{/privacy}
           followers_url: https://api.github.com/users/roboll/followers
           following_url: https://api.github.com/users/roboll/following{/other_user}
@@ -360,20 +323,20 @@ dependencies:
           subscriptions_url: https://api.github.com/users/roboll/subscriptions
           type: User
           url: https://api.github.com/users/roboll
-        url: https://api.github.com/repos/roboll/helmfile/releases/assets/30566093
-      - browser_download_url: https://github.com/roboll/helmfile/releases/download/v0.137.0/helmfile_windows_amd64.exe
+        url: https://api.github.com/repos/roboll/helmfile/releases/assets/48575757
+      - browser_download_url: https://github.com/roboll/helmfile/releases/download/v0.142.0/helmfile_windows_amd64.exe
         content_type: application/x-msdos-program
-        created_at: "2021-01-12T01:39:09Z"
-        download_count: 69
-        id: 30566097
+        created_at: "2021-11-04T01:14:26Z"
+        download_count: 148
+        id: 48575753
         label: ""
         name: helmfile_windows_amd64.exe
-        node_id: MDEyOlJlbGVhc2VBc3NldDMwNTY2MDk3
-        size: 49020416
+        node_id: RA_kwDOBHDEHc4C5TUJ
+        size: 45247488
         state: uploaded
-        updated_at: "2021-01-12T01:39:11Z"
+        updated_at: "2021-11-04T01:14:28Z"
         uploader:
-          avatar_url: https://avatars2.githubusercontent.com/u/1259631?v=4
+          avatar_url: https://avatars.githubusercontent.com/u/1259631?v=4
           events_url: https://api.github.com/users/roboll/events{/privacy}
           followers_url: https://api.github.com/users/roboll/followers
           following_url: https://api.github.com/users/roboll/following{/other_user}
@@ -391,10 +354,10 @@ dependencies:
           subscriptions_url: https://api.github.com/users/roboll/subscriptions
           type: User
           url: https://api.github.com/users/roboll
-        url: https://api.github.com/repos/roboll/helmfile/releases/assets/30566097
-      assets_url: https://api.github.com/repos/roboll/helmfile/releases/36256886/assets
+        url: https://api.github.com/repos/roboll/helmfile/releases/assets/48575753
+      assets_url: https://api.github.com/repos/roboll/helmfile/releases/52646160/assets
       author:
-        avatar_url: https://avatars2.githubusercontent.com/u/1259631?v=4
+        avatar_url: https://avatars.githubusercontent.com/u/1259631?v=4
         events_url: https://api.github.com/users/roboll/events{/privacy}
         followers_url: https://api.github.com/users/roboll/followers
         following_url: https://api.github.com/users/roboll/following{/other_user}
@@ -412,43 +375,59 @@ dependencies:
         subscriptions_url: https://api.github.com/users/roboll/subscriptions
         type: User
         url: https://api.github.com/users/roboll
-      body: "33880da (HEAD, tag: v0.137.0, origin/master, origin/HEAD, master) docs:
-        fix typo (#1645)\n87fcd83 Fix typo \"verion\" (#1641)\n600721c docs(readme):
-        fix typo (#1633)\nf7a1d09 Bump variantdev/vals to 0.12.0 (#1644) \n### [Build
-        Info](https://circleci.com/gh/roboll/helmfile/7746)"
-      created_at: "2021-01-12T01:23:21Z"
+      body: "### [Build Info](https://circleci.com/gh/roboll/helmfile/9925)\r\n\r\n##
+        What's Changed\r\n* Add support for transitive dependencies (needs). by @pjotre86
+        in https://github.com/roboll/helmfile/pull/1983\r\n* Add documentation for
+        needs parameterization. by @pjotre86 in https://github.com/roboll/helmfile/pull/1987\r\n*
+        Process feedback for pr 1983 by @pjotre86 in https://github.com/roboll/helmfile/pull/1992\r\n*
+        Make .Environment values available in .gotmpl files. by @pjotre86 in https://github.com/roboll/helmfile/pull/2000\r\n\r\n##
+        New Contributors\r\n* @pjotre86 made their first contribution in https://github.com/roboll/helmfile/pull/1983\r\n\r\n**Full
+        Changelog**: https://github.com/roboll/helmfile/compare/v0.141.0...v0.142.0"
+      created_at: "2021-11-04T01:04:01Z"
       draft: false
-      html_url: https://github.com/roboll/helmfile/releases/tag/v0.137.0
-      id: 36256886
-      name: ""
-      node_id: MDc6UmVsZWFzZTM2MjU2ODg2
+      html_url: https://github.com/roboll/helmfile/releases/tag/v0.142.0
+      id: 52646160
+      mentions_count: 1
+      name: v0.142.0
+      node_id: RE_kwDOBHDEHc4DI1EQ
       prerelease: false
-      published_at: "2021-01-12T01:39:12Z"
-      tag_name: v0.137.0
-      tarball_url: https://api.github.com/repos/roboll/helmfile/tarball/v0.137.0
+      published_at: "2021-11-04T01:14:29Z"
+      reactions:
+        "+1": 0
+        "-1": 0
+        confused: 0
+        eyes: 0
+        heart: 0
+        hooray: 0
+        laugh: 0
+        rocket: 2
+        total_count: 2
+        url: https://api.github.com/repos/roboll/helmfile/releases/52646160/reactions
+      tag_name: v0.142.0
+      tarball_url: https://api.github.com/repos/roboll/helmfile/tarball/v0.142.0
       target_commitish: master
-      upload_url: https://uploads.github.com/repos/roboll/helmfile/releases/36256886/assets{?name,label}
-      url: https://api.github.com/repos/roboll/helmfile/releases/36256886
-      zipball_url: https://api.github.com/repos/roboll/helmfile/zipball/v0.137.0
+      upload_url: https://uploads.github.com/repos/roboll/helmfile/releases/52646160/assets{?name,label}
+      url: https://api.github.com/repos/roboll/helmfile/releases/52646160
+      zipball_url: https://api.github.com/repos/roboll/helmfile/zipball/v0.142.0
 meta:
   dependencies:
     argocd:
-      1.8.2:
+      2.1.7:
         githubRelease:
           assets:
-          - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v1.8.2/argocd-darwin-amd64
+          - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v2.1.7/argocd-darwin-amd64
             content_type: application/octet-stream
-            created_at: "2021-01-10T05:47:11Z"
-            download_count: 93
-            id: 30493365
+            created_at: "2021-11-17T22:19:02Z"
+            download_count: 61
+            id: 49706710
             label: ""
             name: argocd-darwin-amd64
-            node_id: MDEyOlJlbGVhc2VBc3NldDMwNDkzMzY1
-            size: 75792352
+            node_id: RA_kwDOBzS60s4C9nbW
+            size: 109992448
             state: uploaded
-            updated_at: "2021-01-10T05:47:13Z"
+            updated_at: "2021-11-17T22:19:05Z"
             uploader:
-              avatar_url: https://avatars2.githubusercontent.com/in/15368?v=4
+              avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
               events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
               followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
               following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
@@ -466,20 +445,20 @@ meta:
               subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
               type: Bot
               url: https://api.github.com/users/github-actions%5Bbot%5D
-            url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/30493365
-          - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v1.8.2/argocd-linux-amd64
+            url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/49706710
+          - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v2.1.7/argocd-linux-amd64
             content_type: application/octet-stream
-            created_at: "2021-01-10T05:47:09Z"
-            download_count: 2126
-            id: 30493364
+            created_at: "2021-11-17T22:18:59Z"
+            download_count: 1952
+            id: 49706706
             label: ""
             name: argocd-linux-amd64
-            node_id: MDEyOlJlbGVhc2VBc3NldDMwNDkzMzY0
-            size: 76477548
+            node_id: RA_kwDOBzS60s4C9nbS
+            size: 110746731
             state: uploaded
-            updated_at: "2021-01-10T05:47:11Z"
+            updated_at: "2021-11-17T22:19:01Z"
             uploader:
-              avatar_url: https://avatars2.githubusercontent.com/in/15368?v=4
+              avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
               events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
               followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
               following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
@@ -497,20 +476,20 @@ meta:
               subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
               type: Bot
               url: https://api.github.com/users/github-actions%5Bbot%5D
-            url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/30493364
-          - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v1.8.2/argocd-windows-amd64.exe
+            url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/49706706
+          - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v2.1.7/argocd-windows-amd64.exe
             content_type: application/octet-stream
-            created_at: "2021-01-10T05:47:13Z"
-            download_count: 108
-            id: 30493366
+            created_at: "2021-11-17T22:19:05Z"
+            download_count: 73
+            id: 49706711
             label: ""
             name: argocd-windows-amd64.exe
-            node_id: MDEyOlJlbGVhc2VBc3NldDMwNDkzMzY2
-            size: 76291072
+            node_id: RA_kwDOBzS60s4C9nbX
+            size: 112275456
             state: uploaded
-            updated_at: "2021-01-10T05:47:15Z"
+            updated_at: "2021-11-17T22:19:07Z"
             uploader:
-              avatar_url: https://avatars2.githubusercontent.com/in/15368?v=4
+              avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
               events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
               followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
               following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
@@ -528,10 +507,10 @@ meta:
               subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
               type: Bot
               url: https://api.github.com/users/github-actions%5Bbot%5D
-            url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/30493366
-          assets_url: https://api.github.com/repos/argoproj/argo-cd/releases/36189400/assets
+            url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/49706711
+          assets_url: https://api.github.com/repos/argoproj/argo-cd/releases/53595298/assets
           author:
-            avatar_url: https://avatars2.githubusercontent.com/in/15368?v=4
+            avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
             events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
             followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
             following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
@@ -554,98 +533,63 @@ meta:
 
             ### Non-HA:
 
-            ```
+            ```bash
             kubectl create namespace argocd
-            kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/v1.8.2/manifests/install.yaml
+            kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/v2.1.7/manifests/install.yaml
             ```
 
-            ### HA:
+            #### HA:
 
-            ```
+            ```bash
             kubectl create namespace argocd
-            kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/v1.8.2/manifests/ha/install.yaml
+            kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/v2.1.7/manifests/ha/install.yaml
             ```
 
             #### Bug Fixes
 
-            * fix: updating cluster drops secret (#5220)
-            * fix: remove invalid assumption about OCI helm chart path (#5179)
-            * fix: Possible nil pointer dereference in repository API (#5128)
-            * fix: Possible nil pointer dereference in repocreds API (#5130)
-            * fix: use json serialization to store cache instead of github.com/vmihailenco/msgpack (#4965)
-            * fix: add liveness probe to restart repo server if it fails to server tls requests (#5110) (#5119)
-            * fix: Allow correct SSO redirect URL for CLI static client (#5098)
-            * fix: add grpc health check (#5060)
-            * fix: setting 'revision history limit' errors in UI (#5035)
-            * fix: add api-server liveness probe that catches bad data in informer (#5026)
-
-            #### Refactoring
-
-            * chore: Update Dex to v2.27.0 (#5058)
-            * chore: Upgrade gorilla/handlers and gorilla/websocket (#5186)
-            * chore: Upgrade jwt-go to 4.0.0-preview1 (#5184)
-          created_at: "2021-01-10T05:30:48Z"
+            - Fix: Kuberenetes manifest to have new Github.com ssh known host keys for ArgoCD deployments (#7722)
+          created_at: "2021-11-17T22:02:58Z"
           draft: false
-          html_url: https://github.com/argoproj/argo-cd/releases/tag/v1.8.2
-          id: 36189400
-          name: v1.8.2
-          node_id: MDc6UmVsZWFzZTM2MTg5NDAw
+          html_url: https://github.com/argoproj/argo-cd/releases/tag/v2.1.7
+          id: 53595298
+          name: v2.1.7
+          node_id: RE_kwDOBzS60s4DMcyi
           prerelease: false
-          published_at: "2021-01-10T05:47:08Z"
-          tag_name: v1.8.2
-          tarball_url: https://api.github.com/repos/argoproj/argo-cd/tarball/v1.8.2
-          target_commitish: 7b2946962df59a909addf85c8c83c5419b099f60
-          upload_url: https://uploads.github.com/repos/argoproj/argo-cd/releases/36189400/assets{?name,label}
-          url: https://api.github.com/repos/argoproj/argo-cd/releases/36189400
-          zipball_url: https://api.github.com/repos/argoproj/argo-cd/zipball/v1.8.2
+          published_at: "2021-11-17T22:18:58Z"
+          reactions:
+            "+1": 0
+            "-1": 0
+            confused: 0
+            eyes: 0
+            heart: 0
+            hooray: 12
+            laugh: 0
+            rocket: 0
+            total_count: 12
+            url: https://api.github.com/repos/argoproj/argo-cd/releases/53595298/reactions
+          tag_name: v2.1.7
+          tarball_url: https://api.github.com/repos/argoproj/argo-cd/tarball/v2.1.7
+          target_commitish: 5679e4060ebc18a37ea674ce5ddca68d162970c7
+          upload_url: https://uploads.github.com/repos/argoproj/argo-cd/releases/53595298/assets{?name,label}
+          url: https://api.github.com/repos/argoproj/argo-cd/releases/53595298
+          zipball_url: https://api.github.com/repos/argoproj/argo-cd/zipball/v2.1.7
     helmfile:
-      0.137.0:
+      0.142.0:
         githubRelease:
           assets:
-          - browser_download_url: https://github.com/roboll/helmfile/releases/download/v0.137.0/helmfile_darwin_386
+          - browser_download_url: https://github.com/roboll/helmfile/releases/download/v0.142.0/helmfile_darwin_amd64
             content_type: application/octet-stream
-            created_at: "2021-01-12T01:39:09Z"
-            download_count: 14
-            id: 30566098
-            label: ""
-            name: helmfile_darwin_386
-            node_id: MDEyOlJlbGVhc2VBc3NldDMwNTY2MDk4
-            size: 42153064
-            state: uploaded
-            updated_at: "2021-01-12T01:39:11Z"
-            uploader:
-              avatar_url: https://avatars2.githubusercontent.com/u/1259631?v=4
-              events_url: https://api.github.com/users/roboll/events{/privacy}
-              followers_url: https://api.github.com/users/roboll/followers
-              following_url: https://api.github.com/users/roboll/following{/other_user}
-              gists_url: https://api.github.com/users/roboll/gists{/gist_id}
-              gravatar_id: ""
-              html_url: https://github.com/roboll
-              id: 1259631
-              login: roboll
-              node_id: MDQ6VXNlcjEyNTk2MzE=
-              organizations_url: https://api.github.com/users/roboll/orgs
-              received_events_url: https://api.github.com/users/roboll/received_events
-              repos_url: https://api.github.com/users/roboll/repos
-              site_admin: false
-              starred_url: https://api.github.com/users/roboll/starred{/owner}{/repo}
-              subscriptions_url: https://api.github.com/users/roboll/subscriptions
-              type: User
-              url: https://api.github.com/users/roboll
-            url: https://api.github.com/repos/roboll/helmfile/releases/assets/30566098
-          - browser_download_url: https://github.com/roboll/helmfile/releases/download/v0.137.0/helmfile_darwin_amd64
-            content_type: application/octet-stream
-            created_at: "2021-01-12T01:39:09Z"
-            download_count: 71
-            id: 30566099
+            created_at: "2021-11-04T01:14:26Z"
+            download_count: 127
+            id: 48575755
             label: ""
             name: helmfile_darwin_amd64
-            node_id: MDEyOlJlbGVhc2VBc3NldDMwNTY2MDk5
-            size: 48651128
+            node_id: RA_kwDOBHDEHc4C5TUL
+            size: 43933488
             state: uploaded
-            updated_at: "2021-01-12T01:39:11Z"
+            updated_at: "2021-11-04T01:14:28Z"
             uploader:
-              avatar_url: https://avatars2.githubusercontent.com/u/1259631?v=4
+              avatar_url: https://avatars.githubusercontent.com/u/1259631?v=4
               events_url: https://api.github.com/users/roboll/events{/privacy}
               followers_url: https://api.github.com/users/roboll/followers
               following_url: https://api.github.com/users/roboll/following{/other_user}
@@ -663,20 +607,20 @@ meta:
               subscriptions_url: https://api.github.com/users/roboll/subscriptions
               type: User
               url: https://api.github.com/users/roboll
-            url: https://api.github.com/repos/roboll/helmfile/releases/assets/30566099
-          - browser_download_url: https://github.com/roboll/helmfile/releases/download/v0.137.0/helmfile_linux_386
+            url: https://api.github.com/repos/roboll/helmfile/releases/assets/48575755
+          - browser_download_url: https://github.com/roboll/helmfile/releases/download/v0.142.0/helmfile_linux_386
             content_type: application/octet-stream
-            created_at: "2021-01-12T01:39:09Z"
-            download_count: 37
-            id: 30566094
+            created_at: "2021-11-04T01:14:26Z"
+            download_count: 68
+            id: 48575756
             label: ""
             name: helmfile_linux_386
-            node_id: MDEyOlJlbGVhc2VBc3NldDMwNTY2MDk0
-            size: 42493973
+            node_id: RA_kwDOBHDEHc4C5TUM
+            size: 38429900
             state: uploaded
-            updated_at: "2021-01-12T01:39:11Z"
+            updated_at: "2021-11-04T01:14:28Z"
             uploader:
-              avatar_url: https://avatars2.githubusercontent.com/u/1259631?v=4
+              avatar_url: https://avatars.githubusercontent.com/u/1259631?v=4
               events_url: https://api.github.com/users/roboll/events{/privacy}
               followers_url: https://api.github.com/users/roboll/followers
               following_url: https://api.github.com/users/roboll/following{/other_user}
@@ -694,20 +638,20 @@ meta:
               subscriptions_url: https://api.github.com/users/roboll/subscriptions
               type: User
               url: https://api.github.com/users/roboll
-            url: https://api.github.com/repos/roboll/helmfile/releases/assets/30566094
-          - browser_download_url: https://github.com/roboll/helmfile/releases/download/v0.137.0/helmfile_linux_amd64
+            url: https://api.github.com/repos/roboll/helmfile/releases/assets/48575756
+          - browser_download_url: https://github.com/roboll/helmfile/releases/download/v0.142.0/helmfile_linux_amd64
             content_type: application/octet-stream
-            created_at: "2021-01-12T01:39:09Z"
-            download_count: 681
-            id: 30566095
+            created_at: "2021-11-04T01:14:26Z"
+            download_count: 5063
+            id: 48575752
             label: ""
             name: helmfile_linux_amd64
-            node_id: MDEyOlJlbGVhc2VBc3NldDMwNTY2MDk1
-            size: 49093947
+            node_id: RA_kwDOBHDEHc4C5TUI
+            size: 44314838
             state: uploaded
-            updated_at: "2021-01-12T01:39:11Z"
+            updated_at: "2021-11-04T01:14:28Z"
             uploader:
-              avatar_url: https://avatars2.githubusercontent.com/u/1259631?v=4
+              avatar_url: https://avatars.githubusercontent.com/u/1259631?v=4
               events_url: https://api.github.com/users/roboll/events{/privacy}
               followers_url: https://api.github.com/users/roboll/followers
               following_url: https://api.github.com/users/roboll/following{/other_user}
@@ -725,20 +669,20 @@ meta:
               subscriptions_url: https://api.github.com/users/roboll/subscriptions
               type: User
               url: https://api.github.com/users/roboll
-            url: https://api.github.com/repos/roboll/helmfile/releases/assets/30566095
-          - browser_download_url: https://github.com/roboll/helmfile/releases/download/v0.137.0/helmfile_linux_arm64
+            url: https://api.github.com/repos/roboll/helmfile/releases/assets/48575752
+          - browser_download_url: https://github.com/roboll/helmfile/releases/download/v0.142.0/helmfile_linux_arm64
             content_type: application/octet-stream
-            created_at: "2021-01-12T01:39:09Z"
-            download_count: 46
-            id: 30566096
+            created_at: "2021-11-04T01:14:26Z"
+            download_count: 119
+            id: 48575754
             label: ""
             name: helmfile_linux_arm64
-            node_id: MDEyOlJlbGVhc2VBc3NldDMwNTY2MDk2
-            size: 47046966
+            node_id: RA_kwDOBHDEHc4C5TUK
+            size: 42097366
             state: uploaded
-            updated_at: "2021-01-12T01:39:11Z"
+            updated_at: "2021-11-04T01:14:27Z"
             uploader:
-              avatar_url: https://avatars2.githubusercontent.com/u/1259631?v=4
+              avatar_url: https://avatars.githubusercontent.com/u/1259631?v=4
               events_url: https://api.github.com/users/roboll/events{/privacy}
               followers_url: https://api.github.com/users/roboll/followers
               following_url: https://api.github.com/users/roboll/following{/other_user}
@@ -756,20 +700,20 @@ meta:
               subscriptions_url: https://api.github.com/users/roboll/subscriptions
               type: User
               url: https://api.github.com/users/roboll
-            url: https://api.github.com/repos/roboll/helmfile/releases/assets/30566096
-          - browser_download_url: https://github.com/roboll/helmfile/releases/download/v0.137.0/helmfile_windows_386.exe
+            url: https://api.github.com/repos/roboll/helmfile/releases/assets/48575754
+          - browser_download_url: https://github.com/roboll/helmfile/releases/download/v0.142.0/helmfile_windows_386.exe
             content_type: application/x-msdos-program
-            created_at: "2021-01-12T01:39:09Z"
-            download_count: 21
-            id: 30566093
+            created_at: "2021-11-04T01:14:26Z"
+            download_count: 23
+            id: 48575757
             label: ""
             name: helmfile_windows_386.exe
-            node_id: MDEyOlJlbGVhc2VBc3NldDMwNTY2MDkz
-            size: 42545152
+            node_id: RA_kwDOBHDEHc4C5TUN
+            size: 39784448
             state: uploaded
-            updated_at: "2021-01-12T01:39:11Z"
+            updated_at: "2021-11-04T01:14:28Z"
             uploader:
-              avatar_url: https://avatars2.githubusercontent.com/u/1259631?v=4
+              avatar_url: https://avatars.githubusercontent.com/u/1259631?v=4
               events_url: https://api.github.com/users/roboll/events{/privacy}
               followers_url: https://api.github.com/users/roboll/followers
               following_url: https://api.github.com/users/roboll/following{/other_user}
@@ -787,20 +731,20 @@ meta:
               subscriptions_url: https://api.github.com/users/roboll/subscriptions
               type: User
               url: https://api.github.com/users/roboll
-            url: https://api.github.com/repos/roboll/helmfile/releases/assets/30566093
-          - browser_download_url: https://github.com/roboll/helmfile/releases/download/v0.137.0/helmfile_windows_amd64.exe
+            url: https://api.github.com/repos/roboll/helmfile/releases/assets/48575757
+          - browser_download_url: https://github.com/roboll/helmfile/releases/download/v0.142.0/helmfile_windows_amd64.exe
             content_type: application/x-msdos-program
-            created_at: "2021-01-12T01:39:09Z"
-            download_count: 69
-            id: 30566097
+            created_at: "2021-11-04T01:14:26Z"
+            download_count: 148
+            id: 48575753
             label: ""
             name: helmfile_windows_amd64.exe
-            node_id: MDEyOlJlbGVhc2VBc3NldDMwNTY2MDk3
-            size: 49020416
+            node_id: RA_kwDOBHDEHc4C5TUJ
+            size: 45247488
             state: uploaded
-            updated_at: "2021-01-12T01:39:11Z"
+            updated_at: "2021-11-04T01:14:28Z"
             uploader:
-              avatar_url: https://avatars2.githubusercontent.com/u/1259631?v=4
+              avatar_url: https://avatars.githubusercontent.com/u/1259631?v=4
               events_url: https://api.github.com/users/roboll/events{/privacy}
               followers_url: https://api.github.com/users/roboll/followers
               following_url: https://api.github.com/users/roboll/following{/other_user}
@@ -818,10 +762,10 @@ meta:
               subscriptions_url: https://api.github.com/users/roboll/subscriptions
               type: User
               url: https://api.github.com/users/roboll
-            url: https://api.github.com/repos/roboll/helmfile/releases/assets/30566097
-          assets_url: https://api.github.com/repos/roboll/helmfile/releases/36256886/assets
+            url: https://api.github.com/repos/roboll/helmfile/releases/assets/48575753
+          assets_url: https://api.github.com/repos/roboll/helmfile/releases/52646160/assets
           author:
-            avatar_url: https://avatars2.githubusercontent.com/u/1259631?v=4
+            avatar_url: https://avatars.githubusercontent.com/u/1259631?v=4
             events_url: https://api.github.com/users/roboll/events{/privacy}
             followers_url: https://api.github.com/users/roboll/followers
             following_url: https://api.github.com/users/roboll/following{/other_user}
@@ -839,21 +783,37 @@ meta:
             subscriptions_url: https://api.github.com/users/roboll/subscriptions
             type: User
             url: https://api.github.com/users/roboll
-          body: "33880da (HEAD, tag: v0.137.0, origin/master, origin/HEAD, master)
-            docs: fix typo (#1645)\n87fcd83 Fix typo \"verion\" (#1641)\n600721c docs(readme):
-            fix typo (#1633)\nf7a1d09 Bump variantdev/vals to 0.12.0 (#1644) \n###
-            [Build Info](https://circleci.com/gh/roboll/helmfile/7746)"
-          created_at: "2021-01-12T01:23:21Z"
+          body: "### [Build Info](https://circleci.com/gh/roboll/helmfile/9925)\r\n\r\n##
+            What's Changed\r\n* Add support for transitive dependencies (needs). by
+            @pjotre86 in https://github.com/roboll/helmfile/pull/1983\r\n* Add documentation
+            for needs parameterization. by @pjotre86 in https://github.com/roboll/helmfile/pull/1987\r\n*
+            Process feedback for pr 1983 by @pjotre86 in https://github.com/roboll/helmfile/pull/1992\r\n*
+            Make .Environment values available in .gotmpl files. by @pjotre86 in https://github.com/roboll/helmfile/pull/2000\r\n\r\n##
+            New Contributors\r\n* @pjotre86 made their first contribution in https://github.com/roboll/helmfile/pull/1983\r\n\r\n**Full
+            Changelog**: https://github.com/roboll/helmfile/compare/v0.141.0...v0.142.0"
+          created_at: "2021-11-04T01:04:01Z"
           draft: false
-          html_url: https://github.com/roboll/helmfile/releases/tag/v0.137.0
-          id: 36256886
-          name: ""
-          node_id: MDc6UmVsZWFzZTM2MjU2ODg2
+          html_url: https://github.com/roboll/helmfile/releases/tag/v0.142.0
+          id: 52646160
+          mentions_count: 1
+          name: v0.142.0
+          node_id: RE_kwDOBHDEHc4DI1EQ
           prerelease: false
-          published_at: "2021-01-12T01:39:12Z"
-          tag_name: v0.137.0
-          tarball_url: https://api.github.com/repos/roboll/helmfile/tarball/v0.137.0
+          published_at: "2021-11-04T01:14:29Z"
+          reactions:
+            "+1": 0
+            "-1": 0
+            confused: 0
+            eyes: 0
+            heart: 0
+            hooray: 0
+            laugh: 0
+            rocket: 2
+            total_count: 2
+            url: https://api.github.com/repos/roboll/helmfile/releases/52646160/reactions
+          tag_name: v0.142.0
+          tarball_url: https://api.github.com/repos/roboll/helmfile/tarball/v0.142.0
           target_commitish: master
-          upload_url: https://uploads.github.com/repos/roboll/helmfile/releases/36256886/assets{?name,label}
-          url: https://api.github.com/repos/roboll/helmfile/releases/36256886
-          zipball_url: https://api.github.com/repos/roboll/helmfile/zipball/v0.137.0
+          upload_url: https://uploads.github.com/repos/roboll/helmfile/releases/52646160/assets{?name,label}
+          url: https://api.github.com/repos/roboll/helmfile/releases/52646160
+          zipball_url: https://api.github.com/repos/roboll/helmfile/zipball/v0.142.0
