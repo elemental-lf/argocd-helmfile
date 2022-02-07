@@ -33,5 +33,5 @@ push:
 		if docker inspect --format='{{index .RepoDigests 0}}' elementalnet/$$(basename $$PWD):$$version >/dev/null 2>&1; then \
 			echo "no changes"; \
 		else \
-			docker push elementalnet/`basename $$PWD`; \
+			docker push elementalnet/`basename $$PWD`:$$version; \
 		fi
