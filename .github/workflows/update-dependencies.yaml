@@ -1,0 +1,16 @@
+name: Update dependencies
+on:
+  schedule:
+  - cron: '*/5 * * * *'
+
+jobs:
+  up:
+    name: mod up
+    runs-on: ubuntu-18.04
+    steps:
+    - uses: actions/checkout@v1
+    - uses: variantdev/mod-action@v0.21.1
+      env:
+        GITHUB_TOKEN: ${{ github.token }}
+      with:
+        args: up --build --pull-request
