@@ -1,8 +1,6 @@
 version: '3'
 services:
   argocd-helmfile:
-    build:
-      context: .
     image: elementalnet/argocd-helmfile
   sut:
     image: kiwicom/dgoss

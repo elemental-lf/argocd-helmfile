@@ -1,21 +1,21 @@
 dependencies:
   argocd:
-    version: 2.2.5
+    version: 2.3.3
     versions:
-    - 2.2.5
+    - 2.3.3
     githubRelease:
       assets:
-      - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v2.2.5/argocd-darwin-amd64
+      - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v2.3.3/argocd-darwin-amd64
         content_type: application/octet-stream
-        created_at: "2022-02-05T01:42:20Z"
-        download_count: 12
-        id: 55896340
+        created_at: "2022-03-30T01:55:46Z"
+        download_count: 113
+        id: 60992933
         label: ""
         name: argocd-darwin-amd64
-        node_id: RA_kwDOBzS60s4DVOkU
-        size: 110601920
+        node_id: RA_kwDOBzS60s4Doq2l
+        size: 119050384
         state: uploaded
-        updated_at: "2022-02-05T01:42:24Z"
+        updated_at: "2022-03-30T01:55:49Z"
         uploader:
           avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
           events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
@@ -35,18 +35,49 @@ dependencies:
           subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
           type: Bot
           url: https://api.github.com/users/github-actions%5Bbot%5D
-        url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/55896340
-      - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v2.2.5/argocd-linux-amd64
+        url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/60992933
+      - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v2.3.3/argocd-darwin-arm64
         content_type: application/octet-stream
-        created_at: "2022-02-05T01:42:14Z"
-        download_count: 188
-        id: 55896339
+        created_at: "2022-03-30T01:55:49Z"
+        download_count: 14
+        id: 60992937
+        label: ""
+        name: argocd-darwin-arm64
+        node_id: RA_kwDOBzS60s4Doq2p
+        size: 122294962
+        state: uploaded
+        updated_at: "2022-03-30T01:55:52Z"
+        uploader:
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          gravatar_id: ""
+          html_url: https://github.com/apps/github-actions
+          id: 41898282
+          login: github-actions[bot]
+          node_id: MDM6Qm90NDE4OTgyODI=
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          site_admin: false
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          type: Bot
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+        url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/60992937
+      - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v2.3.3/argocd-linux-amd64
+        content_type: application/octet-stream
+        created_at: "2022-03-30T01:55:38Z"
+        download_count: 6119
+        id: 60992928
         label: ""
         name: argocd-linux-amd64
-        node_id: RA_kwDOBzS60s4DVOkT
-        size: 111369759
+        node_id: RA_kwDOBzS60s4Doq2g
+        size: 119861784
         state: uploaded
-        updated_at: "2022-02-05T01:42:20Z"
+        updated_at: "2022-03-30T01:55:41Z"
         uploader:
           avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
           events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
@@ -66,18 +97,49 @@ dependencies:
           subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
           type: Bot
           url: https://api.github.com/users/github-actions%5Bbot%5D
-        url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/55896339
-      - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v2.2.5/argocd-windows-amd64.exe
+        url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/60992928
+      - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v2.3.3/argocd-linux-arm64
         content_type: application/octet-stream
-        created_at: "2022-02-05T01:42:25Z"
-        download_count: 19
-        id: 55896341
+        created_at: "2022-03-30T01:55:42Z"
+        download_count: 50
+        id: 60992930
+        label: ""
+        name: argocd-linux-arm64
+        node_id: RA_kwDOBzS60s4Doq2i
+        size: 117541484
+        state: uploaded
+        updated_at: "2022-03-30T01:55:45Z"
+        uploader:
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          gravatar_id: ""
+          html_url: https://github.com/apps/github-actions
+          id: 41898282
+          login: github-actions[bot]
+          node_id: MDM6Qm90NDE4OTgyODI=
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          site_admin: false
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          type: Bot
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+        url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/60992930
+      - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v2.3.3/argocd-windows-amd64.exe
+        content_type: application/octet-stream
+        created_at: "2022-03-30T01:55:53Z"
+        download_count: 149
+        id: 60992938
         label: ""
         name: argocd-windows-amd64.exe
-        node_id: RA_kwDOBzS60s4DVOkV
-        size: 113083392
+        node_id: RA_kwDOBzS60s4Doq2q
+        size: 121347584
         state: uploaded
-        updated_at: "2022-02-05T01:42:29Z"
+        updated_at: "2022-03-30T01:55:56Z"
         uploader:
           avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
           events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
@@ -97,8 +159,39 @@ dependencies:
           subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
           type: Bot
           url: https://api.github.com/users/github-actions%5Bbot%5D
-        url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/55896341
-      assets_url: https://api.github.com/repos/argoproj/argo-cd/releases/58743612/assets
+        url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/60992938
+      - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v2.3.3/sbom.tar.gz
+        content_type: application/octet-stream
+        created_at: "2022-03-30T01:58:33Z"
+        download_count: 2
+        id: 60992997
+        label: ""
+        name: sbom.tar.gz
+        node_id: RA_kwDOBzS60s4Doq3l
+        size: 334160
+        state: uploaded
+        updated_at: "2022-03-30T01:58:34Z"
+        uploader:
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          gravatar_id: ""
+          html_url: https://github.com/apps/github-actions
+          id: 41898282
+          login: github-actions[bot]
+          node_id: MDM6Qm90NDE4OTgyODI=
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          site_admin: false
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          type: Bot
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+        url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/60992997
+      assets_url: https://api.github.com/repos/argoproj/argo-cd/releases/63099082/assets
       author:
         avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
         events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
@@ -125,50 +218,306 @@ dependencies:
 
         ```bash
         kubectl create namespace argocd
-        kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/v2.2.5/manifests/install.yaml
+        kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/v2.3.3/manifests/install.yaml
         ```
 
         #### HA:
 
         ```bash
         kubectl create namespace argocd
-        kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/v2.2.5/manifests/ha/install.yaml
+        kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/v2.3.3/manifests/ha/install.yaml
         ```
 
-        #### Bug Fixes
+        ### Bug Fixes
 
-        - fix: Resolve symlinked value files correctly (#8387)
-      created_at: "2022-02-05T01:26:23Z"
+        - fix: prevent excessive repo-server disk usage for large repos (#8845) (#8897)
+        - fix: Set QPS and burst rate for resource ops client (#8915)
+      created_at: "2022-03-29T23:56:04Z"
       draft: false
-      html_url: https://github.com/argoproj/argo-cd/releases/tag/v2.2.5
-      id: 58743612
-      name: v2.2.5
-      node_id: RE_kwDOBzS60s4DgFs8
+      html_url: https://github.com/argoproj/argo-cd/releases/tag/v2.3.3
+      id: 63099082
+      name: v2.3.3
+      node_id: RE_kwDOBzS60s4DwtDK
       prerelease: false
-      published_at: "2022-02-05T01:42:13Z"
-      tag_name: v2.2.5
-      tarball_url: https://api.github.com/repos/argoproj/argo-cd/tarball/v2.2.5
-      target_commitish: f6501652c43bfe93af354c4f4faf0f6d9cf3153c
-      upload_url: https://uploads.github.com/repos/argoproj/argo-cd/releases/58743612/assets{?name,label}
-      url: https://api.github.com/repos/argoproj/argo-cd/releases/58743612
-      zipball_url: https://api.github.com/repos/argoproj/argo-cd/zipball/v2.2.5
-  helmfile:
-    version: 0.143.0
+      published_at: "2022-03-30T01:55:37Z"
+      reactions:
+        "+1": 0
+        "-1": 0
+        confused: 0
+        eyes: 0
+        heart: 0
+        hooray: 2
+        laugh: 2
+        rocket: 0
+        total_count: 4
+        url: https://api.github.com/repos/argoproj/argo-cd/releases/63099082/reactions
+      tag_name: v2.3.3
+      tarball_url: https://api.github.com/repos/argoproj/argo-cd/tarball/v2.3.3
+      target_commitish: 3bd912154520b124af187cb636cb7829d077e052
+      upload_url: https://uploads.github.com/repos/argoproj/argo-cd/releases/63099082/assets{?name,label}
+      url: https://api.github.com/repos/argoproj/argo-cd/releases/63099082
+      zipball_url: https://api.github.com/repos/argoproj/argo-cd/zipball/v2.3.3
+  helm_diff:
+    version: 3.4.2
     versions:
-    - 0.143.0
+    - 3.4.2
     githubRelease:
       assets:
-      - browser_download_url: https://github.com/roboll/helmfile/releases/download/v0.143.0/helmfile_darwin_amd64
+      - browser_download_url: https://github.com/databus23/helm-diff/releases/download/v3.4.2/helm-diff-freebsd-amd64.tgz
+        content_type: application/gzip
+        created_at: "2022-02-13T03:27:19Z"
+        download_count: 9
+        id: 56661680
+        label: null
+        name: helm-diff-freebsd-amd64.tgz
+        node_id: RA_kwDOBPv_Ws4DYJaw
+        size: 24970243
+        state: uploaded
+        updated_at: "2022-02-13T03:27:32Z"
+        uploader:
+          avatar_url: https://avatars.githubusercontent.com/u/22009?v=4
+          events_url: https://api.github.com/users/mumoshu/events{/privacy}
+          followers_url: https://api.github.com/users/mumoshu/followers
+          following_url: https://api.github.com/users/mumoshu/following{/other_user}
+          gists_url: https://api.github.com/users/mumoshu/gists{/gist_id}
+          gravatar_id: ""
+          html_url: https://github.com/mumoshu
+          id: 22009
+          login: mumoshu
+          node_id: MDQ6VXNlcjIyMDA5
+          organizations_url: https://api.github.com/users/mumoshu/orgs
+          received_events_url: https://api.github.com/users/mumoshu/received_events
+          repos_url: https://api.github.com/users/mumoshu/repos
+          site_admin: false
+          starred_url: https://api.github.com/users/mumoshu/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/mumoshu/subscriptions
+          type: User
+          url: https://api.github.com/users/mumoshu
+        url: https://api.github.com/repos/databus23/helm-diff/releases/assets/56661680
+      - browser_download_url: https://github.com/databus23/helm-diff/releases/download/v3.4.2/helm-diff-linux-amd64.tgz
+        content_type: application/gzip
+        created_at: "2022-02-13T03:27:32Z"
+        download_count: 73323
+        id: 56661706
+        label: null
+        name: helm-diff-linux-amd64.tgz
+        node_id: RA_kwDOBPv_Ws4DYJbK
+        size: 24993201
+        state: uploaded
+        updated_at: "2022-02-13T03:27:45Z"
+        uploader:
+          avatar_url: https://avatars.githubusercontent.com/u/22009?v=4
+          events_url: https://api.github.com/users/mumoshu/events{/privacy}
+          followers_url: https://api.github.com/users/mumoshu/followers
+          following_url: https://api.github.com/users/mumoshu/following{/other_user}
+          gists_url: https://api.github.com/users/mumoshu/gists{/gist_id}
+          gravatar_id: ""
+          html_url: https://github.com/mumoshu
+          id: 22009
+          login: mumoshu
+          node_id: MDQ6VXNlcjIyMDA5
+          organizations_url: https://api.github.com/users/mumoshu/orgs
+          received_events_url: https://api.github.com/users/mumoshu/received_events
+          repos_url: https://api.github.com/users/mumoshu/repos
+          site_admin: false
+          starred_url: https://api.github.com/users/mumoshu/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/mumoshu/subscriptions
+          type: User
+          url: https://api.github.com/users/mumoshu
+        url: https://api.github.com/repos/databus23/helm-diff/releases/assets/56661706
+      - browser_download_url: https://github.com/databus23/helm-diff/releases/download/v3.4.2/helm-diff-linux-arm64.tgz
+        content_type: application/gzip
+        created_at: "2022-02-13T03:27:45Z"
+        download_count: 1434
+        id: 56661717
+        label: null
+        name: helm-diff-linux-arm64.tgz
+        node_id: RA_kwDOBPv_Ws4DYJbV
+        size: 23174219
+        state: uploaded
+        updated_at: "2022-02-13T03:28:06Z"
+        uploader:
+          avatar_url: https://avatars.githubusercontent.com/u/22009?v=4
+          events_url: https://api.github.com/users/mumoshu/events{/privacy}
+          followers_url: https://api.github.com/users/mumoshu/followers
+          following_url: https://api.github.com/users/mumoshu/following{/other_user}
+          gists_url: https://api.github.com/users/mumoshu/gists{/gist_id}
+          gravatar_id: ""
+          html_url: https://github.com/mumoshu
+          id: 22009
+          login: mumoshu
+          node_id: MDQ6VXNlcjIyMDA5
+          organizations_url: https://api.github.com/users/mumoshu/orgs
+          received_events_url: https://api.github.com/users/mumoshu/received_events
+          repos_url: https://api.github.com/users/mumoshu/repos
+          site_admin: false
+          starred_url: https://api.github.com/users/mumoshu/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/mumoshu/subscriptions
+          type: User
+          url: https://api.github.com/users/mumoshu
+        url: https://api.github.com/repos/databus23/helm-diff/releases/assets/56661717
+      - browser_download_url: https://github.com/databus23/helm-diff/releases/download/v3.4.2/helm-diff-macos-amd64.tgz
+        content_type: application/gzip
+        created_at: "2022-02-13T03:28:06Z"
+        download_count: 1876
+        id: 56661722
+        label: null
+        name: helm-diff-macos-amd64.tgz
+        node_id: RA_kwDOBPv_Ws4DYJba
+        size: 24752486
+        state: uploaded
+        updated_at: "2022-02-13T03:28:24Z"
+        uploader:
+          avatar_url: https://avatars.githubusercontent.com/u/22009?v=4
+          events_url: https://api.github.com/users/mumoshu/events{/privacy}
+          followers_url: https://api.github.com/users/mumoshu/followers
+          following_url: https://api.github.com/users/mumoshu/following{/other_user}
+          gists_url: https://api.github.com/users/mumoshu/gists{/gist_id}
+          gravatar_id: ""
+          html_url: https://github.com/mumoshu
+          id: 22009
+          login: mumoshu
+          node_id: MDQ6VXNlcjIyMDA5
+          organizations_url: https://api.github.com/users/mumoshu/orgs
+          received_events_url: https://api.github.com/users/mumoshu/received_events
+          repos_url: https://api.github.com/users/mumoshu/repos
+          site_admin: false
+          starred_url: https://api.github.com/users/mumoshu/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/mumoshu/subscriptions
+          type: User
+          url: https://api.github.com/users/mumoshu
+        url: https://api.github.com/repos/databus23/helm-diff/releases/assets/56661722
+      - browser_download_url: https://github.com/databus23/helm-diff/releases/download/v3.4.2/helm-diff-macos-arm64.tgz
+        content_type: application/gzip
+        created_at: "2022-02-13T03:28:24Z"
+        download_count: 871
+        id: 56661736
+        label: null
+        name: helm-diff-macos-arm64.tgz
+        node_id: RA_kwDOBPv_Ws4DYJbo
+        size: 24083919
+        state: uploaded
+        updated_at: "2022-02-13T03:28:46Z"
+        uploader:
+          avatar_url: https://avatars.githubusercontent.com/u/22009?v=4
+          events_url: https://api.github.com/users/mumoshu/events{/privacy}
+          followers_url: https://api.github.com/users/mumoshu/followers
+          following_url: https://api.github.com/users/mumoshu/following{/other_user}
+          gists_url: https://api.github.com/users/mumoshu/gists{/gist_id}
+          gravatar_id: ""
+          html_url: https://github.com/mumoshu
+          id: 22009
+          login: mumoshu
+          node_id: MDQ6VXNlcjIyMDA5
+          organizations_url: https://api.github.com/users/mumoshu/orgs
+          received_events_url: https://api.github.com/users/mumoshu/received_events
+          repos_url: https://api.github.com/users/mumoshu/repos
+          site_admin: false
+          starred_url: https://api.github.com/users/mumoshu/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/mumoshu/subscriptions
+          type: User
+          url: https://api.github.com/users/mumoshu
+        url: https://api.github.com/repos/databus23/helm-diff/releases/assets/56661736
+      - browser_download_url: https://github.com/databus23/helm-diff/releases/download/v3.4.2/helm-diff-windows-amd64.tgz
+        content_type: application/gzip
+        created_at: "2022-02-13T03:28:46Z"
+        download_count: 437
+        id: 56661743
+        label: null
+        name: helm-diff-windows-amd64.tgz
+        node_id: RA_kwDOBPv_Ws4DYJbv
+        size: 25176607
+        state: uploaded
+        updated_at: "2022-02-13T03:28:58Z"
+        uploader:
+          avatar_url: https://avatars.githubusercontent.com/u/22009?v=4
+          events_url: https://api.github.com/users/mumoshu/events{/privacy}
+          followers_url: https://api.github.com/users/mumoshu/followers
+          following_url: https://api.github.com/users/mumoshu/following{/other_user}
+          gists_url: https://api.github.com/users/mumoshu/gists{/gist_id}
+          gravatar_id: ""
+          html_url: https://github.com/mumoshu
+          id: 22009
+          login: mumoshu
+          node_id: MDQ6VXNlcjIyMDA5
+          organizations_url: https://api.github.com/users/mumoshu/orgs
+          received_events_url: https://api.github.com/users/mumoshu/received_events
+          repos_url: https://api.github.com/users/mumoshu/repos
+          site_admin: false
+          starred_url: https://api.github.com/users/mumoshu/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/mumoshu/subscriptions
+          type: User
+          url: https://api.github.com/users/mumoshu
+        url: https://api.github.com/repos/databus23/helm-diff/releases/assets/56661743
+      assets_url: https://api.github.com/repos/databus23/helm-diff/releases/59419395/assets
+      author:
+        avatar_url: https://avatars.githubusercontent.com/u/22009?v=4
+        events_url: https://api.github.com/users/mumoshu/events{/privacy}
+        followers_url: https://api.github.com/users/mumoshu/followers
+        following_url: https://api.github.com/users/mumoshu/following{/other_user}
+        gists_url: https://api.github.com/users/mumoshu/gists{/gist_id}
+        gravatar_id: ""
+        html_url: https://github.com/mumoshu
+        id: 22009
+        login: mumoshu
+        node_id: MDQ6VXNlcjIyMDA5
+        organizations_url: https://api.github.com/users/mumoshu/orgs
+        received_events_url: https://api.github.com/users/mumoshu/received_events
+        repos_url: https://api.github.com/users/mumoshu/repos
+        site_admin: false
+        starred_url: https://api.github.com/users/mumoshu/starred{/owner}{/repo}
+        subscriptions_url: https://api.github.com/users/mumoshu/subscriptions
+        type: User
+        url: https://api.github.com/users/mumoshu
+      body: "## What's Changed\r\n* fix: HOOKS section should also be parsed when
+        HELM_DIFF_USE_UPGRADE_DRY_RUN=true by @carlosrmendes in https://github.com/databus23/helm-diff/pull/364\r\n*
+        Fix HELM_DIFF_USE_UPGRADE_DRY_RUN to work for new installs by @mumoshu in
+        https://github.com/databus23/helm-diff/pull/370\r\n\r\n## New Contributors\r\n*
+        @carlosrmendes made their first contribution in https://github.com/databus23/helm-diff/pull/364\r\n\r\n**Full
+        Changelog**: https://github.com/databus23/helm-diff/compare/v3.4.1...v3.4.2"
+      created_at: "2022-02-13T03:22:10Z"
+      draft: false
+      html_url: https://github.com/databus23/helm-diff/releases/tag/v3.4.2
+      id: 59419395
+      mentions_count: 2
+      name: v3.4.2
+      node_id: RE_kwDOBPv_Ws4DiqsD
+      prerelease: false
+      published_at: "2022-02-13T03:29:42Z"
+      reactions:
+        "+1": 0
+        "-1": 0
+        confused: 0
+        eyes: 0
+        heart: 0
+        hooray: 0
+        laugh: 0
+        rocket: 2
+        total_count: 2
+        url: https://api.github.com/repos/databus23/helm-diff/releases/59419395/reactions
+      tag_name: v3.4.2
+      tarball_url: https://api.github.com/repos/databus23/helm-diff/tarball/v3.4.2
+      target_commitish: master
+      upload_url: https://uploads.github.com/repos/databus23/helm-diff/releases/59419395/assets{?name,label}
+      url: https://api.github.com/repos/databus23/helm-diff/releases/59419395
+      zipball_url: https://api.github.com/repos/databus23/helm-diff/zipball/v3.4.2
+  helmfile:
+    version: 0.144.0
+    versions:
+    - 0.144.0
+    githubRelease:
+      assets:
+      - browser_download_url: https://github.com/roboll/helmfile/releases/download/v0.144.0/helmfile_darwin_amd64
         content_type: application/octet-stream
-        created_at: "2022-01-10T09:04:18Z"
-        download_count: 365
-        id: 53597712
+        created_at: "2022-03-31T02:18:12Z"
+        download_count: 34
+        id: 61099022
         label: ""
         name: helmfile_darwin_amd64
-        node_id: RA_kwDOBHDEHc4DMdYQ
-        size: 45655888
+        node_id: RA_kwDOBHDEHc4DpEwO
+        size: 46227600
         state: uploaded
-        updated_at: "2022-01-10T09:04:21Z"
+        updated_at: "2022-03-31T02:18:15Z"
         uploader:
           avatar_url: https://avatars.githubusercontent.com/u/1259631?v=4
           events_url: https://api.github.com/users/roboll/events{/privacy}
@@ -188,18 +537,18 @@ dependencies:
           subscriptions_url: https://api.github.com/users/roboll/subscriptions
           type: User
           url: https://api.github.com/users/roboll
-        url: https://api.github.com/repos/roboll/helmfile/releases/assets/53597712
-      - browser_download_url: https://github.com/roboll/helmfile/releases/download/v0.143.0/helmfile_darwin_arm64
+        url: https://api.github.com/repos/roboll/helmfile/releases/assets/61099022
+      - browser_download_url: https://github.com/roboll/helmfile/releases/download/v0.144.0/helmfile_darwin_arm64
         content_type: application/octet-stream
-        created_at: "2022-01-10T09:04:18Z"
-        download_count: 61
-        id: 53597709
+        created_at: "2022-03-31T02:18:12Z"
+        download_count: 10
+        id: 61099021
         label: ""
         name: helmfile_darwin_arm64
-        node_id: RA_kwDOBHDEHc4DMdYN
-        size: 46922466
+        node_id: RA_kwDOBHDEHc4DpEwN
+        size: 47489058
         state: uploaded
-        updated_at: "2022-01-10T09:04:21Z"
+        updated_at: "2022-03-31T02:18:14Z"
         uploader:
           avatar_url: https://avatars.githubusercontent.com/u/1259631?v=4
           events_url: https://api.github.com/users/roboll/events{/privacy}
@@ -219,18 +568,18 @@ dependencies:
           subscriptions_url: https://api.github.com/users/roboll/subscriptions
           type: User
           url: https://api.github.com/users/roboll
-        url: https://api.github.com/repos/roboll/helmfile/releases/assets/53597709
-      - browser_download_url: https://github.com/roboll/helmfile/releases/download/v0.143.0/helmfile_linux_386
+        url: https://api.github.com/repos/roboll/helmfile/releases/assets/61099021
+      - browser_download_url: https://github.com/roboll/helmfile/releases/download/v0.144.0/helmfile_linux_386
         content_type: application/octet-stream
-        created_at: "2022-01-10T09:04:18Z"
-        download_count: 202
-        id: 53597713
+        created_at: "2022-03-31T02:18:12Z"
+        download_count: 11
+        id: 61099020
         label: ""
         name: helmfile_linux_386
-        node_id: RA_kwDOBHDEHc4DMdYR
-        size: 41168758
+        node_id: RA_kwDOBHDEHc4DpEwM
+        size: 41695970
         state: uploaded
-        updated_at: "2022-01-10T09:04:21Z"
+        updated_at: "2022-03-31T02:18:14Z"
         uploader:
           avatar_url: https://avatars.githubusercontent.com/u/1259631?v=4
           events_url: https://api.github.com/users/roboll/events{/privacy}
@@ -250,18 +599,18 @@ dependencies:
           subscriptions_url: https://api.github.com/users/roboll/subscriptions
           type: User
           url: https://api.github.com/users/roboll
-        url: https://api.github.com/repos/roboll/helmfile/releases/assets/53597713
-      - browser_download_url: https://github.com/roboll/helmfile/releases/download/v0.143.0/helmfile_linux_amd64
+        url: https://api.github.com/repos/roboll/helmfile/releases/assets/61099020
+      - browser_download_url: https://github.com/roboll/helmfile/releases/download/v0.144.0/helmfile_linux_amd64
         content_type: application/octet-stream
-        created_at: "2022-01-10T09:04:18Z"
-        download_count: 10179
-        id: 53597708
+        created_at: "2022-03-31T02:18:12Z"
+        download_count: 810
+        id: 61099017
         label: ""
         name: helmfile_linux_amd64
-        node_id: RA_kwDOBHDEHc4DMdYM
-        size: 46030994
+        node_id: RA_kwDOBHDEHc4DpEwJ
+        size: 46608813
         state: uploaded
-        updated_at: "2022-01-10T09:04:20Z"
+        updated_at: "2022-03-31T02:18:14Z"
         uploader:
           avatar_url: https://avatars.githubusercontent.com/u/1259631?v=4
           events_url: https://api.github.com/users/roboll/events{/privacy}
@@ -281,18 +630,18 @@ dependencies:
           subscriptions_url: https://api.github.com/users/roboll/subscriptions
           type: User
           url: https://api.github.com/users/roboll
-        url: https://api.github.com/repos/roboll/helmfile/releases/assets/53597708
-      - browser_download_url: https://github.com/roboll/helmfile/releases/download/v0.143.0/helmfile_linux_arm64
+        url: https://api.github.com/repos/roboll/helmfile/releases/assets/61099017
+      - browser_download_url: https://github.com/roboll/helmfile/releases/download/v0.144.0/helmfile_linux_arm64
         content_type: application/octet-stream
-        created_at: "2022-01-10T09:04:18Z"
-        download_count: 138
-        id: 53597714
+        created_at: "2022-03-31T02:18:12Z"
+        download_count: 37
+        id: 61099019
         label: ""
         name: helmfile_linux_arm64
-        node_id: RA_kwDOBHDEHc4DMdYS
-        size: 45336575
+        node_id: RA_kwDOBHDEHc4DpEwL
+        size: 45861899
         state: uploaded
-        updated_at: "2022-01-10T09:04:20Z"
+        updated_at: "2022-03-31T02:18:14Z"
         uploader:
           avatar_url: https://avatars.githubusercontent.com/u/1259631?v=4
           events_url: https://api.github.com/users/roboll/events{/privacy}
@@ -312,18 +661,18 @@ dependencies:
           subscriptions_url: https://api.github.com/users/roboll/subscriptions
           type: User
           url: https://api.github.com/users/roboll
-        url: https://api.github.com/repos/roboll/helmfile/releases/assets/53597714
-      - browser_download_url: https://github.com/roboll/helmfile/releases/download/v0.143.0/helmfile_windows_386.exe
+        url: https://api.github.com/repos/roboll/helmfile/releases/assets/61099019
+      - browser_download_url: https://github.com/roboll/helmfile/releases/download/v0.144.0/helmfile_windows_386.exe
         content_type: application/x-msdos-program
-        created_at: "2022-01-10T09:04:18Z"
-        download_count: 51
-        id: 53597711
+        created_at: "2022-03-31T02:18:12Z"
+        download_count: 16
+        id: 61099018
         label: ""
         name: helmfile_windows_386.exe
-        node_id: RA_kwDOBHDEHc4DMdYP
-        size: 42824704
+        node_id: RA_kwDOBHDEHc4DpEwK
+        size: 43357696
         state: uploaded
-        updated_at: "2022-01-10T09:04:21Z"
+        updated_at: "2022-03-31T02:18:14Z"
         uploader:
           avatar_url: https://avatars.githubusercontent.com/u/1259631?v=4
           events_url: https://api.github.com/users/roboll/events{/privacy}
@@ -343,18 +692,18 @@ dependencies:
           subscriptions_url: https://api.github.com/users/roboll/subscriptions
           type: User
           url: https://api.github.com/users/roboll
-        url: https://api.github.com/repos/roboll/helmfile/releases/assets/53597711
-      - browser_download_url: https://github.com/roboll/helmfile/releases/download/v0.143.0/helmfile_windows_amd64.exe
+        url: https://api.github.com/repos/roboll/helmfile/releases/assets/61099018
+      - browser_download_url: https://github.com/roboll/helmfile/releases/download/v0.144.0/helmfile_windows_amd64.exe
         content_type: application/x-msdos-program
-        created_at: "2022-01-10T09:04:18Z"
-        download_count: 387
-        id: 53597710
+        created_at: "2022-03-31T02:18:12Z"
+        download_count: 74
+        id: 61099023
         label: ""
         name: helmfile_windows_amd64.exe
-        node_id: RA_kwDOBHDEHc4DMdYO
-        size: 46985216
+        node_id: RA_kwDOBHDEHc4DpEwP
+        size: 47580160
         state: uploaded
-        updated_at: "2022-01-10T09:04:21Z"
+        updated_at: "2022-03-31T02:18:14Z"
         uploader:
           avatar_url: https://avatars.githubusercontent.com/u/1259631?v=4
           events_url: https://api.github.com/users/roboll/events{/privacy}
@@ -374,74 +723,619 @@ dependencies:
           subscriptions_url: https://api.github.com/users/roboll/subscriptions
           type: User
           url: https://api.github.com/users/roboll
-        url: https://api.github.com/repos/roboll/helmfile/releases/assets/53597710
-      assets_url: https://api.github.com/repos/roboll/helmfile/releases/56720685/assets
+        url: https://api.github.com/repos/roboll/helmfile/releases/assets/61099023
+      assets_url: https://api.github.com/repos/roboll/helmfile/releases/63215884/assets
       author:
-        avatar_url: https://avatars.githubusercontent.com/u/1259631?v=4
-        events_url: https://api.github.com/users/roboll/events{/privacy}
-        followers_url: https://api.github.com/users/roboll/followers
-        following_url: https://api.github.com/users/roboll/following{/other_user}
-        gists_url: https://api.github.com/users/roboll/gists{/gist_id}
+        avatar_url: https://avatars.githubusercontent.com/u/22009?v=4
+        events_url: https://api.github.com/users/mumoshu/events{/privacy}
+        followers_url: https://api.github.com/users/mumoshu/followers
+        following_url: https://api.github.com/users/mumoshu/following{/other_user}
+        gists_url: https://api.github.com/users/mumoshu/gists{/gist_id}
         gravatar_id: ""
-        html_url: https://github.com/roboll
-        id: 1259631
-        login: roboll
-        node_id: MDQ6VXNlcjEyNTk2MzE=
-        organizations_url: https://api.github.com/users/roboll/orgs
-        received_events_url: https://api.github.com/users/roboll/received_events
-        repos_url: https://api.github.com/users/roboll/repos
+        html_url: https://github.com/mumoshu
+        id: 22009
+        login: mumoshu
+        node_id: MDQ6VXNlcjIyMDA5
+        organizations_url: https://api.github.com/users/mumoshu/orgs
+        received_events_url: https://api.github.com/users/mumoshu/received_events
+        repos_url: https://api.github.com/users/mumoshu/repos
         site_admin: false
-        starred_url: https://api.github.com/users/roboll/starred{/owner}{/repo}
-        subscriptions_url: https://api.github.com/users/roboll/subscriptions
+        starred_url: https://api.github.com/users/mumoshu/starred{/owner}{/repo}
+        subscriptions_url: https://api.github.com/users/mumoshu/subscriptions
         type: User
-        url: https://api.github.com/users/roboll
-      body: "9e9a90f (HEAD, tag: v0.143.0, origin/master, origin/HEAD, master) Fix
-        panic on normalizing path containing .. (#2042)\nc069fbf add cleanup to write-values
-        & lint to harmonise this flag (#2021)\n346e318 Correct enabled property in
-        helmfile list (#1921)\n753de35 Add readDir as a templating function (#1934)\n16f1961
-        Set postsync and cleanup error (#2009)\n8bdf377 Bump sprig library to v3.2.1
-        (#1880)\n9e58082 Allow users other than root to use helm plugins (#1766)\n4d01edd
-        Added example ArgoCD + helmfile deployment (#1882)\n91aa0ac Update README.md\n1735fb5
-        Bump helm-diff to version 3.3.1 (#2041)\nfe8a176 feat: Option to pass kubeVersion
-        to helm template (#2002)\n94f9953 support apple silicon builds (#2032)\n578c559
-        Bumped go-getter to v1.5.9 (#1982)\nb101f9f Fix capitalization of disableOpenAPIValidation
-        config in README (#2003)\n170e29a bump to go 1.17.3 with alpine 3.13 (#2024)\n554cbc1
-        upgrade vals allowing for the use of the AzureRM terraform backend (#2029)\nd34dc7b
-        Add support for --insecure-skip-tls-verify flag on helm repo add command (#1990)\n1986cb3
-        feat: Add go-getter support to load base helmfiles (#1998)\n9efb7af Do fail
-        on a possible typo in `needs` entries (#2026)\n3d7b428 Fix typo in README
-        (#2006) \n### [Build Info](https://circleci.com/gh/roboll/helmfile/10503)"
-      created_at: "2022-01-10T08:45:44Z"
+        url: https://api.github.com/users/mumoshu
+      body: "## What's Changed\r\n* Update README.md by @qb-abdul in https://github.com/roboll/helmfile/pull/2105\r\n*
+        Add .StateValues as alias of .Values in EnvironmentTemplateData by @itscaro
+        in https://github.com/roboll/helmfile/pull/2056\r\n* Add template function
+        isFile by @itscaro in https://github.com/roboll/helmfile/pull/2045\r\n* Enhance
+        support for kube-version and api-versions by @mumoshu in https://github.com/roboll/helmfile/pull/2121\r\n\r\n##
+        New Contributors\r\n* @qb-abdul made their first contribution in https://github.com/roboll/helmfile/pull/2105\r\n\r\n**Full
+        Changelog**: https://github.com/roboll/helmfile/compare/v0.143.5...v0.144.0"
+      created_at: "2022-03-31T02:02:36Z"
       draft: false
-      html_url: https://github.com/roboll/helmfile/releases/tag/v0.143.0
-      id: 56720685
-      name: ""
-      node_id: RE_kwDOBHDEHc4DYX0t
+      html_url: https://github.com/roboll/helmfile/releases/tag/v0.144.0
+      id: 63215884
+      mentions_count: 3
+      name: v0.144.0
+      node_id: RE_kwDOBHDEHc4DxJkM
       prerelease: false
-      published_at: "2022-01-10T09:04:21Z"
-      tag_name: v0.143.0
-      tarball_url: https://api.github.com/repos/roboll/helmfile/tarball/v0.143.0
+      published_at: "2022-03-31T02:03:00Z"
+      reactions:
+        "+1": 0
+        "-1": 0
+        confused: 0
+        eyes: 0
+        heart: 0
+        hooray: 4
+        laugh: 0
+        rocket: 0
+        total_count: 4
+        url: https://api.github.com/repos/roboll/helmfile/releases/63215884/reactions
+      tag_name: v0.144.0
+      tarball_url: https://api.github.com/repos/roboll/helmfile/tarball/v0.144.0
       target_commitish: master
-      upload_url: https://uploads.github.com/repos/roboll/helmfile/releases/56720685/assets{?name,label}
-      url: https://api.github.com/repos/roboll/helmfile/releases/56720685
-      zipball_url: https://api.github.com/repos/roboll/helmfile/zipball/v0.143.0
+      upload_url: https://uploads.github.com/repos/roboll/helmfile/releases/63215884/assets{?name,label}
+      url: https://api.github.com/repos/roboll/helmfile/releases/63215884
+      zipball_url: https://api.github.com/repos/roboll/helmfile/zipball/v0.144.0
+  kubectl:
+    version: 1.23.5
+    versions:
+    - 1.23.5
+    githubRelease:
+      assets:
+      - browser_download_url: https://github.com/kubernetes/kubernetes/releases/download/v1.23.5/kubernetes.tar.gz
+        content_type: application/x-gzip
+        created_at: "2022-03-16T22:48:54Z"
+        download_count: 252
+        id: 59712147
+        label: Kubernetes Source Code
+        name: kubernetes.tar.gz
+        node_id: RA_kwDOAToIks4DjyKT
+        size: 554989
+        state: uploaded
+        updated_at: "2022-03-16T22:48:54Z"
+        uploader:
+          avatar_url: https://avatars.githubusercontent.com/u/33505452?v=4
+          events_url: https://api.github.com/users/k8s-release-robot/events{/privacy}
+          followers_url: https://api.github.com/users/k8s-release-robot/followers
+          following_url: https://api.github.com/users/k8s-release-robot/following{/other_user}
+          gists_url: https://api.github.com/users/k8s-release-robot/gists{/gist_id}
+          gravatar_id: ""
+          html_url: https://github.com/k8s-release-robot
+          id: 33505452
+          login: k8s-release-robot
+          node_id: MDQ6VXNlcjMzNTA1NDUy
+          organizations_url: https://api.github.com/users/k8s-release-robot/orgs
+          received_events_url: https://api.github.com/users/k8s-release-robot/received_events
+          repos_url: https://api.github.com/users/k8s-release-robot/repos
+          site_admin: false
+          starred_url: https://api.github.com/users/k8s-release-robot/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/k8s-release-robot/subscriptions
+          type: User
+          url: https://api.github.com/users/k8s-release-robot
+        url: https://api.github.com/repos/kubernetes/kubernetes/releases/assets/59712147
+      assets_url: https://api.github.com/repos/kubernetes/kubernetes/releases/62050650/assets
+      author:
+        avatar_url: https://avatars.githubusercontent.com/u/33505452?v=4
+        events_url: https://api.github.com/users/k8s-release-robot/events{/privacy}
+        followers_url: https://api.github.com/users/k8s-release-robot/followers
+        following_url: https://api.github.com/users/k8s-release-robot/following{/other_user}
+        gists_url: https://api.github.com/users/k8s-release-robot/gists{/gist_id}
+        gravatar_id: ""
+        html_url: https://github.com/k8s-release-robot
+        id: 33505452
+        login: k8s-release-robot
+        node_id: MDQ6VXNlcjMzNTA1NDUy
+        organizations_url: https://api.github.com/users/k8s-release-robot/orgs
+        received_events_url: https://api.github.com/users/k8s-release-robot/received_events
+        repos_url: https://api.github.com/users/k8s-release-robot/repos
+        site_admin: false
+        starred_url: https://api.github.com/users/k8s-release-robot/starred{/owner}{/repo}
+        subscriptions_url: https://api.github.com/users/k8s-release-robot/subscriptions
+        type: User
+        url: https://api.github.com/users/k8s-release-robot
+      body: |2+
+
+        See [kubernetes-announce@](https://groups.google.com/forum/#!forum/kubernetes-announce). Additional binary downloads are linked in the [CHANGELOG](https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.23.md).
+
+        See [the CHANGELOG](https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.23.md) for more details.
+
+
+
+      created_at: "2022-03-16T15:51:05Z"
+      draft: false
+      html_url: https://github.com/kubernetes/kubernetes/releases/tag/v1.23.5
+      id: 62050650
+      name: Kubernetes v1.23.5
+      node_id: RE_kwDOAToIks4DstFa
+      prerelease: false
+      published_at: "2022-03-16T22:48:49Z"
+      reactions:
+        "+1": 10
+        "-1": 0
+        confused: 0
+        eyes: 0
+        heart: 0
+        hooray: 0
+        laugh: 0
+        rocket: 0
+        total_count: 10
+        url: https://api.github.com/repos/kubernetes/kubernetes/releases/62050650/reactions
+      tag_name: v1.23.5
+      tarball_url: https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.23.5
+      target_commitish: master
+      upload_url: https://uploads.github.com/repos/kubernetes/kubernetes/releases/62050650/assets{?name,label}
+      url: https://api.github.com/repos/kubernetes/kubernetes/releases/62050650
+      zipball_url: https://api.github.com/repos/kubernetes/kubernetes/zipball/v1.23.5
+  sops:
+    version: 3.7.2
+    versions:
+    - 3.7.2
+    githubRelease:
+      assets:
+      - browser_download_url: https://github.com/mozilla/sops/releases/download/v3.7.2/sops-3.7.2-1.aarch64.rpm
+        content_type: application/octet-stream
+        created_at: "2022-03-09T19:27:00Z"
+        download_count: 232
+        id: 59034474
+        label: ""
+        name: sops-3.7.2-1.aarch64.rpm
+        node_id: RA_kwDOAmzKAc4DhMtq
+        size: 10753547
+        state: uploaded
+        updated_at: "2022-03-09T19:27:01Z"
+        uploader:
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          gravatar_id: ""
+          html_url: https://github.com/apps/github-actions
+          id: 41898282
+          login: github-actions[bot]
+          node_id: MDM6Qm90NDE4OTgyODI=
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          site_admin: false
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          type: Bot
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+        url: https://api.github.com/repos/mozilla/sops/releases/assets/59034474
+      - browser_download_url: https://github.com/mozilla/sops/releases/download/v3.7.2/sops-3.7.2-1.x86_64.rpm
+        content_type: application/octet-stream
+        created_at: "2022-03-09T19:26:58Z"
+        download_count: 278
+        id: 59034473
+        label: ""
+        name: sops-3.7.2-1.x86_64.rpm
+        node_id: RA_kwDOAmzKAc4DhMtp
+        size: 11664081
+        state: uploaded
+        updated_at: "2022-03-09T19:27:00Z"
+        uploader:
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          gravatar_id: ""
+          html_url: https://github.com/apps/github-actions
+          id: 41898282
+          login: github-actions[bot]
+          node_id: MDM6Qm90NDE4OTgyODI=
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          site_admin: false
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          type: Bot
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+        url: https://api.github.com/repos/mozilla/sops/releases/assets/59034473
+      - browser_download_url: https://github.com/mozilla/sops/releases/download/v3.7.2/sops-v3.7.2.darwin
+        content_type: application/octet-stream
+        created_at: "2022-03-09T19:26:48Z"
+        download_count: 261
+        id: 59034463
+        label: ""
+        name: sops-v3.7.2.darwin
+        node_id: RA_kwDOAmzKAc4DhMtf
+        size: 25697584
+        state: uploaded
+        updated_at: "2022-03-09T19:26:49Z"
+        uploader:
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          gravatar_id: ""
+          html_url: https://github.com/apps/github-actions
+          id: 41898282
+          login: github-actions[bot]
+          node_id: MDM6Qm90NDE4OTgyODI=
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          site_admin: false
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          type: Bot
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+        url: https://api.github.com/repos/mozilla/sops/releases/assets/59034463
+      - browser_download_url: https://github.com/mozilla/sops/releases/download/v3.7.2/sops-v3.7.2.darwin.amd64
+        content_type: application/octet-stream
+        created_at: "2022-03-09T19:26:44Z"
+        download_count: 213
+        id: 59034452
+        label: ""
+        name: sops-v3.7.2.darwin.amd64
+        node_id: RA_kwDOAmzKAc4DhMtU
+        size: 25697584
+        state: uploaded
+        updated_at: "2022-03-09T19:26:45Z"
+        uploader:
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          gravatar_id: ""
+          html_url: https://github.com/apps/github-actions
+          id: 41898282
+          login: github-actions[bot]
+          node_id: MDM6Qm90NDE4OTgyODI=
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          site_admin: false
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          type: Bot
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+        url: https://api.github.com/repos/mozilla/sops/releases/assets/59034452
+      - browser_download_url: https://github.com/mozilla/sops/releases/download/v3.7.2/sops-v3.7.2.darwin.arm64
+        content_type: application/octet-stream
+        created_at: "2022-03-09T19:26:46Z"
+        download_count: 144
+        id: 59034457
+        label: ""
+        name: sops-v3.7.2.darwin.arm64
+        node_id: RA_kwDOAmzKAc4DhMtZ
+        size: 26096466
+        state: uploaded
+        updated_at: "2022-03-09T19:26:47Z"
+        uploader:
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          gravatar_id: ""
+          html_url: https://github.com/apps/github-actions
+          id: 41898282
+          login: github-actions[bot]
+          node_id: MDM6Qm90NDE4OTgyODI=
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          site_admin: false
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          type: Bot
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+        url: https://api.github.com/repos/mozilla/sops/releases/assets/59034457
+      - browser_download_url: https://github.com/mozilla/sops/releases/download/v3.7.2/sops-v3.7.2.exe
+        content_type: application/octet-stream
+        created_at: "2022-03-09T19:26:41Z"
+        download_count: 751
+        id: 59034445
+        label: ""
+        name: sops-v3.7.2.exe
+        node_id: RA_kwDOAmzKAc4DhMtN
+        size: 26425344
+        state: uploaded
+        updated_at: "2022-03-09T19:26:44Z"
+        uploader:
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          gravatar_id: ""
+          html_url: https://github.com/apps/github-actions
+          id: 41898282
+          login: github-actions[bot]
+          node_id: MDM6Qm90NDE4OTgyODI=
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          site_admin: false
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          type: Bot
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+        url: https://api.github.com/repos/mozilla/sops/releases/assets/59034445
+      - browser_download_url: https://github.com/mozilla/sops/releases/download/v3.7.2/sops-v3.7.2.linux
+        content_type: application/octet-stream
+        created_at: "2022-03-11T18:34:56Z"
+        download_count: 13393
+        id: 59246443
+        label: null
+        name: sops-v3.7.2.linux
+        node_id: RA_kwDOAmzKAc4DiAdr
+        size: 25967684
+        state: uploaded
+        updated_at: "2022-03-11T18:35:15Z"
+        uploader:
+          avatar_url: https://avatars.githubusercontent.com/u/1144310?v=4
+          events_url: https://api.github.com/users/ajvb/events{/privacy}
+          followers_url: https://api.github.com/users/ajvb/followers
+          following_url: https://api.github.com/users/ajvb/following{/other_user}
+          gists_url: https://api.github.com/users/ajvb/gists{/gist_id}
+          gravatar_id: ""
+          html_url: https://github.com/ajvb
+          id: 1144310
+          login: ajvb
+          node_id: MDQ6VXNlcjExNDQzMTA=
+          organizations_url: https://api.github.com/users/ajvb/orgs
+          received_events_url: https://api.github.com/users/ajvb/received_events
+          repos_url: https://api.github.com/users/ajvb/repos
+          site_admin: false
+          starred_url: https://api.github.com/users/ajvb/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/ajvb/subscriptions
+          type: User
+          url: https://api.github.com/users/ajvb
+        url: https://api.github.com/repos/mozilla/sops/releases/assets/59246443
+      - browser_download_url: https://github.com/mozilla/sops/releases/download/v3.7.2/sops-v3.7.2.linux.amd64
+        content_type: application/octet-stream
+        created_at: "2022-03-11T18:35:15Z"
+        download_count: 4743
+        id: 59246459
+        label: null
+        name: sops-v3.7.2.linux.amd64
+        node_id: RA_kwDOAmzKAc4DiAd7
+        size: 25967684
+        state: uploaded
+        updated_at: "2022-03-11T18:35:33Z"
+        uploader:
+          avatar_url: https://avatars.githubusercontent.com/u/1144310?v=4
+          events_url: https://api.github.com/users/ajvb/events{/privacy}
+          followers_url: https://api.github.com/users/ajvb/followers
+          following_url: https://api.github.com/users/ajvb/following{/other_user}
+          gists_url: https://api.github.com/users/ajvb/gists{/gist_id}
+          gravatar_id: ""
+          html_url: https://github.com/ajvb
+          id: 1144310
+          login: ajvb
+          node_id: MDQ6VXNlcjExNDQzMTA=
+          organizations_url: https://api.github.com/users/ajvb/orgs
+          received_events_url: https://api.github.com/users/ajvb/received_events
+          repos_url: https://api.github.com/users/ajvb/repos
+          site_admin: false
+          starred_url: https://api.github.com/users/ajvb/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/ajvb/subscriptions
+          type: User
+          url: https://api.github.com/users/ajvb
+        url: https://api.github.com/repos/mozilla/sops/releases/assets/59246459
+      - browser_download_url: https://github.com/mozilla/sops/releases/download/v3.7.2/sops-v3.7.2.linux.arm64
+        content_type: application/octet-stream
+        created_at: "2022-03-09T19:26:52Z"
+        download_count: 390
+        id: 59034466
+        label: ""
+        name: sops-v3.7.2.linux.arm64
+        node_id: RA_kwDOAmzKAc4DhMti
+        size: 25573664
+        state: uploaded
+        updated_at: "2022-03-09T19:26:53Z"
+        uploader:
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          gravatar_id: ""
+          html_url: https://github.com/apps/github-actions
+          id: 41898282
+          login: github-actions[bot]
+          node_id: MDM6Qm90NDE4OTgyODI=
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          site_admin: false
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          type: Bot
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+        url: https://api.github.com/repos/mozilla/sops/releases/assets/59034466
+      - browser_download_url: https://github.com/mozilla/sops/releases/download/v3.7.2/sops_3.7.2_amd64.deb
+        content_type: application/octet-stream
+        created_at: "2022-03-09T19:26:56Z"
+        download_count: 8758
+        id: 59034471
+        label: ""
+        name: sops_3.7.2_amd64.deb
+        node_id: RA_kwDOAmzKAc4DhMtn
+        size: 11718712
+        state: uploaded
+        updated_at: "2022-03-09T19:26:57Z"
+        uploader:
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          gravatar_id: ""
+          html_url: https://github.com/apps/github-actions
+          id: 41898282
+          login: github-actions[bot]
+          node_id: MDM6Qm90NDE4OTgyODI=
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          site_admin: false
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          type: Bot
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+        url: https://api.github.com/repos/mozilla/sops/releases/assets/59034471
+      - browser_download_url: https://github.com/mozilla/sops/releases/download/v3.7.2/sops_3.7.2_arm64.deb
+        content_type: application/octet-stream
+        created_at: "2022-03-09T19:26:57Z"
+        download_count: 457
+        id: 59034472
+        label: ""
+        name: sops_3.7.2_arm64.deb
+        node_id: RA_kwDOAmzKAc4DhMto
+        size: 10801792
+        state: uploaded
+        updated_at: "2022-03-09T19:26:58Z"
+        uploader:
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          gravatar_id: ""
+          html_url: https://github.com/apps/github-actions
+          id: 41898282
+          login: github-actions[bot]
+          node_id: MDM6Qm90NDE4OTgyODI=
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          site_admin: false
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          type: Bot
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+        url: https://api.github.com/repos/mozilla/sops/releases/assets/59034472
+      assets_url: https://api.github.com/repos/mozilla/sops/releases/61416232/assets
+      author:
+        avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+        events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+        followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+        following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+        gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+        gravatar_id: ""
+        html_url: https://github.com/apps/github-actions
+        id: 41898282
+        login: github-actions[bot]
+        node_id: MDM6Qm90NDE4OTgyODI=
+        organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+        received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+        repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+        site_admin: false
+        starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+        subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+        type: Bot
+        url: https://api.github.com/users/github-actions%5Bbot%5D
+      body: "## Changes:\r\n\r\n* README updates (#861, #860)\r\n* Various test fixes
+        (#909, #906, #1008)\r\n* Added Linux and Darwin arm64 releases (#911, #891)\r\n*
+        Upgrade to go v1.17 (#1012)\r\n* Support SOPS_AGE_KEY environment variable
+        (#1006)\r\n\r\n## Bug Fixes\r\n\r\n- Make sure comments in yaml files are
+        not duplicated (#866)\r\n- Make sure configuration file paths work correctly
+        relative to the config file in us (#853)\r\n\r\n## Commits\r\n- [[e98451e](https://github.com/mozilla/sops/commit/e98451e9755b33d0e76b362587499225ef3a4ef1)]:
+        Remove unused age code (Hidde Beydals) [#842](https://github.com/mozilla/sops/pull/842)\r\n-
+        [[2395f07](https://github.com/mozilla/sops/commit/2395f07610e45d507ec0d4b3ad48dbf502ed5bed)]:
+        small release workflow fix (AJ Bahnken)\r\n- [[c5b1298](https://github.com/mozilla/sops/commit/c5b1298cd89195e6cad8298a7137c011287153bf)]:
+        \ Match file path relative to config file's directory (2) (#853) (Paulo Lieuthier)
+        [#853](https://github.com/mozilla/sops/pull/853)\r\n- [[7626399](https://github.com/mozilla/sops/commit/762639996d9bdd07278b980cd63342bde2443053)]:
+        fix missing argument in encrypting with age section (#860) (Damien Léger)
+        [#860](https://github.com/mozilla/sops/pull/860)\r\n- [[3acf53e](https://github.com/mozilla/sops/commit/3acf53e7d9b58613cba73fc936a581d19d33c1dc)]:
+        Correct path to age keys.txt in documentation (#861) (Alexey Odinokov) [#861](https://github.com/mozilla/sops/pull/861)\r\n-
+        [[5af8e63](https://github.com/mozilla/sops/commit/5af8e63ad511783ab3bef5352abb4c0014f11600)]:
+        Prevent comment duplication. (#866) (Felix Fontein) [#866](https://github.com/mozilla/sops/pull/866)\r\n-
+        [[688fa22](https://github.com/mozilla/sops/commit/688fa225babfc3009764652eb70ba82db0a730bc)]:
+        Remove SOPS_GPG_KEYSERVER reference in README.rst (Enrico204) [#883](https://github.com/mozilla/sops/pull/883)\r\n-
+        [[02d57ca](https://github.com/mozilla/sops/commit/02d57ca76d36c0b699dc337f1b81b6f54b81fea2)]:
+        Tests should not fail fast (ikedam) [#909](https://github.com/mozilla/sops/pull/909)\r\n-
+        [[6130ffe](https://github.com/mozilla/sops/commit/6130ffe35c9ff34447a598317e633ff667acbabd)]:
+        Use the key of release@mozilla.com for the unit test (#882) (#906) (ikedam)
+        [#906](https://github.com/mozilla/sops/pull/906)\r\n- [[56bbf84](https://github.com/mozilla/sops/commit/56bbf847c5ca0470e8c0cdd398354bff2506bb3c)]:
+        Added support for go 1.16 and darwin-arm64 (Nikola Milojević) [#911](https://github.com/mozilla/sops/pull/911)\r\n-
+        [[f6e9891](https://github.com/mozilla/sops/commit/f6e98911e044c576fc9cde38788bc3c1f22e5cb4)]:
+        fix a typo (brant4test) [#967](https://github.com/mozilla/sops/pull/967)\r\n-
+        [[086c11d](https://github.com/mozilla/sops/commit/086c11d09bb28c9c214bec24a0784d7b9770b3e6)]:
+        Support SOPS_AGE_KEY environment variable (Christian Hoffmeister) [#1006](https://github.com/mozilla/sops/pull/1006)\r\n-
+        [[a98768b](https://github.com/mozilla/sops/commit/a98768b3b6017d97e725f907e7f2b2a75a509a6f)]:
+        Fix flakey test run on OSX (Alex Castle) [#1008](https://github.com/mozilla/sops/pull/1008)\r\n-
+        [[6bfd72d](https://github.com/mozilla/sops/commit/6bfd72d57ba82ca599f7ef1e08f9fe3635fe0f39)]:
+        Merge remote-tracking branch 'origin/develop' into sops-age-key-env (Christian
+        Hoffmeister) [#1006](https://github.com/mozilla/sops/pull/1006)\r\n- [[dc2267e](https://github.com/mozilla/sops/commit/dc2267e3721a1037895050f4fd02974a31692ded)]:
+        Upgrade to go 1.17 (AJ Bahnken) [#1012](https://github.com/mozilla/sops/pull/1012)\r\n-
+        [[076f295](https://github.com/mozilla/sops/commit/076f29539434046c7fc76fbac33d90580bfe866f)]:
+        rm extra whitespace in CircleCI config (AJ Bahnken) [#1012](https://github.com/mozilla/sops/pull/1012)\r\n-
+        [[7f503bc](https://github.com/mozilla/sops/commit/7f503bcbfdab065216b3628a176662d8b1213d41)]:
+        Upgrade release job to go 1.17 (AJ Bahnken) [#1012](https://github.com/mozilla/sops/pull/1012)\r\n-
+        [[4bd3e5a](https://github.com/mozilla/sops/commit/4bd3e5a9b4399217453ff9b60f99ac0ea97c309f)]:
+        Update pip package name in Dockerfile (AJ Bahnken) [#1012](https://github.com/mozilla/sops/pull/1012)\r\n-
+        [[b7c58e4](https://github.com/mozilla/sops/commit/b7c58e4e56f69685d083f90fe7018f39dfb78d6d)]:
+        Move age environment variable names to constants (Christian Hoffmeister) [#1006](https://github.com/mozilla/sops/pull/1006)\r\n-
+        [[684d338](https://github.com/mozilla/sops/commit/684d338ecb2bf9e4c3da6445aa53f2d598cb3437)]:
+        Merge branch 'develop' of https://github.com/mozilla/sops into mozilla-develop
+        (Nikola Milojević) [#911](https://github.com/mozilla/sops/pull/911)\r\n- [[0cfcae6](https://github.com/mozilla/sops/commit/0cfcae62d9609e1b7064099c5549de017b7a5500)]:
+        Merge branch 'mozilla-develop' into develop (Nikola Milojević) [#911](https://github.com/mozilla/sops/pull/911)\r\n-
+        [[dff9c31](https://github.com/mozilla/sops/commit/dff9c31411441a4a2850d2d40b808f5e1a7502ed)]:
+        Merge branch 'develop' into sops-age-key-env (AJ Bahnken) [#1006](https://github.com/mozilla/sops/pull/1006)\r\n-
+        [[c586534](https://github.com/mozilla/sops/commit/c58653474cfc3939f526b2beea5aca9d41b626a0)]:
+        Change labeling and upload linux arm64 (AJ Bahnken) [#1014](https://github.com/mozilla/sops/pull/1014)\r\n-
+        [[d6bc216](https://github.com/mozilla/sops/commit/d6bc216a862ce16cd096ab79e672deb2796abc54)]:
+        README and author tweaks (AJ Bahnken) [#1016](https://github.com/mozilla/sops/pull/1016)\r\n-
+        [[822ce48](https://github.com/mozilla/sops/commit/822ce48b82236165a869ddfcb5e2da7c3788206a)]:
+        Add arm64 .deb and .rpm builds (Janis Peisenieks) [#891](https://github.com/mozilla/sops/pull/891)\r\n-
+        [[baec2a5](https://github.com/mozilla/sops/commit/baec2a50883b1269a360b58c9e57b50401a7705c)]:
+        Merge branch 'develop' into feature/testsSholdNotFailFast (ikedam) [#909](https://github.com/mozilla/sops/pull/909)\r\n-
+        [[035672f](https://github.com/mozilla/sops/commit/035672f3b492c03ade6dd369926333525a643546)]:
+        prep v3.7.2 (AJ Bahnken) [#1020](https://github.com/mozilla/sops/pull/1020)\r\n-
+        [[b67c7a7](https://github.com/mozilla/sops/commit/b67c7a7fd95e1e9ca9be741f2957a001e081979e)]:
+        Fixed CHANGELOG formatting (AJ Bahnken) [#1020](https://github.com/mozilla/sops/pull/1020)"
+      created_at: "2022-03-09T19:20:20Z"
+      draft: false
+      html_url: https://github.com/mozilla/sops/releases/tag/v3.7.2
+      id: 61416232
+      name: v3.7.2
+      node_id: RE_kwDOAmzKAc4DqSMo
+      prerelease: false
+      published_at: "2022-03-09T19:26:40Z"
+      reactions:
+        "+1": 0
+        "-1": 0
+        confused: 0
+        eyes: 0
+        heart: 2
+        hooray: 14
+        laugh: 0
+        rocket: 10
+        total_count: 26
+        url: https://api.github.com/repos/mozilla/sops/releases/61416232/reactions
+      tag_name: v3.7.2
+      tarball_url: https://api.github.com/repos/mozilla/sops/tarball/v3.7.2
+      target_commitish: master
+      upload_url: https://uploads.github.com/repos/mozilla/sops/releases/61416232/assets{?name,label}
+      url: https://api.github.com/repos/mozilla/sops/releases/61416232
+      zipball_url: https://api.github.com/repos/mozilla/sops/zipball/v3.7.2
 meta:
   dependencies:
     argocd:
-      2.2.5:
+      2.3.3:
         githubRelease:
           assets:
-          - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v2.2.5/argocd-darwin-amd64
+          - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v2.3.3/argocd-darwin-amd64
             content_type: application/octet-stream
-            created_at: "2022-02-05T01:42:20Z"
-            download_count: 12
-            id: 55896340
+            created_at: "2022-03-30T01:55:46Z"
+            download_count: 113
+            id: 60992933
             label: ""
             name: argocd-darwin-amd64
-            node_id: RA_kwDOBzS60s4DVOkU
-            size: 110601920
+            node_id: RA_kwDOBzS60s4Doq2l
+            size: 119050384
             state: uploaded
-            updated_at: "2022-02-05T01:42:24Z"
+            updated_at: "2022-03-30T01:55:49Z"
             uploader:
               avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
               events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
@@ -461,18 +1355,49 @@ meta:
               subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
               type: Bot
               url: https://api.github.com/users/github-actions%5Bbot%5D
-            url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/55896340
-          - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v2.2.5/argocd-linux-amd64
+            url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/60992933
+          - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v2.3.3/argocd-darwin-arm64
             content_type: application/octet-stream
-            created_at: "2022-02-05T01:42:14Z"
-            download_count: 188
-            id: 55896339
+            created_at: "2022-03-30T01:55:49Z"
+            download_count: 14
+            id: 60992937
+            label: ""
+            name: argocd-darwin-arm64
+            node_id: RA_kwDOBzS60s4Doq2p
+            size: 122294962
+            state: uploaded
+            updated_at: "2022-03-30T01:55:52Z"
+            uploader:
+              avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+              events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+              followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+              following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+              gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+              gravatar_id: ""
+              html_url: https://github.com/apps/github-actions
+              id: 41898282
+              login: github-actions[bot]
+              node_id: MDM6Qm90NDE4OTgyODI=
+              organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+              received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+              repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+              site_admin: false
+              starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+              subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+              type: Bot
+              url: https://api.github.com/users/github-actions%5Bbot%5D
+            url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/60992937
+          - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v2.3.3/argocd-linux-amd64
+            content_type: application/octet-stream
+            created_at: "2022-03-30T01:55:38Z"
+            download_count: 6119
+            id: 60992928
             label: ""
             name: argocd-linux-amd64
-            node_id: RA_kwDOBzS60s4DVOkT
-            size: 111369759
+            node_id: RA_kwDOBzS60s4Doq2g
+            size: 119861784
             state: uploaded
-            updated_at: "2022-02-05T01:42:20Z"
+            updated_at: "2022-03-30T01:55:41Z"
             uploader:
               avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
               events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
@@ -492,18 +1417,49 @@ meta:
               subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
               type: Bot
               url: https://api.github.com/users/github-actions%5Bbot%5D
-            url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/55896339
-          - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v2.2.5/argocd-windows-amd64.exe
+            url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/60992928
+          - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v2.3.3/argocd-linux-arm64
             content_type: application/octet-stream
-            created_at: "2022-02-05T01:42:25Z"
-            download_count: 19
-            id: 55896341
+            created_at: "2022-03-30T01:55:42Z"
+            download_count: 50
+            id: 60992930
+            label: ""
+            name: argocd-linux-arm64
+            node_id: RA_kwDOBzS60s4Doq2i
+            size: 117541484
+            state: uploaded
+            updated_at: "2022-03-30T01:55:45Z"
+            uploader:
+              avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+              events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+              followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+              following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+              gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+              gravatar_id: ""
+              html_url: https://github.com/apps/github-actions
+              id: 41898282
+              login: github-actions[bot]
+              node_id: MDM6Qm90NDE4OTgyODI=
+              organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+              received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+              repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+              site_admin: false
+              starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+              subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+              type: Bot
+              url: https://api.github.com/users/github-actions%5Bbot%5D
+            url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/60992930
+          - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v2.3.3/argocd-windows-amd64.exe
+            content_type: application/octet-stream
+            created_at: "2022-03-30T01:55:53Z"
+            download_count: 149
+            id: 60992938
             label: ""
             name: argocd-windows-amd64.exe
-            node_id: RA_kwDOBzS60s4DVOkV
-            size: 113083392
+            node_id: RA_kwDOBzS60s4Doq2q
+            size: 121347584
             state: uploaded
-            updated_at: "2022-02-05T01:42:29Z"
+            updated_at: "2022-03-30T01:55:56Z"
             uploader:
               avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
               events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
@@ -523,8 +1479,39 @@ meta:
               subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
               type: Bot
               url: https://api.github.com/users/github-actions%5Bbot%5D
-            url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/55896341
-          assets_url: https://api.github.com/repos/argoproj/argo-cd/releases/58743612/assets
+            url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/60992938
+          - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v2.3.3/sbom.tar.gz
+            content_type: application/octet-stream
+            created_at: "2022-03-30T01:58:33Z"
+            download_count: 2
+            id: 60992997
+            label: ""
+            name: sbom.tar.gz
+            node_id: RA_kwDOBzS60s4Doq3l
+            size: 334160
+            state: uploaded
+            updated_at: "2022-03-30T01:58:34Z"
+            uploader:
+              avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+              events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+              followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+              following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+              gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+              gravatar_id: ""
+              html_url: https://github.com/apps/github-actions
+              id: 41898282
+              login: github-actions[bot]
+              node_id: MDM6Qm90NDE4OTgyODI=
+              organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+              received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+              repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+              site_admin: false
+              starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+              subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+              type: Bot
+              url: https://api.github.com/users/github-actions%5Bbot%5D
+            url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/60992997
+          assets_url: https://api.github.com/repos/argoproj/argo-cd/releases/63099082/assets
           author:
             avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
             events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
@@ -551,48 +1538,302 @@ meta:
 
             ```bash
             kubectl create namespace argocd
-            kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/v2.2.5/manifests/install.yaml
+            kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/v2.3.3/manifests/install.yaml
             ```
 
             #### HA:
 
             ```bash
             kubectl create namespace argocd
-            kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/v2.2.5/manifests/ha/install.yaml
+            kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/v2.3.3/manifests/ha/install.yaml
             ```
 
-            #### Bug Fixes
+            ### Bug Fixes
 
-            - fix: Resolve symlinked value files correctly (#8387)
-          created_at: "2022-02-05T01:26:23Z"
+            - fix: prevent excessive repo-server disk usage for large repos (#8845) (#8897)
+            - fix: Set QPS and burst rate for resource ops client (#8915)
+          created_at: "2022-03-29T23:56:04Z"
           draft: false
-          html_url: https://github.com/argoproj/argo-cd/releases/tag/v2.2.5
-          id: 58743612
-          name: v2.2.5
-          node_id: RE_kwDOBzS60s4DgFs8
+          html_url: https://github.com/argoproj/argo-cd/releases/tag/v2.3.3
+          id: 63099082
+          name: v2.3.3
+          node_id: RE_kwDOBzS60s4DwtDK
           prerelease: false
-          published_at: "2022-02-05T01:42:13Z"
-          tag_name: v2.2.5
-          tarball_url: https://api.github.com/repos/argoproj/argo-cd/tarball/v2.2.5
-          target_commitish: f6501652c43bfe93af354c4f4faf0f6d9cf3153c
-          upload_url: https://uploads.github.com/repos/argoproj/argo-cd/releases/58743612/assets{?name,label}
-          url: https://api.github.com/repos/argoproj/argo-cd/releases/58743612
-          zipball_url: https://api.github.com/repos/argoproj/argo-cd/zipball/v2.2.5
-    helmfile:
-      0.143.0:
+          published_at: "2022-03-30T01:55:37Z"
+          reactions:
+            "+1": 0
+            "-1": 0
+            confused: 0
+            eyes: 0
+            heart: 0
+            hooray: 2
+            laugh: 2
+            rocket: 0
+            total_count: 4
+            url: https://api.github.com/repos/argoproj/argo-cd/releases/63099082/reactions
+          tag_name: v2.3.3
+          tarball_url: https://api.github.com/repos/argoproj/argo-cd/tarball/v2.3.3
+          target_commitish: 3bd912154520b124af187cb636cb7829d077e052
+          upload_url: https://uploads.github.com/repos/argoproj/argo-cd/releases/63099082/assets{?name,label}
+          url: https://api.github.com/repos/argoproj/argo-cd/releases/63099082
+          zipball_url: https://api.github.com/repos/argoproj/argo-cd/zipball/v2.3.3
+    helm_diff:
+      3.4.2:
         githubRelease:
           assets:
-          - browser_download_url: https://github.com/roboll/helmfile/releases/download/v0.143.0/helmfile_darwin_amd64
+          - browser_download_url: https://github.com/databus23/helm-diff/releases/download/v3.4.2/helm-diff-freebsd-amd64.tgz
+            content_type: application/gzip
+            created_at: "2022-02-13T03:27:19Z"
+            download_count: 9
+            id: 56661680
+            label: null
+            name: helm-diff-freebsd-amd64.tgz
+            node_id: RA_kwDOBPv_Ws4DYJaw
+            size: 24970243
+            state: uploaded
+            updated_at: "2022-02-13T03:27:32Z"
+            uploader:
+              avatar_url: https://avatars.githubusercontent.com/u/22009?v=4
+              events_url: https://api.github.com/users/mumoshu/events{/privacy}
+              followers_url: https://api.github.com/users/mumoshu/followers
+              following_url: https://api.github.com/users/mumoshu/following{/other_user}
+              gists_url: https://api.github.com/users/mumoshu/gists{/gist_id}
+              gravatar_id: ""
+              html_url: https://github.com/mumoshu
+              id: 22009
+              login: mumoshu
+              node_id: MDQ6VXNlcjIyMDA5
+              organizations_url: https://api.github.com/users/mumoshu/orgs
+              received_events_url: https://api.github.com/users/mumoshu/received_events
+              repos_url: https://api.github.com/users/mumoshu/repos
+              site_admin: false
+              starred_url: https://api.github.com/users/mumoshu/starred{/owner}{/repo}
+              subscriptions_url: https://api.github.com/users/mumoshu/subscriptions
+              type: User
+              url: https://api.github.com/users/mumoshu
+            url: https://api.github.com/repos/databus23/helm-diff/releases/assets/56661680
+          - browser_download_url: https://github.com/databus23/helm-diff/releases/download/v3.4.2/helm-diff-linux-amd64.tgz
+            content_type: application/gzip
+            created_at: "2022-02-13T03:27:32Z"
+            download_count: 73323
+            id: 56661706
+            label: null
+            name: helm-diff-linux-amd64.tgz
+            node_id: RA_kwDOBPv_Ws4DYJbK
+            size: 24993201
+            state: uploaded
+            updated_at: "2022-02-13T03:27:45Z"
+            uploader:
+              avatar_url: https://avatars.githubusercontent.com/u/22009?v=4
+              events_url: https://api.github.com/users/mumoshu/events{/privacy}
+              followers_url: https://api.github.com/users/mumoshu/followers
+              following_url: https://api.github.com/users/mumoshu/following{/other_user}
+              gists_url: https://api.github.com/users/mumoshu/gists{/gist_id}
+              gravatar_id: ""
+              html_url: https://github.com/mumoshu
+              id: 22009
+              login: mumoshu
+              node_id: MDQ6VXNlcjIyMDA5
+              organizations_url: https://api.github.com/users/mumoshu/orgs
+              received_events_url: https://api.github.com/users/mumoshu/received_events
+              repos_url: https://api.github.com/users/mumoshu/repos
+              site_admin: false
+              starred_url: https://api.github.com/users/mumoshu/starred{/owner}{/repo}
+              subscriptions_url: https://api.github.com/users/mumoshu/subscriptions
+              type: User
+              url: https://api.github.com/users/mumoshu
+            url: https://api.github.com/repos/databus23/helm-diff/releases/assets/56661706
+          - browser_download_url: https://github.com/databus23/helm-diff/releases/download/v3.4.2/helm-diff-linux-arm64.tgz
+            content_type: application/gzip
+            created_at: "2022-02-13T03:27:45Z"
+            download_count: 1434
+            id: 56661717
+            label: null
+            name: helm-diff-linux-arm64.tgz
+            node_id: RA_kwDOBPv_Ws4DYJbV
+            size: 23174219
+            state: uploaded
+            updated_at: "2022-02-13T03:28:06Z"
+            uploader:
+              avatar_url: https://avatars.githubusercontent.com/u/22009?v=4
+              events_url: https://api.github.com/users/mumoshu/events{/privacy}
+              followers_url: https://api.github.com/users/mumoshu/followers
+              following_url: https://api.github.com/users/mumoshu/following{/other_user}
+              gists_url: https://api.github.com/users/mumoshu/gists{/gist_id}
+              gravatar_id: ""
+              html_url: https://github.com/mumoshu
+              id: 22009
+              login: mumoshu
+              node_id: MDQ6VXNlcjIyMDA5
+              organizations_url: https://api.github.com/users/mumoshu/orgs
+              received_events_url: https://api.github.com/users/mumoshu/received_events
+              repos_url: https://api.github.com/users/mumoshu/repos
+              site_admin: false
+              starred_url: https://api.github.com/users/mumoshu/starred{/owner}{/repo}
+              subscriptions_url: https://api.github.com/users/mumoshu/subscriptions
+              type: User
+              url: https://api.github.com/users/mumoshu
+            url: https://api.github.com/repos/databus23/helm-diff/releases/assets/56661717
+          - browser_download_url: https://github.com/databus23/helm-diff/releases/download/v3.4.2/helm-diff-macos-amd64.tgz
+            content_type: application/gzip
+            created_at: "2022-02-13T03:28:06Z"
+            download_count: 1876
+            id: 56661722
+            label: null
+            name: helm-diff-macos-amd64.tgz
+            node_id: RA_kwDOBPv_Ws4DYJba
+            size: 24752486
+            state: uploaded
+            updated_at: "2022-02-13T03:28:24Z"
+            uploader:
+              avatar_url: https://avatars.githubusercontent.com/u/22009?v=4
+              events_url: https://api.github.com/users/mumoshu/events{/privacy}
+              followers_url: https://api.github.com/users/mumoshu/followers
+              following_url: https://api.github.com/users/mumoshu/following{/other_user}
+              gists_url: https://api.github.com/users/mumoshu/gists{/gist_id}
+              gravatar_id: ""
+              html_url: https://github.com/mumoshu
+              id: 22009
+              login: mumoshu
+              node_id: MDQ6VXNlcjIyMDA5
+              organizations_url: https://api.github.com/users/mumoshu/orgs
+              received_events_url: https://api.github.com/users/mumoshu/received_events
+              repos_url: https://api.github.com/users/mumoshu/repos
+              site_admin: false
+              starred_url: https://api.github.com/users/mumoshu/starred{/owner}{/repo}
+              subscriptions_url: https://api.github.com/users/mumoshu/subscriptions
+              type: User
+              url: https://api.github.com/users/mumoshu
+            url: https://api.github.com/repos/databus23/helm-diff/releases/assets/56661722
+          - browser_download_url: https://github.com/databus23/helm-diff/releases/download/v3.4.2/helm-diff-macos-arm64.tgz
+            content_type: application/gzip
+            created_at: "2022-02-13T03:28:24Z"
+            download_count: 871
+            id: 56661736
+            label: null
+            name: helm-diff-macos-arm64.tgz
+            node_id: RA_kwDOBPv_Ws4DYJbo
+            size: 24083919
+            state: uploaded
+            updated_at: "2022-02-13T03:28:46Z"
+            uploader:
+              avatar_url: https://avatars.githubusercontent.com/u/22009?v=4
+              events_url: https://api.github.com/users/mumoshu/events{/privacy}
+              followers_url: https://api.github.com/users/mumoshu/followers
+              following_url: https://api.github.com/users/mumoshu/following{/other_user}
+              gists_url: https://api.github.com/users/mumoshu/gists{/gist_id}
+              gravatar_id: ""
+              html_url: https://github.com/mumoshu
+              id: 22009
+              login: mumoshu
+              node_id: MDQ6VXNlcjIyMDA5
+              organizations_url: https://api.github.com/users/mumoshu/orgs
+              received_events_url: https://api.github.com/users/mumoshu/received_events
+              repos_url: https://api.github.com/users/mumoshu/repos
+              site_admin: false
+              starred_url: https://api.github.com/users/mumoshu/starred{/owner}{/repo}
+              subscriptions_url: https://api.github.com/users/mumoshu/subscriptions
+              type: User
+              url: https://api.github.com/users/mumoshu
+            url: https://api.github.com/repos/databus23/helm-diff/releases/assets/56661736
+          - browser_download_url: https://github.com/databus23/helm-diff/releases/download/v3.4.2/helm-diff-windows-amd64.tgz
+            content_type: application/gzip
+            created_at: "2022-02-13T03:28:46Z"
+            download_count: 437
+            id: 56661743
+            label: null
+            name: helm-diff-windows-amd64.tgz
+            node_id: RA_kwDOBPv_Ws4DYJbv
+            size: 25176607
+            state: uploaded
+            updated_at: "2022-02-13T03:28:58Z"
+            uploader:
+              avatar_url: https://avatars.githubusercontent.com/u/22009?v=4
+              events_url: https://api.github.com/users/mumoshu/events{/privacy}
+              followers_url: https://api.github.com/users/mumoshu/followers
+              following_url: https://api.github.com/users/mumoshu/following{/other_user}
+              gists_url: https://api.github.com/users/mumoshu/gists{/gist_id}
+              gravatar_id: ""
+              html_url: https://github.com/mumoshu
+              id: 22009
+              login: mumoshu
+              node_id: MDQ6VXNlcjIyMDA5
+              organizations_url: https://api.github.com/users/mumoshu/orgs
+              received_events_url: https://api.github.com/users/mumoshu/received_events
+              repos_url: https://api.github.com/users/mumoshu/repos
+              site_admin: false
+              starred_url: https://api.github.com/users/mumoshu/starred{/owner}{/repo}
+              subscriptions_url: https://api.github.com/users/mumoshu/subscriptions
+              type: User
+              url: https://api.github.com/users/mumoshu
+            url: https://api.github.com/repos/databus23/helm-diff/releases/assets/56661743
+          assets_url: https://api.github.com/repos/databus23/helm-diff/releases/59419395/assets
+          author:
+            avatar_url: https://avatars.githubusercontent.com/u/22009?v=4
+            events_url: https://api.github.com/users/mumoshu/events{/privacy}
+            followers_url: https://api.github.com/users/mumoshu/followers
+            following_url: https://api.github.com/users/mumoshu/following{/other_user}
+            gists_url: https://api.github.com/users/mumoshu/gists{/gist_id}
+            gravatar_id: ""
+            html_url: https://github.com/mumoshu
+            id: 22009
+            login: mumoshu
+            node_id: MDQ6VXNlcjIyMDA5
+            organizations_url: https://api.github.com/users/mumoshu/orgs
+            received_events_url: https://api.github.com/users/mumoshu/received_events
+            repos_url: https://api.github.com/users/mumoshu/repos
+            site_admin: false
+            starred_url: https://api.github.com/users/mumoshu/starred{/owner}{/repo}
+            subscriptions_url: https://api.github.com/users/mumoshu/subscriptions
+            type: User
+            url: https://api.github.com/users/mumoshu
+          body: "## What's Changed\r\n* fix: HOOKS section should also be parsed when
+            HELM_DIFF_USE_UPGRADE_DRY_RUN=true by @carlosrmendes in https://github.com/databus23/helm-diff/pull/364\r\n*
+            Fix HELM_DIFF_USE_UPGRADE_DRY_RUN to work for new installs by @mumoshu
+            in https://github.com/databus23/helm-diff/pull/370\r\n\r\n## New Contributors\r\n*
+            @carlosrmendes made their first contribution in https://github.com/databus23/helm-diff/pull/364\r\n\r\n**Full
+            Changelog**: https://github.com/databus23/helm-diff/compare/v3.4.1...v3.4.2"
+          created_at: "2022-02-13T03:22:10Z"
+          draft: false
+          html_url: https://github.com/databus23/helm-diff/releases/tag/v3.4.2
+          id: 59419395
+          mentions_count: 2
+          name: v3.4.2
+          node_id: RE_kwDOBPv_Ws4DiqsD
+          prerelease: false
+          published_at: "2022-02-13T03:29:42Z"
+          reactions:
+            "+1": 0
+            "-1": 0
+            confused: 0
+            eyes: 0
+            heart: 0
+            hooray: 0
+            laugh: 0
+            rocket: 2
+            total_count: 2
+            url: https://api.github.com/repos/databus23/helm-diff/releases/59419395/reactions
+          tag_name: v3.4.2
+          tarball_url: https://api.github.com/repos/databus23/helm-diff/tarball/v3.4.2
+          target_commitish: master
+          upload_url: https://uploads.github.com/repos/databus23/helm-diff/releases/59419395/assets{?name,label}
+          url: https://api.github.com/repos/databus23/helm-diff/releases/59419395
+          zipball_url: https://api.github.com/repos/databus23/helm-diff/zipball/v3.4.2
+    helmfile:
+      0.144.0:
+        githubRelease:
+          assets:
+          - browser_download_url: https://github.com/roboll/helmfile/releases/download/v0.144.0/helmfile_darwin_amd64
             content_type: application/octet-stream
-            created_at: "2022-01-10T09:04:18Z"
-            download_count: 365
-            id: 53597712
+            created_at: "2022-03-31T02:18:12Z"
+            download_count: 34
+            id: 61099022
             label: ""
             name: helmfile_darwin_amd64
-            node_id: RA_kwDOBHDEHc4DMdYQ
-            size: 45655888
+            node_id: RA_kwDOBHDEHc4DpEwO
+            size: 46227600
             state: uploaded
-            updated_at: "2022-01-10T09:04:21Z"
+            updated_at: "2022-03-31T02:18:15Z"
             uploader:
               avatar_url: https://avatars.githubusercontent.com/u/1259631?v=4
               events_url: https://api.github.com/users/roboll/events{/privacy}
@@ -612,18 +1853,18 @@ meta:
               subscriptions_url: https://api.github.com/users/roboll/subscriptions
               type: User
               url: https://api.github.com/users/roboll
-            url: https://api.github.com/repos/roboll/helmfile/releases/assets/53597712
-          - browser_download_url: https://github.com/roboll/helmfile/releases/download/v0.143.0/helmfile_darwin_arm64
+            url: https://api.github.com/repos/roboll/helmfile/releases/assets/61099022
+          - browser_download_url: https://github.com/roboll/helmfile/releases/download/v0.144.0/helmfile_darwin_arm64
             content_type: application/octet-stream
-            created_at: "2022-01-10T09:04:18Z"
-            download_count: 61
-            id: 53597709
+            created_at: "2022-03-31T02:18:12Z"
+            download_count: 10
+            id: 61099021
             label: ""
             name: helmfile_darwin_arm64
-            node_id: RA_kwDOBHDEHc4DMdYN
-            size: 46922466
+            node_id: RA_kwDOBHDEHc4DpEwN
+            size: 47489058
             state: uploaded
-            updated_at: "2022-01-10T09:04:21Z"
+            updated_at: "2022-03-31T02:18:14Z"
             uploader:
               avatar_url: https://avatars.githubusercontent.com/u/1259631?v=4
               events_url: https://api.github.com/users/roboll/events{/privacy}
@@ -643,18 +1884,18 @@ meta:
               subscriptions_url: https://api.github.com/users/roboll/subscriptions
               type: User
               url: https://api.github.com/users/roboll
-            url: https://api.github.com/repos/roboll/helmfile/releases/assets/53597709
-          - browser_download_url: https://github.com/roboll/helmfile/releases/download/v0.143.0/helmfile_linux_386
+            url: https://api.github.com/repos/roboll/helmfile/releases/assets/61099021
+          - browser_download_url: https://github.com/roboll/helmfile/releases/download/v0.144.0/helmfile_linux_386
             content_type: application/octet-stream
-            created_at: "2022-01-10T09:04:18Z"
-            download_count: 202
-            id: 53597713
+            created_at: "2022-03-31T02:18:12Z"
+            download_count: 11
+            id: 61099020
             label: ""
             name: helmfile_linux_386
-            node_id: RA_kwDOBHDEHc4DMdYR
-            size: 41168758
+            node_id: RA_kwDOBHDEHc4DpEwM
+            size: 41695970
             state: uploaded
-            updated_at: "2022-01-10T09:04:21Z"
+            updated_at: "2022-03-31T02:18:14Z"
             uploader:
               avatar_url: https://avatars.githubusercontent.com/u/1259631?v=4
               events_url: https://api.github.com/users/roboll/events{/privacy}
@@ -674,18 +1915,18 @@ meta:
               subscriptions_url: https://api.github.com/users/roboll/subscriptions
               type: User
               url: https://api.github.com/users/roboll
-            url: https://api.github.com/repos/roboll/helmfile/releases/assets/53597713
-          - browser_download_url: https://github.com/roboll/helmfile/releases/download/v0.143.0/helmfile_linux_amd64
+            url: https://api.github.com/repos/roboll/helmfile/releases/assets/61099020
+          - browser_download_url: https://github.com/roboll/helmfile/releases/download/v0.144.0/helmfile_linux_amd64
             content_type: application/octet-stream
-            created_at: "2022-01-10T09:04:18Z"
-            download_count: 10179
-            id: 53597708
+            created_at: "2022-03-31T02:18:12Z"
+            download_count: 810
+            id: 61099017
             label: ""
             name: helmfile_linux_amd64
-            node_id: RA_kwDOBHDEHc4DMdYM
-            size: 46030994
+            node_id: RA_kwDOBHDEHc4DpEwJ
+            size: 46608813
             state: uploaded
-            updated_at: "2022-01-10T09:04:20Z"
+            updated_at: "2022-03-31T02:18:14Z"
             uploader:
               avatar_url: https://avatars.githubusercontent.com/u/1259631?v=4
               events_url: https://api.github.com/users/roboll/events{/privacy}
@@ -705,18 +1946,18 @@ meta:
               subscriptions_url: https://api.github.com/users/roboll/subscriptions
               type: User
               url: https://api.github.com/users/roboll
-            url: https://api.github.com/repos/roboll/helmfile/releases/assets/53597708
-          - browser_download_url: https://github.com/roboll/helmfile/releases/download/v0.143.0/helmfile_linux_arm64
+            url: https://api.github.com/repos/roboll/helmfile/releases/assets/61099017
+          - browser_download_url: https://github.com/roboll/helmfile/releases/download/v0.144.0/helmfile_linux_arm64
             content_type: application/octet-stream
-            created_at: "2022-01-10T09:04:18Z"
-            download_count: 138
-            id: 53597714
+            created_at: "2022-03-31T02:18:12Z"
+            download_count: 37
+            id: 61099019
             label: ""
             name: helmfile_linux_arm64
-            node_id: RA_kwDOBHDEHc4DMdYS
-            size: 45336575
+            node_id: RA_kwDOBHDEHc4DpEwL
+            size: 45861899
             state: uploaded
-            updated_at: "2022-01-10T09:04:20Z"
+            updated_at: "2022-03-31T02:18:14Z"
             uploader:
               avatar_url: https://avatars.githubusercontent.com/u/1259631?v=4
               events_url: https://api.github.com/users/roboll/events{/privacy}
@@ -736,18 +1977,18 @@ meta:
               subscriptions_url: https://api.github.com/users/roboll/subscriptions
               type: User
               url: https://api.github.com/users/roboll
-            url: https://api.github.com/repos/roboll/helmfile/releases/assets/53597714
-          - browser_download_url: https://github.com/roboll/helmfile/releases/download/v0.143.0/helmfile_windows_386.exe
+            url: https://api.github.com/repos/roboll/helmfile/releases/assets/61099019
+          - browser_download_url: https://github.com/roboll/helmfile/releases/download/v0.144.0/helmfile_windows_386.exe
             content_type: application/x-msdos-program
-            created_at: "2022-01-10T09:04:18Z"
-            download_count: 51
-            id: 53597711
+            created_at: "2022-03-31T02:18:12Z"
+            download_count: 16
+            id: 61099018
             label: ""
             name: helmfile_windows_386.exe
-            node_id: RA_kwDOBHDEHc4DMdYP
-            size: 42824704
+            node_id: RA_kwDOBHDEHc4DpEwK
+            size: 43357696
             state: uploaded
-            updated_at: "2022-01-10T09:04:21Z"
+            updated_at: "2022-03-31T02:18:14Z"
             uploader:
               avatar_url: https://avatars.githubusercontent.com/u/1259631?v=4
               events_url: https://api.github.com/users/roboll/events{/privacy}
@@ -767,18 +2008,18 @@ meta:
               subscriptions_url: https://api.github.com/users/roboll/subscriptions
               type: User
               url: https://api.github.com/users/roboll
-            url: https://api.github.com/repos/roboll/helmfile/releases/assets/53597711
-          - browser_download_url: https://github.com/roboll/helmfile/releases/download/v0.143.0/helmfile_windows_amd64.exe
+            url: https://api.github.com/repos/roboll/helmfile/releases/assets/61099018
+          - browser_download_url: https://github.com/roboll/helmfile/releases/download/v0.144.0/helmfile_windows_amd64.exe
             content_type: application/x-msdos-program
-            created_at: "2022-01-10T09:04:18Z"
-            download_count: 387
-            id: 53597710
+            created_at: "2022-03-31T02:18:12Z"
+            download_count: 74
+            id: 61099023
             label: ""
             name: helmfile_windows_amd64.exe
-            node_id: RA_kwDOBHDEHc4DMdYO
-            size: 46985216
+            node_id: RA_kwDOBHDEHc4DpEwP
+            size: 47580160
             state: uploaded
-            updated_at: "2022-01-10T09:04:21Z"
+            updated_at: "2022-03-31T02:18:14Z"
             uploader:
               avatar_url: https://avatars.githubusercontent.com/u/1259631?v=4
               events_url: https://api.github.com/users/roboll/events{/privacy}
@@ -798,55 +2039,597 @@ meta:
               subscriptions_url: https://api.github.com/users/roboll/subscriptions
               type: User
               url: https://api.github.com/users/roboll
-            url: https://api.github.com/repos/roboll/helmfile/releases/assets/53597710
-          assets_url: https://api.github.com/repos/roboll/helmfile/releases/56720685/assets
+            url: https://api.github.com/repos/roboll/helmfile/releases/assets/61099023
+          assets_url: https://api.github.com/repos/roboll/helmfile/releases/63215884/assets
           author:
-            avatar_url: https://avatars.githubusercontent.com/u/1259631?v=4
-            events_url: https://api.github.com/users/roboll/events{/privacy}
-            followers_url: https://api.github.com/users/roboll/followers
-            following_url: https://api.github.com/users/roboll/following{/other_user}
-            gists_url: https://api.github.com/users/roboll/gists{/gist_id}
+            avatar_url: https://avatars.githubusercontent.com/u/22009?v=4
+            events_url: https://api.github.com/users/mumoshu/events{/privacy}
+            followers_url: https://api.github.com/users/mumoshu/followers
+            following_url: https://api.github.com/users/mumoshu/following{/other_user}
+            gists_url: https://api.github.com/users/mumoshu/gists{/gist_id}
             gravatar_id: ""
-            html_url: https://github.com/roboll
-            id: 1259631
-            login: roboll
-            node_id: MDQ6VXNlcjEyNTk2MzE=
-            organizations_url: https://api.github.com/users/roboll/orgs
-            received_events_url: https://api.github.com/users/roboll/received_events
-            repos_url: https://api.github.com/users/roboll/repos
+            html_url: https://github.com/mumoshu
+            id: 22009
+            login: mumoshu
+            node_id: MDQ6VXNlcjIyMDA5
+            organizations_url: https://api.github.com/users/mumoshu/orgs
+            received_events_url: https://api.github.com/users/mumoshu/received_events
+            repos_url: https://api.github.com/users/mumoshu/repos
             site_admin: false
-            starred_url: https://api.github.com/users/roboll/starred{/owner}{/repo}
-            subscriptions_url: https://api.github.com/users/roboll/subscriptions
+            starred_url: https://api.github.com/users/mumoshu/starred{/owner}{/repo}
+            subscriptions_url: https://api.github.com/users/mumoshu/subscriptions
             type: User
-            url: https://api.github.com/users/roboll
-          body: "9e9a90f (HEAD, tag: v0.143.0, origin/master, origin/HEAD, master)
-            Fix panic on normalizing path containing .. (#2042)\nc069fbf add cleanup
-            to write-values & lint to harmonise this flag (#2021)\n346e318 Correct
-            enabled property in helmfile list (#1921)\n753de35 Add readDir as a templating
-            function (#1934)\n16f1961 Set postsync and cleanup error (#2009)\n8bdf377
-            Bump sprig library to v3.2.1 (#1880)\n9e58082 Allow users other than root
-            to use helm plugins (#1766)\n4d01edd Added example ArgoCD + helmfile deployment
-            (#1882)\n91aa0ac Update README.md\n1735fb5 Bump helm-diff to version 3.3.1
-            (#2041)\nfe8a176 feat: Option to pass kubeVersion to helm template (#2002)\n94f9953
-            support apple silicon builds (#2032)\n578c559 Bumped go-getter to v1.5.9
-            (#1982)\nb101f9f Fix capitalization of disableOpenAPIValidation config
-            in README (#2003)\n170e29a bump to go 1.17.3 with alpine 3.13 (#2024)\n554cbc1
-            upgrade vals allowing for the use of the AzureRM terraform backend (#2029)\nd34dc7b
-            Add support for --insecure-skip-tls-verify flag on helm repo add command
-            (#1990)\n1986cb3 feat: Add go-getter support to load base helmfiles (#1998)\n9efb7af
-            Do fail on a possible typo in `needs` entries (#2026)\n3d7b428 Fix typo
-            in README (#2006) \n### [Build Info](https://circleci.com/gh/roboll/helmfile/10503)"
-          created_at: "2022-01-10T08:45:44Z"
+            url: https://api.github.com/users/mumoshu
+          body: "## What's Changed\r\n* Update README.md by @qb-abdul in https://github.com/roboll/helmfile/pull/2105\r\n*
+            Add .StateValues as alias of .Values in EnvironmentTemplateData by @itscaro
+            in https://github.com/roboll/helmfile/pull/2056\r\n* Add template function
+            isFile by @itscaro in https://github.com/roboll/helmfile/pull/2045\r\n*
+            Enhance support for kube-version and api-versions by @mumoshu in https://github.com/roboll/helmfile/pull/2121\r\n\r\n##
+            New Contributors\r\n* @qb-abdul made their first contribution in https://github.com/roboll/helmfile/pull/2105\r\n\r\n**Full
+            Changelog**: https://github.com/roboll/helmfile/compare/v0.143.5...v0.144.0"
+          created_at: "2022-03-31T02:02:36Z"
           draft: false
-          html_url: https://github.com/roboll/helmfile/releases/tag/v0.143.0
-          id: 56720685
-          name: ""
-          node_id: RE_kwDOBHDEHc4DYX0t
+          html_url: https://github.com/roboll/helmfile/releases/tag/v0.144.0
+          id: 63215884
+          mentions_count: 3
+          name: v0.144.0
+          node_id: RE_kwDOBHDEHc4DxJkM
           prerelease: false
-          published_at: "2022-01-10T09:04:21Z"
-          tag_name: v0.143.0
-          tarball_url: https://api.github.com/repos/roboll/helmfile/tarball/v0.143.0
+          published_at: "2022-03-31T02:03:00Z"
+          reactions:
+            "+1": 0
+            "-1": 0
+            confused: 0
+            eyes: 0
+            heart: 0
+            hooray: 4
+            laugh: 0
+            rocket: 0
+            total_count: 4
+            url: https://api.github.com/repos/roboll/helmfile/releases/63215884/reactions
+          tag_name: v0.144.0
+          tarball_url: https://api.github.com/repos/roboll/helmfile/tarball/v0.144.0
           target_commitish: master
-          upload_url: https://uploads.github.com/repos/roboll/helmfile/releases/56720685/assets{?name,label}
-          url: https://api.github.com/repos/roboll/helmfile/releases/56720685
-          zipball_url: https://api.github.com/repos/roboll/helmfile/zipball/v0.143.0
+          upload_url: https://uploads.github.com/repos/roboll/helmfile/releases/63215884/assets{?name,label}
+          url: https://api.github.com/repos/roboll/helmfile/releases/63215884
+          zipball_url: https://api.github.com/repos/roboll/helmfile/zipball/v0.144.0
+    kubectl:
+      1.23.5:
+        githubRelease:
+          assets:
+          - browser_download_url: https://github.com/kubernetes/kubernetes/releases/download/v1.23.5/kubernetes.tar.gz
+            content_type: application/x-gzip
+            created_at: "2022-03-16T22:48:54Z"
+            download_count: 252
+            id: 59712147
+            label: Kubernetes Source Code
+            name: kubernetes.tar.gz
+            node_id: RA_kwDOAToIks4DjyKT
+            size: 554989
+            state: uploaded
+            updated_at: "2022-03-16T22:48:54Z"
+            uploader:
+              avatar_url: https://avatars.githubusercontent.com/u/33505452?v=4
+              events_url: https://api.github.com/users/k8s-release-robot/events{/privacy}
+              followers_url: https://api.github.com/users/k8s-release-robot/followers
+              following_url: https://api.github.com/users/k8s-release-robot/following{/other_user}
+              gists_url: https://api.github.com/users/k8s-release-robot/gists{/gist_id}
+              gravatar_id: ""
+              html_url: https://github.com/k8s-release-robot
+              id: 33505452
+              login: k8s-release-robot
+              node_id: MDQ6VXNlcjMzNTA1NDUy
+              organizations_url: https://api.github.com/users/k8s-release-robot/orgs
+              received_events_url: https://api.github.com/users/k8s-release-robot/received_events
+              repos_url: https://api.github.com/users/k8s-release-robot/repos
+              site_admin: false
+              starred_url: https://api.github.com/users/k8s-release-robot/starred{/owner}{/repo}
+              subscriptions_url: https://api.github.com/users/k8s-release-robot/subscriptions
+              type: User
+              url: https://api.github.com/users/k8s-release-robot
+            url: https://api.github.com/repos/kubernetes/kubernetes/releases/assets/59712147
+          assets_url: https://api.github.com/repos/kubernetes/kubernetes/releases/62050650/assets
+          author:
+            avatar_url: https://avatars.githubusercontent.com/u/33505452?v=4
+            events_url: https://api.github.com/users/k8s-release-robot/events{/privacy}
+            followers_url: https://api.github.com/users/k8s-release-robot/followers
+            following_url: https://api.github.com/users/k8s-release-robot/following{/other_user}
+            gists_url: https://api.github.com/users/k8s-release-robot/gists{/gist_id}
+            gravatar_id: ""
+            html_url: https://github.com/k8s-release-robot
+            id: 33505452
+            login: k8s-release-robot
+            node_id: MDQ6VXNlcjMzNTA1NDUy
+            organizations_url: https://api.github.com/users/k8s-release-robot/orgs
+            received_events_url: https://api.github.com/users/k8s-release-robot/received_events
+            repos_url: https://api.github.com/users/k8s-release-robot/repos
+            site_admin: false
+            starred_url: https://api.github.com/users/k8s-release-robot/starred{/owner}{/repo}
+            subscriptions_url: https://api.github.com/users/k8s-release-robot/subscriptions
+            type: User
+            url: https://api.github.com/users/k8s-release-robot
+          body: |2+
+
+            See [kubernetes-announce@](https://groups.google.com/forum/#!forum/kubernetes-announce). Additional binary downloads are linked in the [CHANGELOG](https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.23.md).
+
+            See [the CHANGELOG](https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.23.md) for more details.
+
+
+
+          created_at: "2022-03-16T15:51:05Z"
+          draft: false
+          html_url: https://github.com/kubernetes/kubernetes/releases/tag/v1.23.5
+          id: 62050650
+          name: Kubernetes v1.23.5
+          node_id: RE_kwDOAToIks4DstFa
+          prerelease: false
+          published_at: "2022-03-16T22:48:49Z"
+          reactions:
+            "+1": 10
+            "-1": 0
+            confused: 0
+            eyes: 0
+            heart: 0
+            hooray: 0
+            laugh: 0
+            rocket: 0
+            total_count: 10
+            url: https://api.github.com/repos/kubernetes/kubernetes/releases/62050650/reactions
+          tag_name: v1.23.5
+          tarball_url: https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.23.5
+          target_commitish: master
+          upload_url: https://uploads.github.com/repos/kubernetes/kubernetes/releases/62050650/assets{?name,label}
+          url: https://api.github.com/repos/kubernetes/kubernetes/releases/62050650
+          zipball_url: https://api.github.com/repos/kubernetes/kubernetes/zipball/v1.23.5
+    sops:
+      3.7.2:
+        githubRelease:
+          assets:
+          - browser_download_url: https://github.com/mozilla/sops/releases/download/v3.7.2/sops-3.7.2-1.aarch64.rpm
+            content_type: application/octet-stream
+            created_at: "2022-03-09T19:27:00Z"
+            download_count: 232
+            id: 59034474
+            label: ""
+            name: sops-3.7.2-1.aarch64.rpm
+            node_id: RA_kwDOAmzKAc4DhMtq
+            size: 10753547
+            state: uploaded
+            updated_at: "2022-03-09T19:27:01Z"
+            uploader:
+              avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+              events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+              followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+              following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+              gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+              gravatar_id: ""
+              html_url: https://github.com/apps/github-actions
+              id: 41898282
+              login: github-actions[bot]
+              node_id: MDM6Qm90NDE4OTgyODI=
+              organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+              received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+              repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+              site_admin: false
+              starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+              subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+              type: Bot
+              url: https://api.github.com/users/github-actions%5Bbot%5D
+            url: https://api.github.com/repos/mozilla/sops/releases/assets/59034474
+          - browser_download_url: https://github.com/mozilla/sops/releases/download/v3.7.2/sops-3.7.2-1.x86_64.rpm
+            content_type: application/octet-stream
+            created_at: "2022-03-09T19:26:58Z"
+            download_count: 278
+            id: 59034473
+            label: ""
+            name: sops-3.7.2-1.x86_64.rpm
+            node_id: RA_kwDOAmzKAc4DhMtp
+            size: 11664081
+            state: uploaded
+            updated_at: "2022-03-09T19:27:00Z"
+            uploader:
+              avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+              events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+              followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+              following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+              gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+              gravatar_id: ""
+              html_url: https://github.com/apps/github-actions
+              id: 41898282
+              login: github-actions[bot]
+              node_id: MDM6Qm90NDE4OTgyODI=
+              organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+              received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+              repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+              site_admin: false
+              starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+              subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+              type: Bot
+              url: https://api.github.com/users/github-actions%5Bbot%5D
+            url: https://api.github.com/repos/mozilla/sops/releases/assets/59034473
+          - browser_download_url: https://github.com/mozilla/sops/releases/download/v3.7.2/sops-v3.7.2.darwin
+            content_type: application/octet-stream
+            created_at: "2022-03-09T19:26:48Z"
+            download_count: 261
+            id: 59034463
+            label: ""
+            name: sops-v3.7.2.darwin
+            node_id: RA_kwDOAmzKAc4DhMtf
+            size: 25697584
+            state: uploaded
+            updated_at: "2022-03-09T19:26:49Z"
+            uploader:
+              avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+              events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+              followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+              following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+              gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+              gravatar_id: ""
+              html_url: https://github.com/apps/github-actions
+              id: 41898282
+              login: github-actions[bot]
+              node_id: MDM6Qm90NDE4OTgyODI=
+              organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+              received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+              repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+              site_admin: false
+              starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+              subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+              type: Bot
+              url: https://api.github.com/users/github-actions%5Bbot%5D
+            url: https://api.github.com/repos/mozilla/sops/releases/assets/59034463
+          - browser_download_url: https://github.com/mozilla/sops/releases/download/v3.7.2/sops-v3.7.2.darwin.amd64
+            content_type: application/octet-stream
+            created_at: "2022-03-09T19:26:44Z"
+            download_count: 213
+            id: 59034452
+            label: ""
+            name: sops-v3.7.2.darwin.amd64
+            node_id: RA_kwDOAmzKAc4DhMtU
+            size: 25697584
+            state: uploaded
+            updated_at: "2022-03-09T19:26:45Z"
+            uploader:
+              avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+              events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+              followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+              following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+              gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+              gravatar_id: ""
+              html_url: https://github.com/apps/github-actions
+              id: 41898282
+              login: github-actions[bot]
+              node_id: MDM6Qm90NDE4OTgyODI=
+              organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+              received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+              repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+              site_admin: false
+              starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+              subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+              type: Bot
+              url: https://api.github.com/users/github-actions%5Bbot%5D
+            url: https://api.github.com/repos/mozilla/sops/releases/assets/59034452
+          - browser_download_url: https://github.com/mozilla/sops/releases/download/v3.7.2/sops-v3.7.2.darwin.arm64
+            content_type: application/octet-stream
+            created_at: "2022-03-09T19:26:46Z"
+            download_count: 144
+            id: 59034457
+            label: ""
+            name: sops-v3.7.2.darwin.arm64
+            node_id: RA_kwDOAmzKAc4DhMtZ
+            size: 26096466
+            state: uploaded
+            updated_at: "2022-03-09T19:26:47Z"
+            uploader:
+              avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+              events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+              followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+              following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+              gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+              gravatar_id: ""
+              html_url: https://github.com/apps/github-actions
+              id: 41898282
+              login: github-actions[bot]
+              node_id: MDM6Qm90NDE4OTgyODI=
+              organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+              received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+              repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+              site_admin: false
+              starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+              subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+              type: Bot
+              url: https://api.github.com/users/github-actions%5Bbot%5D
+            url: https://api.github.com/repos/mozilla/sops/releases/assets/59034457
+          - browser_download_url: https://github.com/mozilla/sops/releases/download/v3.7.2/sops-v3.7.2.exe
+            content_type: application/octet-stream
+            created_at: "2022-03-09T19:26:41Z"
+            download_count: 751
+            id: 59034445
+            label: ""
+            name: sops-v3.7.2.exe
+            node_id: RA_kwDOAmzKAc4DhMtN
+            size: 26425344
+            state: uploaded
+            updated_at: "2022-03-09T19:26:44Z"
+            uploader:
+              avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+              events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+              followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+              following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+              gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+              gravatar_id: ""
+              html_url: https://github.com/apps/github-actions
+              id: 41898282
+              login: github-actions[bot]
+              node_id: MDM6Qm90NDE4OTgyODI=
+              organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+              received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+              repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+              site_admin: false
+              starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+              subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+              type: Bot
+              url: https://api.github.com/users/github-actions%5Bbot%5D
+            url: https://api.github.com/repos/mozilla/sops/releases/assets/59034445
+          - browser_download_url: https://github.com/mozilla/sops/releases/download/v3.7.2/sops-v3.7.2.linux
+            content_type: application/octet-stream
+            created_at: "2022-03-11T18:34:56Z"
+            download_count: 13393
+            id: 59246443
+            label: null
+            name: sops-v3.7.2.linux
+            node_id: RA_kwDOAmzKAc4DiAdr
+            size: 25967684
+            state: uploaded
+            updated_at: "2022-03-11T18:35:15Z"
+            uploader:
+              avatar_url: https://avatars.githubusercontent.com/u/1144310?v=4
+              events_url: https://api.github.com/users/ajvb/events{/privacy}
+              followers_url: https://api.github.com/users/ajvb/followers
+              following_url: https://api.github.com/users/ajvb/following{/other_user}
+              gists_url: https://api.github.com/users/ajvb/gists{/gist_id}
+              gravatar_id: ""
+              html_url: https://github.com/ajvb
+              id: 1144310
+              login: ajvb
+              node_id: MDQ6VXNlcjExNDQzMTA=
+              organizations_url: https://api.github.com/users/ajvb/orgs
+              received_events_url: https://api.github.com/users/ajvb/received_events
+              repos_url: https://api.github.com/users/ajvb/repos
+              site_admin: false
+              starred_url: https://api.github.com/users/ajvb/starred{/owner}{/repo}
+              subscriptions_url: https://api.github.com/users/ajvb/subscriptions
+              type: User
+              url: https://api.github.com/users/ajvb
+            url: https://api.github.com/repos/mozilla/sops/releases/assets/59246443
+          - browser_download_url: https://github.com/mozilla/sops/releases/download/v3.7.2/sops-v3.7.2.linux.amd64
+            content_type: application/octet-stream
+            created_at: "2022-03-11T18:35:15Z"
+            download_count: 4743
+            id: 59246459
+            label: null
+            name: sops-v3.7.2.linux.amd64
+            node_id: RA_kwDOAmzKAc4DiAd7
+            size: 25967684
+            state: uploaded
+            updated_at: "2022-03-11T18:35:33Z"
+            uploader:
+              avatar_url: https://avatars.githubusercontent.com/u/1144310?v=4
+              events_url: https://api.github.com/users/ajvb/events{/privacy}
+              followers_url: https://api.github.com/users/ajvb/followers
+              following_url: https://api.github.com/users/ajvb/following{/other_user}
+              gists_url: https://api.github.com/users/ajvb/gists{/gist_id}
+              gravatar_id: ""
+              html_url: https://github.com/ajvb
+              id: 1144310
+              login: ajvb
+              node_id: MDQ6VXNlcjExNDQzMTA=
+              organizations_url: https://api.github.com/users/ajvb/orgs
+              received_events_url: https://api.github.com/users/ajvb/received_events
+              repos_url: https://api.github.com/users/ajvb/repos
+              site_admin: false
+              starred_url: https://api.github.com/users/ajvb/starred{/owner}{/repo}
+              subscriptions_url: https://api.github.com/users/ajvb/subscriptions
+              type: User
+              url: https://api.github.com/users/ajvb
+            url: https://api.github.com/repos/mozilla/sops/releases/assets/59246459
+          - browser_download_url: https://github.com/mozilla/sops/releases/download/v3.7.2/sops-v3.7.2.linux.arm64
+            content_type: application/octet-stream
+            created_at: "2022-03-09T19:26:52Z"
+            download_count: 390
+            id: 59034466
+            label: ""
+            name: sops-v3.7.2.linux.arm64
+            node_id: RA_kwDOAmzKAc4DhMti
+            size: 25573664
+            state: uploaded
+            updated_at: "2022-03-09T19:26:53Z"
+            uploader:
+              avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+              events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+              followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+              following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+              gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+              gravatar_id: ""
+              html_url: https://github.com/apps/github-actions
+              id: 41898282
+              login: github-actions[bot]
+              node_id: MDM6Qm90NDE4OTgyODI=
+              organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+              received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+              repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+              site_admin: false
+              starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+              subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+              type: Bot
+              url: https://api.github.com/users/github-actions%5Bbot%5D
+            url: https://api.github.com/repos/mozilla/sops/releases/assets/59034466
+          - browser_download_url: https://github.com/mozilla/sops/releases/download/v3.7.2/sops_3.7.2_amd64.deb
+            content_type: application/octet-stream
+            created_at: "2022-03-09T19:26:56Z"
+            download_count: 8758
+            id: 59034471
+            label: ""
+            name: sops_3.7.2_amd64.deb
+            node_id: RA_kwDOAmzKAc4DhMtn
+            size: 11718712
+            state: uploaded
+            updated_at: "2022-03-09T19:26:57Z"
+            uploader:
+              avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+              events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+              followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+              following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+              gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+              gravatar_id: ""
+              html_url: https://github.com/apps/github-actions
+              id: 41898282
+              login: github-actions[bot]
+              node_id: MDM6Qm90NDE4OTgyODI=
+              organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+              received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+              repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+              site_admin: false
+              starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+              subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+              type: Bot
+              url: https://api.github.com/users/github-actions%5Bbot%5D
+            url: https://api.github.com/repos/mozilla/sops/releases/assets/59034471
+          - browser_download_url: https://github.com/mozilla/sops/releases/download/v3.7.2/sops_3.7.2_arm64.deb
+            content_type: application/octet-stream
+            created_at: "2022-03-09T19:26:57Z"
+            download_count: 457
+            id: 59034472
+            label: ""
+            name: sops_3.7.2_arm64.deb
+            node_id: RA_kwDOAmzKAc4DhMto
+            size: 10801792
+            state: uploaded
+            updated_at: "2022-03-09T19:26:58Z"
+            uploader:
+              avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+              events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+              followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+              following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+              gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+              gravatar_id: ""
+              html_url: https://github.com/apps/github-actions
+              id: 41898282
+              login: github-actions[bot]
+              node_id: MDM6Qm90NDE4OTgyODI=
+              organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+              received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+              repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+              site_admin: false
+              starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+              subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+              type: Bot
+              url: https://api.github.com/users/github-actions%5Bbot%5D
+            url: https://api.github.com/repos/mozilla/sops/releases/assets/59034472
+          assets_url: https://api.github.com/repos/mozilla/sops/releases/61416232/assets
+          author:
+            avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+            events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+            followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+            following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+            gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+            gravatar_id: ""
+            html_url: https://github.com/apps/github-actions
+            id: 41898282
+            login: github-actions[bot]
+            node_id: MDM6Qm90NDE4OTgyODI=
+            organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+            received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+            repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+            site_admin: false
+            starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+            subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+            type: Bot
+            url: https://api.github.com/users/github-actions%5Bbot%5D
+          body: "## Changes:\r\n\r\n* README updates (#861, #860)\r\n* Various test
+            fixes (#909, #906, #1008)\r\n* Added Linux and Darwin arm64 releases (#911,
+            #891)\r\n* Upgrade to go v1.17 (#1012)\r\n* Support SOPS_AGE_KEY environment
+            variable (#1006)\r\n\r\n## Bug Fixes\r\n\r\n- Make sure comments in yaml
+            files are not duplicated (#866)\r\n- Make sure configuration file paths
+            work correctly relative to the config file in us (#853)\r\n\r\n## Commits\r\n-
+            [[e98451e](https://github.com/mozilla/sops/commit/e98451e9755b33d0e76b362587499225ef3a4ef1)]:
+            Remove unused age code (Hidde Beydals) [#842](https://github.com/mozilla/sops/pull/842)\r\n-
+            [[2395f07](https://github.com/mozilla/sops/commit/2395f07610e45d507ec0d4b3ad48dbf502ed5bed)]:
+            small release workflow fix (AJ Bahnken)\r\n- [[c5b1298](https://github.com/mozilla/sops/commit/c5b1298cd89195e6cad8298a7137c011287153bf)]:
+            \ Match file path relative to config file's directory (2) (#853) (Paulo
+            Lieuthier) [#853](https://github.com/mozilla/sops/pull/853)\r\n- [[7626399](https://github.com/mozilla/sops/commit/762639996d9bdd07278b980cd63342bde2443053)]:
+            fix missing argument in encrypting with age section (#860) (Damien Léger)
+            [#860](https://github.com/mozilla/sops/pull/860)\r\n- [[3acf53e](https://github.com/mozilla/sops/commit/3acf53e7d9b58613cba73fc936a581d19d33c1dc)]:
+            Correct path to age keys.txt in documentation (#861) (Alexey Odinokov)
+            [#861](https://github.com/mozilla/sops/pull/861)\r\n- [[5af8e63](https://github.com/mozilla/sops/commit/5af8e63ad511783ab3bef5352abb4c0014f11600)]:
+            Prevent comment duplication. (#866) (Felix Fontein) [#866](https://github.com/mozilla/sops/pull/866)\r\n-
+            [[688fa22](https://github.com/mozilla/sops/commit/688fa225babfc3009764652eb70ba82db0a730bc)]:
+            Remove SOPS_GPG_KEYSERVER reference in README.rst (Enrico204) [#883](https://github.com/mozilla/sops/pull/883)\r\n-
+            [[02d57ca](https://github.com/mozilla/sops/commit/02d57ca76d36c0b699dc337f1b81b6f54b81fea2)]:
+            Tests should not fail fast (ikedam) [#909](https://github.com/mozilla/sops/pull/909)\r\n-
+            [[6130ffe](https://github.com/mozilla/sops/commit/6130ffe35c9ff34447a598317e633ff667acbabd)]:
+            Use the key of release@mozilla.com for the unit test (#882) (#906) (ikedam)
+            [#906](https://github.com/mozilla/sops/pull/906)\r\n- [[56bbf84](https://github.com/mozilla/sops/commit/56bbf847c5ca0470e8c0cdd398354bff2506bb3c)]:
+            Added support for go 1.16 and darwin-arm64 (Nikola Milojević) [#911](https://github.com/mozilla/sops/pull/911)\r\n-
+            [[f6e9891](https://github.com/mozilla/sops/commit/f6e98911e044c576fc9cde38788bc3c1f22e5cb4)]:
+            fix a typo (brant4test) [#967](https://github.com/mozilla/sops/pull/967)\r\n-
+            [[086c11d](https://github.com/mozilla/sops/commit/086c11d09bb28c9c214bec24a0784d7b9770b3e6)]:
+            Support SOPS_AGE_KEY environment variable (Christian Hoffmeister) [#1006](https://github.com/mozilla/sops/pull/1006)\r\n-
+            [[a98768b](https://github.com/mozilla/sops/commit/a98768b3b6017d97e725f907e7f2b2a75a509a6f)]:
+            Fix flakey test run on OSX (Alex Castle) [#1008](https://github.com/mozilla/sops/pull/1008)\r\n-
+            [[6bfd72d](https://github.com/mozilla/sops/commit/6bfd72d57ba82ca599f7ef1e08f9fe3635fe0f39)]:
+            Merge remote-tracking branch 'origin/develop' into sops-age-key-env (Christian
+            Hoffmeister) [#1006](https://github.com/mozilla/sops/pull/1006)\r\n- [[dc2267e](https://github.com/mozilla/sops/commit/dc2267e3721a1037895050f4fd02974a31692ded)]:
+            Upgrade to go 1.17 (AJ Bahnken) [#1012](https://github.com/mozilla/sops/pull/1012)\r\n-
+            [[076f295](https://github.com/mozilla/sops/commit/076f29539434046c7fc76fbac33d90580bfe866f)]:
+            rm extra whitespace in CircleCI config (AJ Bahnken) [#1012](https://github.com/mozilla/sops/pull/1012)\r\n-
+            [[7f503bc](https://github.com/mozilla/sops/commit/7f503bcbfdab065216b3628a176662d8b1213d41)]:
+            Upgrade release job to go 1.17 (AJ Bahnken) [#1012](https://github.com/mozilla/sops/pull/1012)\r\n-
+            [[4bd3e5a](https://github.com/mozilla/sops/commit/4bd3e5a9b4399217453ff9b60f99ac0ea97c309f)]:
+            Update pip package name in Dockerfile (AJ Bahnken) [#1012](https://github.com/mozilla/sops/pull/1012)\r\n-
+            [[b7c58e4](https://github.com/mozilla/sops/commit/b7c58e4e56f69685d083f90fe7018f39dfb78d6d)]:
+            Move age environment variable names to constants (Christian Hoffmeister)
+            [#1006](https://github.com/mozilla/sops/pull/1006)\r\n- [[684d338](https://github.com/mozilla/sops/commit/684d338ecb2bf9e4c3da6445aa53f2d598cb3437)]:
+            Merge branch 'develop' of https://github.com/mozilla/sops into mozilla-develop
+            (Nikola Milojević) [#911](https://github.com/mozilla/sops/pull/911)\r\n-
+            [[0cfcae6](https://github.com/mozilla/sops/commit/0cfcae62d9609e1b7064099c5549de017b7a5500)]:
+            Merge branch 'mozilla-develop' into develop (Nikola Milojević) [#911](https://github.com/mozilla/sops/pull/911)\r\n-
+            [[dff9c31](https://github.com/mozilla/sops/commit/dff9c31411441a4a2850d2d40b808f5e1a7502ed)]:
+            Merge branch 'develop' into sops-age-key-env (AJ Bahnken) [#1006](https://github.com/mozilla/sops/pull/1006)\r\n-
+            [[c586534](https://github.com/mozilla/sops/commit/c58653474cfc3939f526b2beea5aca9d41b626a0)]:
+            Change labeling and upload linux arm64 (AJ Bahnken) [#1014](https://github.com/mozilla/sops/pull/1014)\r\n-
+            [[d6bc216](https://github.com/mozilla/sops/commit/d6bc216a862ce16cd096ab79e672deb2796abc54)]:
+            README and author tweaks (AJ Bahnken) [#1016](https://github.com/mozilla/sops/pull/1016)\r\n-
+            [[822ce48](https://github.com/mozilla/sops/commit/822ce48b82236165a869ddfcb5e2da7c3788206a)]:
+            Add arm64 .deb and .rpm builds (Janis Peisenieks) [#891](https://github.com/mozilla/sops/pull/891)\r\n-
+            [[baec2a5](https://github.com/mozilla/sops/commit/baec2a50883b1269a360b58c9e57b50401a7705c)]:
+            Merge branch 'develop' into feature/testsSholdNotFailFast (ikedam) [#909](https://github.com/mozilla/sops/pull/909)\r\n-
+            [[035672f](https://github.com/mozilla/sops/commit/035672f3b492c03ade6dd369926333525a643546)]:
+            prep v3.7.2 (AJ Bahnken) [#1020](https://github.com/mozilla/sops/pull/1020)\r\n-
+            [[b67c7a7](https://github.com/mozilla/sops/commit/b67c7a7fd95e1e9ca9be741f2957a001e081979e)]:
+            Fixed CHANGELOG formatting (AJ Bahnken) [#1020](https://github.com/mozilla/sops/pull/1020)"
+          created_at: "2022-03-09T19:20:20Z"
+          draft: false
+          html_url: https://github.com/mozilla/sops/releases/tag/v3.7.2
+          id: 61416232
+          name: v3.7.2
+          node_id: RE_kwDOAmzKAc4DqSMo
+          prerelease: false
+          published_at: "2022-03-09T19:26:40Z"
+          reactions:
+            "+1": 0
+            "-1": 0
+            confused: 0
+            eyes: 0
+            heart: 2
+            hooray: 14
+            laugh: 0
+            rocket: 10
+            total_count: 26
+            url: https://api.github.com/repos/mozilla/sops/releases/61416232/reactions
+          tag_name: v3.7.2
+          tarball_url: https://api.github.com/repos/mozilla/sops/tarball/v3.7.2
+          target_commitish: master
+          upload_url: https://uploads.github.com/repos/mozilla/sops/releases/61416232/assets{?name,label}
+          url: https://api.github.com/repos/mozilla/sops/releases/61416232
+          zipball_url: https://api.github.com/repos/mozilla/sops/zipball/v3.7.2

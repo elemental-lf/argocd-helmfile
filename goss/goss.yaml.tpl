@@ -6,11 +6,11 @@ command:
   /usr/local/bin/kubectl version:
     exit-status: 1
     stdout:
-    - 1.17.5
-  /usr/local/bin/helm version --short:
+    - {{ .kubectl_version }}
+  /usr/local/bin/sops -v:
     exit-status: 0
     stdout:
-    - v3.2.0
+    - {{ .sops_version }}
   /usr/local/bin/helm plugin list:
     exit-status: 0
     stdout:

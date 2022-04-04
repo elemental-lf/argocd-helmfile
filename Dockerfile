@@ -1,15 +1,21 @@
-FROM argoproj/argocd:v2.2.5
+FROM argoproj/argocd:v2.3.3
 
-LABEL version="2.2.5-0.143.0"
+LABEL version="2.3.3-0.144.0-040a0dfe2f"
+LABEL argocd_version="2.3.3"
+LABEL helmfile_version="0.144.0"
+LABEL kubectl_version="1.23.5"
+LABEL sops_version="3.7.2"
+LABEL helm_diff_version="3.4.2"
+LABEL version_digest="040a0dfe2f"
 LABEL maintainer="lf@elemental.net"
 
 # Switch to root for the ability to perform install
 USER root
 
-ARG HELMFILE_VERSION=v0.143.0
-ARG KUBECTL_VERSION=1.18.10
-ARG SOPS_VERSION=3.3.1
-ARG HELM_DIFF_VERSION=3.1.3
+ARG HELMFILE_VERSION=0.144.0
+ARG KUBECTL_VERSION=1.23.5
+ARG SOPS_VERSION=3.7.2
+ARG HELM_DIFF_VERSION=3.4.2
 # Install tools needed for your repo-server to retrieve & decrypt secrets, render manifests
 # (e.g. curl, awscli, gpg, sops)
 COPY argocd-helmfile.sh /usr/local/bin/argocd-helmfile
@@ -17,8 +23,8 @@ RUN apt-get update && \
     apt-get install -y curl gpg apt-utils git-crypt joe && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* && \
-    curl -o /usr/local/bin/helmfile -L https://github.com/roboll/helmfile/releases/download/${HELMFILE_VERSION}/helmfile_linux_amd64 && \
-    curl -o /usr/local/bin/sops -L https://github.com/mozilla/sops/releases/download/${SOPS_VERSION}/sops-${SOPS_VERSION}.linux && \
+    curl -o /usr/local/bin/helmfile -L https://github.com/roboll/helmfile/releases/download/v${HELMFILE_VERSION}/helmfile_linux_amd64 && \
+    curl -o /usr/local/bin/sops -L https://github.com/mozilla/sops/releases/download/v${SOPS_VERSION}/sops-v${SOPS_VERSION}.linux && \
     curl -o /usr/local/bin/kubectl -L https://storage.googleapis.com/kubernetes-release/release/v${KUBECTL_VERSION}/bin/linux/amd64/kubectl && \
     chmod +x /usr/local/bin/kubectl && \
     chmod +x /usr/local/bin/helmfile && \
@@ -29,7 +35,7 @@ RUN apt-get update && \
 USER argocd
 
 RUN helm plugin install https://github.com/databus23/helm-diff --version v${HELM_DIFF_VERSION} && \
-    helm plugin install https://github.com/futuresimple/helm-secrets && \
+    helm plugin install https://github.com/jkroepke/helm-secrets && \
     helm plugin install https://github.com/hypnoglow/helm-s3.git && \
     helm plugin install https://github.com/mumoshu/helm-x  && \
     helm plugin install https://github.com/aslafy-z/helm-git.git
