@@ -1,4 +1,5 @@
-name: Release container image
+---
+name: Test, build and release container image
 
 on:
   push:
@@ -20,62 +21,12 @@ jobs:
           access_token: ${{ github.token }}
 
   #
-  # Job: tests
+  # Job: test_build_release_image
   #
-  tests:
-    name: "Run tests"
+  test_build_release_image:
+    name: "Test, build and release the container image"
     needs:
       - cancel
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository files
-        uses: actions/checkout@v2
-
-      - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@v1
-
-      - name: Run tests
-        shell: bash
-        run: |
-          make build
-          make test
-
-  #
-  # Job: build_info
-  #
-  build_info:
-    name: "Gather information about the build"
-    needs:
-      - tests
-    runs-on: ubuntu-latest
-    outputs:
-      version: ${{ steps.build_info.outputs.version }}
-    steps:
-      - name: Checkout repository files
-        uses: actions/checkout@v2
-
-      - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@v1
-
-      - name: Determine image version
-        id: build_info
-        shell: bash
-        run: |
-          set -ueo pipefail
-
-          make build
-
-          version="$(make version)"
-          echo "::debug::Setting version to ${version}"
-          echo "::set-output name=version::${version}"
-
-  #
-  # Job: build_container_image
-  #
-  build_container_image:
-    needs:
-      - build_info
-    name: "Build and publish container image"
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository files
@@ -91,7 +42,28 @@ jobs:
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v1
 
-      - name: Build and push container image
+      - name: Build image
+        shell: bash
+        run: |
+          make build
+
+      - name: Run tests
+        shell: bash
+        run: |
+          make test
+
+      - name: Determine image version
+        id: image_info
+        shell: bash
+        run: |
+          set -ueo pipefail
+
+          version="$(make version)"
+          echo "::debug::Setting version to ${version}"
+          echo "::set-output name=version::${version}"
+
+      # Will reuse the build cache
+      - name: Push container image
         uses: docker/build-push-action@v2
         with:
           context: .
@@ -99,4 +71,4 @@ jobs:
           push: true
           tags: |
             ghcr.io/${{ github.repository_owner }}/${{ github.repository }}:latest
-            ghcr.io/${{ github.repository_owner }}/${{ github.repository }}:${{ needs.build_info.outputs.version }}
+            ghcr.io/${{ github.repository_owner }}/${{ github.repository }}:${{ steps.image_info.outputs.version }}
