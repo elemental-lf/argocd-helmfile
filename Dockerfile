@@ -1,21 +1,21 @@
-FROM argoproj/argocd:v2.3.3
+FROM argoproj/argocd:v2.3.4
 
-LABEL version="2.3.3-0.144.0-040a0dfe2f"
-LABEL argocd_version="2.3.3"
+LABEL version="2.3.4-0.144.0-f8f3d828ca"
+LABEL argocd_version="2.3.4"
 LABEL helmfile_version="0.144.0"
-LABEL kubectl_version="1.23.5"
-LABEL sops_version="3.7.2"
-LABEL helm_diff_version="3.4.2"
-LABEL version_digest="040a0dfe2f"
+LABEL kubectl_version="1.24.1"
+LABEL sops_version="3.7.3"
+LABEL helm_diff_version="3.5.0"
+LABEL version_digest="f8f3d828ca"
 LABEL maintainer="lf@elemental.net"
 
 # Switch to root for the ability to perform install
 USER root
 
 ARG HELMFILE_VERSION=0.144.0
-ARG KUBECTL_VERSION=1.23.5
-ARG SOPS_VERSION=3.7.2
-ARG HELM_DIFF_VERSION=3.4.2
+ARG KUBECTL_VERSION=1.24.1
+ARG SOPS_VERSION=3.7.3
+ARG HELM_DIFF_VERSION=3.5.0
 # Install tools needed for your repo-server to retrieve & decrypt secrets, render manifests
 # (e.g. curl, awscli, gpg, sops)
 COPY argocd-helmfile.sh /usr/local/bin/argocd-helmfile
