@@ -35,19 +35,19 @@ Helm version    : $(helm version --short)
 Helmfile version: $(helmfile --version)
 Environment     :
 EOF
-printenv | egrep '^(ARGOCD_APP|HELM_|HELMFILE_|GNUPGHOME)' | sort | sed 's/^/  /g' >&2
+printenv | egrep '^(ARGOCD_APP_|ARGOCD_ENV_|GNUPGHOME)' | sort | sed 's/^/  /g' >&2
 
 # expand nested variables
-if [[ -v HELMFILE_GLOBAL_OPTIONS ]]; then
-  HELMFILE_GLOBAL_OPTIONS="$(variable_expansion "${HELMFILE_GLOBAL_OPTIONS}")"
+if [[ -v ARGOCD_ENV_HELMFILE_GLOBAL_OPTIONS ]]; then
+  ARGOCD_ENV_HELMFILE_GLOBAL_OPTIONS="$(variable_expansion "${ARGOCD_ENV_HELMFILE_GLOBAL_OPTIONS}")"
 fi
 
-if [[ -v HELMFILE_TEMPLATE_OPTIONS ]]; then
-  HELMFILE_TEMPLATE_OPTIONS="$(variable_expansion "${HELMFILE_TEMPLATE_OPTIONS}")"
+if [[ -v ARGOCD_ENV_HELMFILE_TEMPLATE_OPTIONS ]]; then
+  ARGOCD_ENV_HELMFILE_TEMPLATE_OPTIONS="$(variable_expansion "${ARGOCD_ENV_HELMFILE_TEMPLATE_OPTIONS}")"
 fi
 
-if [[ -v HELM_TEMPLATE_OPTIONS ]]; then
-  HELM_TEMPLATE_OPTIONS="$(variable_expansion "${HELM_TEMPLATE_OPTIONS}")"
+if [[ -v ARGOCD_ENV_HELM_TEMPLATE_OPTIONS ]]; then
+  ARGOCD_ENV_HELM_TEMPLATE_OPTIONS="$(variable_expansion "${ARGOCD_ENV_HELM_TEMPLATE_OPTIONS}")"
 fi
 
 helmfile="helmfile --helm-binary helm --no-color --allow-no-matching-release"
@@ -56,13 +56,13 @@ if [[ "${ARGOCD_APP_NAMESPACE}" ]]; then
   helmfile="${helmfile} --namespace ${ARGOCD_APP_NAMESPACE}"
 fi
 
-if [[ "${HELMFILE_GLOBAL_OPTIONS}" ]]; then
-  helmfile="${helmfile} ${HELMFILE_GLOBAL_OPTIONS}"
+if [[ "${ARGOCD_ENV_HELMFILE_GLOBAL_OPTIONS}" ]]; then
+  helmfile="${helmfile} ${ARGOCD_ENV_HELMFILE_GLOBAL_OPTIONS}"
 fi
 
-if [[ -v HELMFILE_HELMFILE_PATH ]]; then
-  helmfile="${helmfile} -f ${HELMFILE_HELMFILE_PATH}"
-elif [[ -v HELMFILE_HELMFILE ]]; then
+if [[ -v ARGOCD_ENV_HELMFILE_HELMFILE_PATH ]]; then
+  helmfile="${helmfile} -f ${ARGOCD_ENV_HELMFILE_HELMFILE_PATH}"
+elif [[ -v ARGOCD_ENV_HELMFILE_HELMFILE ]]; then
   helmfile="${helmfile} -f helmfile.yaml"
 fi
 
@@ -77,9 +77,9 @@ case $phase in
       fi
     fi
 
-    if [[ -v HELMFILE_HELMFILE ]]; then
+    if [[ -v ARGOCD_ENV_HELMFILE_HELMFILE ]]; then
       # Overwrites the helmfile.yaml in the repository if present
-      echo "${HELMFILE_HELMFILE}" >helmfile.yaml
+      echo "${ARGOCD_ENV_HELMFILE_HELMFILE}" >helmfile.yaml
     fi
 
     ${helmfile} deps # includes repos step
@@ -87,7 +87,7 @@ case $phase in
 
   "generate")
     # shellcheck disable=SC2086
-    ${helmfile} template --skip-deps --args "${HELM_TEMPLATE_OPTIONS}" ${HELMFILE_TEMPLATE_OPTIONS}
+    ${helmfile} template --skip-deps --args "${ARGOCD_ENV_HELM_TEMPLATE_OPTIONS}" ${ARGOCD_ENV_HELMFILE_TEMPLATE_OPTIONS}
     ;;
 
   *)
