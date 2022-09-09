@@ -23,7 +23,8 @@ RUN apt-get update && \
     apt-get install -y curl gpg apt-utils git-crypt joe && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* && \
-    curl -o /usr/local/bin/helmfile -L https://github.com/roboll/helmfile/releases/download/v${HELMFILE_VERSION}/helmfile_linux_amd64 && \
+    curl -L https://github.com/helmfile/helmfile/releases/download/v0.145.4/helmfile_${HELMFILE_VERSION}_linux_amd64.tar.gz \
+      | tar -C /usr/local/bin -xzf - helmfile && \
     curl -o /usr/local/bin/sops -L https://github.com/mozilla/sops/releases/download/v${SOPS_VERSION}/sops-v${SOPS_VERSION}.linux && \
     curl -o /usr/local/bin/kubectl -L https://storage.googleapis.com/kubernetes-release/release/v${KUBECTL_VERSION}/bin/linux/amd64/kubectl && \
     chmod +x /usr/local/bin/kubectl && \
