@@ -37,6 +37,14 @@ Environment     :
 EOF
 printenv | egrep '^(ARGOCD_APP_|ARGOCD_ENV_|GNUPGHOME)' | sort | sed 's/^/  /g' >&2
 
+# Set environment variables starting with ARGO_CD_ENV_HELMFILE_EXPORT_ by removing the prefix and exporting them.
+while IFS='=' read -r -d '' name value; do
+  if [[ $name == ARGO_CD_ENV_HELMFILE_EXPORT_* ]]; then
+    name="${name#ARGO_CD_ENV_HELMFILE_EXPORT_}"
+    eval "${name}='${value}'; export ${name}"
+  fi
+done < <(env -0)
+
 # expand nested variables
 if [[ -v ARGOCD_ENV_HELMFILE_GLOBAL_OPTIONS ]]; then
   ARGOCD_ENV_HELMFILE_GLOBAL_OPTIONS="$(variable_expansion "${ARGOCD_ENV_HELMFILE_GLOBAL_OPTIONS}")"
