@@ -40,7 +40,8 @@ printenv | egrep '^(ARGOCD_APP_|ARGOCD_ENV_|GNUPGHOME)' | sort | sed 's/^/  /g' 
 while IFS='=' read -r -d '' name value; do
   if [[ $name == ARGOCD_ENV_* ]]; then
     name="${name#ARGOCD_ENV_}"
-    eval "${name}='${value}'; export ${name}"
+    # shellcheck disable=SC2086
+    export ${name}="${value}"
   fi
 done < <(env -0)
 
