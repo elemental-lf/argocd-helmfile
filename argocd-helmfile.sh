@@ -97,6 +97,10 @@ case $phase in
       echo "${HELMFILE_HELMFILE}" >helmfile.yaml
     fi
 
+    if [[ "${HELMFILE_CACHE_CLEANUP}" ]]; then
+      ${helmfile} cache cleanup
+    fi
+
     ${helmfile} deps # includes repos step
     ;;
 
