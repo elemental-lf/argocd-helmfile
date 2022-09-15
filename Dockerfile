@@ -1,18 +1,18 @@
 FROM argoproj/argocd:v2.4.11
 
-LABEL version="2.4.11-0.145.4-a178869278"
+LABEL version="2.4.11-0.145.5-b7ecc609c5"
 LABEL argocd_version="2.4.11"
-LABEL helmfile_version="0.145.4"
+LABEL helmfile_version="0.145.5"
 LABEL kubectl_version="1.25.0"
 LABEL sops_version="3.7.3"
 LABEL helm_diff_version="3.5.0"
-LABEL version_digest="a178869278"
+LABEL version_digest="b7ecc609c5"
 LABEL maintainer="lf@elemental.net"
 
 # Switch to root for the ability to perform install
 USER root
 
-ARG HELMFILE_VERSION=0.145.4
+ARG HELMFILE_VERSION=0.145.5
 ARG KUBECTL_VERSION=1.25.0
 ARG SOPS_VERSION=3.7.3
 ARG HELM_DIFF_VERSION=3.5.0
@@ -23,7 +23,7 @@ RUN apt-get update && \
     apt-get install -y curl gpg apt-utils git-crypt joe && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* && \
-    curl -L https://github.com/helmfile/helmfile/releases/download/v0.145.4/helmfile_${HELMFILE_VERSION}_linux_amd64.tar.gz \
+    curl -L https://github.com/helmfile/helmfile/releases/download/v${HELMFILE_VERSION}/helmfile_${HELMFILE_VERSION}_linux_amd64.tar.gz \
       | tar -C /usr/local/bin -xzf - helmfile && \
     curl -o /usr/local/bin/sops -L https://github.com/mozilla/sops/releases/download/v${SOPS_VERSION}/sops-v${SOPS_VERSION}.linux && \
     curl -o /usr/local/bin/kubectl -L https://storage.googleapis.com/kubernetes-release/release/v${KUBECTL_VERSION}/bin/linux/amd64/kubectl && \

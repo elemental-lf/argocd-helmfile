@@ -754,24 +754,25 @@ dependencies:
       url: https://api.github.com/repos/databus23/helm-diff/releases/66864596
       zipball_url: https://api.github.com/repos/databus23/helm-diff/zipball/v3.5.0
   helmfile:
-    version: 0.145.4
-    previousVersion: 0.144.0
+    version: 0.145.5
+    previousVersion: 0.145.4
     versions:
     - 0.144.0
     - 0.145.4
+    - 0.145.5
     githubRelease:
       assets:
-      - browser_download_url: https://github.com/helmfile/helmfile/releases/download/v0.145.4/helmfile_0.145.4_checksums.txt
+      - browser_download_url: https://github.com/helmfile/helmfile/releases/download/v0.145.5/helmfile_0.145.5_checksums.txt
         content_type: text/plain; charset=utf-8
-        created_at: "2022-08-25T02:05:40Z"
-        download_count: 23
-        id: 75771963
+        created_at: "2022-09-14T01:15:11Z"
+        download_count: 5
+        id: 77793653
         label: ""
-        name: helmfile_0.145.4_checksums.txt
-        node_id: RA_kwDOHEifes4EhDA7
+        name: helmfile_0.145.5_checksums.txt
+        node_id: RA_kwDOHEifes4Eowl1
         size: 820
         state: uploaded
-        updated_at: "2022-08-25T02:05:40Z"
+        updated_at: "2022-09-14T01:15:11Z"
         uploader:
           avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
           events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
@@ -791,18 +792,18 @@ dependencies:
           subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
           type: Bot
           url: https://api.github.com/users/github-actions%5Bbot%5D
-        url: https://api.github.com/repos/helmfile/helmfile/releases/assets/75771963
-      - browser_download_url: https://github.com/helmfile/helmfile/releases/download/v0.145.4/helmfile_0.145.4_darwin_amd64.tar.gz
+        url: https://api.github.com/repos/helmfile/helmfile/releases/assets/77793653
+      - browser_download_url: https://github.com/helmfile/helmfile/releases/download/v0.145.5/helmfile_0.145.5_darwin_amd64.tar.gz
         content_type: application/gzip
-        created_at: "2022-08-25T02:05:38Z"
-        download_count: 72
-        id: 75771959
+        created_at: "2022-09-14T01:15:07Z"
+        download_count: 7
+        id: 77793646
         label: ""
-        name: helmfile_0.145.4_darwin_amd64.tar.gz
-        node_id: RA_kwDOHEifes4EhDA3
-        size: 11468980
+        name: helmfile_0.145.5_darwin_amd64.tar.gz
+        node_id: RA_kwDOHEifes4Eowlu
+        size: 11449439
         state: uploaded
-        updated_at: "2022-08-25T02:05:39Z"
+        updated_at: "2022-09-14T01:15:08Z"
         uploader:
           avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
           events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
@@ -822,18 +823,18 @@ dependencies:
           subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
           type: Bot
           url: https://api.github.com/users/github-actions%5Bbot%5D
-        url: https://api.github.com/repos/helmfile/helmfile/releases/assets/75771959
-      - browser_download_url: https://github.com/helmfile/helmfile/releases/download/v0.145.4/helmfile_0.145.4_darwin_arm64.tar.gz
+        url: https://api.github.com/repos/helmfile/helmfile/releases/assets/77793646
+      - browser_download_url: https://github.com/helmfile/helmfile/releases/download/v0.145.5/helmfile_0.145.5_darwin_arm64.tar.gz
         content_type: application/gzip
-        created_at: "2022-08-25T02:05:39Z"
-        download_count: 47
-        id: 75771961
+        created_at: "2022-09-14T01:15:07Z"
+        download_count: 8
+        id: 77793647
         label: ""
-        name: helmfile_0.145.4_darwin_arm64.tar.gz
-        node_id: RA_kwDOHEifes4EhDA5
-        size: 11113167
+        name: helmfile_0.145.5_darwin_arm64.tar.gz
+        node_id: RA_kwDOHEifes4Eowlv
+        size: 11099755
         state: uploaded
-        updated_at: "2022-08-25T02:05:40Z"
+        updated_at: "2022-09-14T01:15:08Z"
         uploader:
           avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
           events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
@@ -853,18 +854,18 @@ dependencies:
           subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
           type: Bot
           url: https://api.github.com/users/github-actions%5Bbot%5D
-        url: https://api.github.com/repos/helmfile/helmfile/releases/assets/75771961
-      - browser_download_url: https://github.com/helmfile/helmfile/releases/download/v0.145.4/helmfile_0.145.4_linux_386.tar.gz
+        url: https://api.github.com/repos/helmfile/helmfile/releases/assets/77793647
+      - browser_download_url: https://github.com/helmfile/helmfile/releases/download/v0.145.5/helmfile_0.145.5_linux_386.tar.gz
         content_type: application/gzip
-        created_at: "2022-08-25T02:05:35Z"
-        download_count: 29
-        id: 75771955
+        created_at: "2022-09-14T01:15:10Z"
+        download_count: 1
+        id: 77793651
         label: ""
-        name: helmfile_0.145.4_linux_386.tar.gz
-        node_id: RA_kwDOHEifes4EhDAz
-        size: 10264292
+        name: helmfile_0.145.5_linux_386.tar.gz
+        node_id: RA_kwDOHEifes4Eowlz
+        size: 10242579
         state: uploaded
-        updated_at: "2022-08-25T02:05:36Z"
+        updated_at: "2022-09-14T01:15:10Z"
         uploader:
           avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
           events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
@@ -884,18 +885,18 @@ dependencies:
           subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
           type: Bot
           url: https://api.github.com/users/github-actions%5Bbot%5D
-        url: https://api.github.com/repos/helmfile/helmfile/releases/assets/75771955
-      - browser_download_url: https://github.com/helmfile/helmfile/releases/download/v0.145.4/helmfile_0.145.4_linux_amd64.tar.gz
+        url: https://api.github.com/repos/helmfile/helmfile/releases/assets/77793651
+      - browser_download_url: https://github.com/helmfile/helmfile/releases/download/v0.145.5/helmfile_0.145.5_linux_amd64.tar.gz
         content_type: application/gzip
-        created_at: "2022-08-25T02:05:39Z"
-        download_count: 2193
-        id: 75771962
+        created_at: "2022-09-14T01:15:09Z"
+        download_count: 261
+        id: 77793650
         label: ""
-        name: helmfile_0.145.4_linux_amd64.tar.gz
-        node_id: RA_kwDOHEifes4EhDA6
-        size: 10969733
+        name: helmfile_0.145.5_linux_amd64.tar.gz
+        node_id: RA_kwDOHEifes4Eowly
+        size: 10951798
         state: uploaded
-        updated_at: "2022-08-25T02:05:40Z"
+        updated_at: "2022-09-14T01:15:10Z"
         uploader:
           avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
           events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
@@ -915,18 +916,18 @@ dependencies:
           subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
           type: Bot
           url: https://api.github.com/users/github-actions%5Bbot%5D
-        url: https://api.github.com/repos/helmfile/helmfile/releases/assets/75771962
-      - browser_download_url: https://github.com/helmfile/helmfile/releases/download/v0.145.4/helmfile_0.145.4_linux_arm64.tar.gz
+        url: https://api.github.com/repos/helmfile/helmfile/releases/assets/77793650
+      - browser_download_url: https://github.com/helmfile/helmfile/releases/download/v0.145.5/helmfile_0.145.5_linux_arm64.tar.gz
         content_type: application/gzip
-        created_at: "2022-08-25T02:05:35Z"
-        download_count: 75
-        id: 75771954
+        created_at: "2022-09-14T01:15:08Z"
+        download_count: 97
+        id: 77793649
         label: ""
-        name: helmfile_0.145.4_linux_arm64.tar.gz
-        node_id: RA_kwDOHEifes4EhDAy
-        size: 10043766
+        name: helmfile_0.145.5_linux_arm64.tar.gz
+        node_id: RA_kwDOHEifes4Eowlx
+        size: 10024918
         state: uploaded
-        updated_at: "2022-08-25T02:05:36Z"
+        updated_at: "2022-09-14T01:15:09Z"
         uploader:
           avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
           events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
@@ -946,18 +947,18 @@ dependencies:
           subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
           type: Bot
           url: https://api.github.com/users/github-actions%5Bbot%5D
-        url: https://api.github.com/repos/helmfile/helmfile/releases/assets/75771954
-      - browser_download_url: https://github.com/helmfile/helmfile/releases/download/v0.145.4/helmfile_0.145.4_windows_386.tar.gz
+        url: https://api.github.com/repos/helmfile/helmfile/releases/assets/77793649
+      - browser_download_url: https://github.com/helmfile/helmfile/releases/download/v0.145.5/helmfile_0.145.5_windows_386.tar.gz
         content_type: application/gzip
-        created_at: "2022-08-25T02:05:37Z"
-        download_count: 9
-        id: 75771958
+        created_at: "2022-09-14T01:15:06Z"
+        download_count: 3
+        id: 77793645
         label: ""
-        name: helmfile_0.145.4_windows_386.tar.gz
-        node_id: RA_kwDOHEifes4EhDA2
-        size: 10728919
+        name: helmfile_0.145.5_windows_386.tar.gz
+        node_id: RA_kwDOHEifes4Eowlt
+        size: 10714208
         state: uploaded
-        updated_at: "2022-08-25T02:05:38Z"
+        updated_at: "2022-09-14T01:15:07Z"
         uploader:
           avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
           events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
@@ -977,18 +978,18 @@ dependencies:
           subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
           type: Bot
           url: https://api.github.com/users/github-actions%5Bbot%5D
-        url: https://api.github.com/repos/helmfile/helmfile/releases/assets/75771958
-      - browser_download_url: https://github.com/helmfile/helmfile/releases/download/v0.145.4/helmfile_0.145.4_windows_amd64.tar.gz
+        url: https://api.github.com/repos/helmfile/helmfile/releases/assets/77793645
+      - browser_download_url: https://github.com/helmfile/helmfile/releases/download/v0.145.5/helmfile_0.145.5_windows_amd64.tar.gz
         content_type: application/gzip
-        created_at: "2022-08-25T02:05:36Z"
-        download_count: 290
-        id: 75771957
+        created_at: "2022-09-14T01:15:10Z"
+        download_count: 44
+        id: 77793652
         label: ""
-        name: helmfile_0.145.4_windows_amd64.tar.gz
-        node_id: RA_kwDOHEifes4EhDA1
-        size: 11074984
+        name: helmfile_0.145.5_windows_amd64.tar.gz
+        node_id: RA_kwDOHEifes4Eowl0
+        size: 11057643
         state: uploaded
-        updated_at: "2022-08-25T02:05:37Z"
+        updated_at: "2022-09-14T01:15:11Z"
         uploader:
           avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
           events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
@@ -1008,18 +1009,18 @@ dependencies:
           subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
           type: Bot
           url: https://api.github.com/users/github-actions%5Bbot%5D
-        url: https://api.github.com/repos/helmfile/helmfile/releases/assets/75771957
-      - browser_download_url: https://github.com/helmfile/helmfile/releases/download/v0.145.4/helmfile_0.145.4_windows_arm64.tar.gz
+        url: https://api.github.com/repos/helmfile/helmfile/releases/assets/77793652
+      - browser_download_url: https://github.com/helmfile/helmfile/releases/download/v0.145.5/helmfile_0.145.5_windows_arm64.tar.gz
         content_type: application/gzip
-        created_at: "2022-08-25T02:05:36Z"
-        download_count: 2
-        id: 75771956
+        created_at: "2022-09-14T01:15:06Z"
+        download_count: 0
+        id: 77793644
         label: ""
-        name: helmfile_0.145.4_windows_arm64.tar.gz
-        node_id: RA_kwDOHEifes4EhDA0
-        size: 10143912
+        name: helmfile_0.145.5_windows_arm64.tar.gz
+        node_id: RA_kwDOHEifes4Eowls
+        size: 10129380
         state: uploaded
-        updated_at: "2022-08-25T02:05:37Z"
+        updated_at: "2022-09-14T01:15:07Z"
         uploader:
           avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
           events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
@@ -1039,8 +1040,8 @@ dependencies:
           subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
           type: Bot
           url: https://api.github.com/users/github-actions%5Bbot%5D
-        url: https://api.github.com/repos/helmfile/helmfile/releases/assets/75771956
-      assets_url: https://api.github.com/repos/helmfile/helmfile/releases/75296587/assets
+        url: https://api.github.com/repos/helmfile/helmfile/releases/assets/77793644
+      assets_url: https://api.github.com/repos/helmfile/helmfile/releases/77064714/assets
       author:
         avatar_url: https://avatars.githubusercontent.com/u/22009?v=4
         events_url: https://api.github.com/users/mumoshu/events{/privacy}
@@ -1060,53 +1061,67 @@ dependencies:
         subscriptions_url: https://api.github.com/users/mumoshu/subscriptions
         type: User
         url: https://api.github.com/users/mumoshu
-      body: "This patch release is mainly about fixing `readDirEntries` added in 0.145.3.
-        @arkaitzj did a lot of awesome work along the way! We appreciate your contribution
-        ❤️\r\nIn addition to the fix, this release also covers fixes for a few diff-related
-        flags that were not working since v0.145.0's move to `cobra` as the CLI library.\r\n\r\n##
-        What's Changed\r\n* Fix for readDir selection, currently any template that
-        uses readDir* functions seems to break by @arkaitzj in https://github.com/helmfile/helmfile/pull/297\r\n*
-        Bring back --set flag to apply subcommand by @mjura in https://github.com/helmfile/helmfile/pull/298\r\n*
-        fix: return diff output config value by @mikelorant in https://github.com/helmfile/helmfile/pull/303\r\n*
-        fix: return diff context config value by @mikelorant in https://github.com/helmfile/helmfile/pull/301\r\n*
-        Fix some multi-value flags to not accept comma-separated values by @yxxhero
-        in https://github.com/helmfile/helmfile/pull/300\r\n* build(deps): bump k8s.io/apimachinery
-        from 0.24.3 to 0.24.4 by @dependabot in https://github.com/helmfile/helmfile/pull/306\r\n*
-        Add logo as .png and .ai (Adobe Illustrator) files by @pathob in https://github.com/helmfile/helmfile/pull/263\r\n*
-        Introduce Helmfile's own filesystem abstraction to correctly unit test some
-        components by @arkaitzj in https://github.com/helmfile/helmfile/pull/307\r\n*
-        fix typo for readme.md by @thenam153 in https://github.com/helmfile/helmfile/pull/312\r\n\r\n##
-        New Contributors\r\n* @arkaitzj made their first contribution in https://github.com/helmfile/helmfile/pull/297\r\n*
-        @mjura made their first contribution in https://github.com/helmfile/helmfile/pull/298\r\n*
-        @mikelorant made their first contribution in https://github.com/helmfile/helmfile/pull/303\r\n*
-        @thenam153 made their first contribution in https://github.com/helmfile/helmfile/pull/312\r\n\r\n**Full
-        Changelog**: https://github.com/helmfile/helmfile/compare/v0.145.3...v0.145.4"
-      created_at: "2022-08-24T05:44:25Z"
+      body: "This patch release is mainly for fixing the default `--skip-needs` setting.
+        If you had to add `--skip-needs` to every helmfile run since v0.145.0, this
+        fixes that- you no longer need to explicitly set `--skip-needs`. To be clear,
+        `--skip-needs` has been the default since v0.139.2. We just unintentionally
+        broke it in v0.145.0! See #339 for more details. Thanks a lot for filing the
+        detailed issue @strainovic, and thanks a lot for fixing the issue @yxxhero!\r\n\r\n##
+        What's Changed\r\n* chore: update Jenkins's main helmfile repository in USERS
+        by @lemeurherve in https://github.com/helmfile/helmfile/pull/320\r\n* fix
+        ci error in issue.2118.yaml by @yxxhero in https://github.com/helmfile/helmfile/pull/319\r\n*
+        Add Users information in Readme.md by @yxxhero in https://github.com/helmfile/helmfile/pull/317\r\n*
+        build(deps): bump go.uber.org/zap from 1.22.0 to 1.23.0 by @dependabot in
+        https://github.com/helmfile/helmfile/pull/322\r\n* Fix typos in docs by @dreglad
+        in https://github.com/helmfile/helmfile/pull/329\r\n* Add --interactive option
+        to sync, delete and destroy / Remove --interactive from global options by
+        @yxxhero in https://github.com/helmfile/helmfile/pull/328\r\n* use helmfile
+        testdata by @yxxhero in https://github.com/helmfile/helmfile/pull/326\r\n*
+        chore: remove 'OSS' from Jenkins name by @lemeurherve in https://github.com/helmfile/helmfile/pull/331\r\n*
+        add subshell to USERS.md by @philmtd in https://github.com/helmfile/helmfile/pull/335\r\n*
+        add NDR to USERS.md by @muffl0n in https://github.com/helmfile/helmfile/pull/336\r\n*
+        feat: honor concurrency in withPreparedCharts by @stek29 in https://github.com/helmfile/helmfile/pull/345\r\n*
+        feat: dont prepare on list by @stek29 in https://github.com/helmfile/helmfile/pull/346\r\n*
+        docs: add docs for helmfile list by @stek29 in https://github.com/helmfile/helmfile/pull/350\r\n*
+        build(deps): bump github.com/urfave/cli from 1.22.9 to 1.22.10 by @dependabot
+        in https://github.com/helmfile/helmfile/pull/351\r\n* build(deps): bump github.com/google/go-cmp
+        from 0.5.8 to 0.5.9 by @dependabot in https://github.com/helmfile/helmfile/pull/353\r\n*
+        fixed: selector help msg style by @yxxhero in https://github.com/helmfile/helmfile/pull/348\r\n*
+        update docs for CLI by @yxxhero in https://github.com/helmfile/helmfile/pull/356\r\n*
+        Fix --skip-needs regression introduced in v0.145.0 by @yxxhero in https://github.com/helmfile/helmfile/pull/342\r\n*
+        fix github ci matrix config by @yxxhero in https://github.com/helmfile/helmfile/pull/361\r\n*
+        Fix incorrent exit code issue introduced in v0.145.0 by @yxxhero in https://github.com/helmfile/helmfile/pull/359\r\n\r\n##
+        New Contributors\r\n* @dreglad made their first contribution in https://github.com/helmfile/helmfile/pull/329\r\n*
+        @philmtd made their first contribution in https://github.com/helmfile/helmfile/pull/335\r\n*
+        @muffl0n made their first contribution in https://github.com/helmfile/helmfile/pull/336\r\n*
+        @stek29 made their first contribution in https://github.com/helmfile/helmfile/pull/345\r\n\r\n**Full
+        Changelog**: https://github.com/helmfile/helmfile/compare/v0.145.4...v0.145.5"
+      created_at: "2022-09-14T00:51:16Z"
       draft: false
-      html_url: https://github.com/helmfile/helmfile/releases/tag/v0.145.4
-      id: 75296587
-      mentions_count: 7
-      name: v0.145.4
-      node_id: RE_kwDOHEifes4EfO9L
+      html_url: https://github.com/helmfile/helmfile/releases/tag/v0.145.5
+      id: 77064714
+      mentions_count: 8
+      name: v0.145.5
+      node_id: RE_kwDOHEifes4El-oK
       prerelease: false
-      published_at: "2022-08-25T01:56:24Z"
+      published_at: "2022-09-14T00:59:09Z"
       reactions:
-        "+1": 0
+        "+1": 1
         "-1": 0
         confused: 0
         eyes: 0
         heart: 0
-        hooray: 0
+        hooray: 1
         laugh: 0
-        rocket: 2
-        total_count: 2
-        url: https://api.github.com/repos/helmfile/helmfile/releases/75296587/reactions
-      tag_name: v0.145.4
-      tarball_url: https://api.github.com/repos/helmfile/helmfile/tarball/v0.145.4
+        rocket: 1
+        total_count: 3
+        url: https://api.github.com/repos/helmfile/helmfile/releases/77064714/reactions
+      tag_name: v0.145.5
+      tarball_url: https://api.github.com/repos/helmfile/helmfile/tarball/v0.145.5
       target_commitish: main
-      upload_url: https://uploads.github.com/repos/helmfile/helmfile/releases/75296587/assets{?name,label}
-      url: https://api.github.com/repos/helmfile/helmfile/releases/75296587
-      zipball_url: https://api.github.com/repos/helmfile/helmfile/zipball/v0.145.4
+      upload_url: https://uploads.github.com/repos/helmfile/helmfile/releases/77064714/assets{?name,label}
+      url: https://api.github.com/repos/helmfile/helmfile/releases/77064714
+      zipball_url: https://api.github.com/repos/helmfile/helmfile/zipball/v0.145.5
   kubectl:
     version: 1.25.0
     previousVersion: 1.24.1
@@ -3781,6 +3796,369 @@ meta:
           upload_url: https://uploads.github.com/repos/helmfile/helmfile/releases/75296587/assets{?name,label}
           url: https://api.github.com/repos/helmfile/helmfile/releases/75296587
           zipball_url: https://api.github.com/repos/helmfile/helmfile/zipball/v0.145.4
+      0.145.5:
+        githubRelease:
+          assets:
+          - browser_download_url: https://github.com/helmfile/helmfile/releases/download/v0.145.5/helmfile_0.145.5_checksums.txt
+            content_type: text/plain; charset=utf-8
+            created_at: "2022-09-14T01:15:11Z"
+            download_count: 5
+            id: 77793653
+            label: ""
+            name: helmfile_0.145.5_checksums.txt
+            node_id: RA_kwDOHEifes4Eowl1
+            size: 820
+            state: uploaded
+            updated_at: "2022-09-14T01:15:11Z"
+            uploader:
+              avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+              events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+              followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+              following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+              gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+              gravatar_id: ""
+              html_url: https://github.com/apps/github-actions
+              id: 41898282
+              login: github-actions[bot]
+              node_id: MDM6Qm90NDE4OTgyODI=
+              organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+              received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+              repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+              site_admin: false
+              starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+              subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+              type: Bot
+              url: https://api.github.com/users/github-actions%5Bbot%5D
+            url: https://api.github.com/repos/helmfile/helmfile/releases/assets/77793653
+          - browser_download_url: https://github.com/helmfile/helmfile/releases/download/v0.145.5/helmfile_0.145.5_darwin_amd64.tar.gz
+            content_type: application/gzip
+            created_at: "2022-09-14T01:15:07Z"
+            download_count: 7
+            id: 77793646
+            label: ""
+            name: helmfile_0.145.5_darwin_amd64.tar.gz
+            node_id: RA_kwDOHEifes4Eowlu
+            size: 11449439
+            state: uploaded
+            updated_at: "2022-09-14T01:15:08Z"
+            uploader:
+              avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+              events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+              followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+              following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+              gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+              gravatar_id: ""
+              html_url: https://github.com/apps/github-actions
+              id: 41898282
+              login: github-actions[bot]
+              node_id: MDM6Qm90NDE4OTgyODI=
+              organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+              received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+              repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+              site_admin: false
+              starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+              subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+              type: Bot
+              url: https://api.github.com/users/github-actions%5Bbot%5D
+            url: https://api.github.com/repos/helmfile/helmfile/releases/assets/77793646
+          - browser_download_url: https://github.com/helmfile/helmfile/releases/download/v0.145.5/helmfile_0.145.5_darwin_arm64.tar.gz
+            content_type: application/gzip
+            created_at: "2022-09-14T01:15:07Z"
+            download_count: 8
+            id: 77793647
+            label: ""
+            name: helmfile_0.145.5_darwin_arm64.tar.gz
+            node_id: RA_kwDOHEifes4Eowlv
+            size: 11099755
+            state: uploaded
+            updated_at: "2022-09-14T01:15:08Z"
+            uploader:
+              avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+              events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+              followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+              following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+              gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+              gravatar_id: ""
+              html_url: https://github.com/apps/github-actions
+              id: 41898282
+              login: github-actions[bot]
+              node_id: MDM6Qm90NDE4OTgyODI=
+              organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+              received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+              repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+              site_admin: false
+              starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+              subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+              type: Bot
+              url: https://api.github.com/users/github-actions%5Bbot%5D
+            url: https://api.github.com/repos/helmfile/helmfile/releases/assets/77793647
+          - browser_download_url: https://github.com/helmfile/helmfile/releases/download/v0.145.5/helmfile_0.145.5_linux_386.tar.gz
+            content_type: application/gzip
+            created_at: "2022-09-14T01:15:10Z"
+            download_count: 1
+            id: 77793651
+            label: ""
+            name: helmfile_0.145.5_linux_386.tar.gz
+            node_id: RA_kwDOHEifes4Eowlz
+            size: 10242579
+            state: uploaded
+            updated_at: "2022-09-14T01:15:10Z"
+            uploader:
+              avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+              events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+              followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+              following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+              gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+              gravatar_id: ""
+              html_url: https://github.com/apps/github-actions
+              id: 41898282
+              login: github-actions[bot]
+              node_id: MDM6Qm90NDE4OTgyODI=
+              organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+              received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+              repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+              site_admin: false
+              starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+              subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+              type: Bot
+              url: https://api.github.com/users/github-actions%5Bbot%5D
+            url: https://api.github.com/repos/helmfile/helmfile/releases/assets/77793651
+          - browser_download_url: https://github.com/helmfile/helmfile/releases/download/v0.145.5/helmfile_0.145.5_linux_amd64.tar.gz
+            content_type: application/gzip
+            created_at: "2022-09-14T01:15:09Z"
+            download_count: 261
+            id: 77793650
+            label: ""
+            name: helmfile_0.145.5_linux_amd64.tar.gz
+            node_id: RA_kwDOHEifes4Eowly
+            size: 10951798
+            state: uploaded
+            updated_at: "2022-09-14T01:15:10Z"
+            uploader:
+              avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+              events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+              followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+              following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+              gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+              gravatar_id: ""
+              html_url: https://github.com/apps/github-actions
+              id: 41898282
+              login: github-actions[bot]
+              node_id: MDM6Qm90NDE4OTgyODI=
+              organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+              received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+              repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+              site_admin: false
+              starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+              subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+              type: Bot
+              url: https://api.github.com/users/github-actions%5Bbot%5D
+            url: https://api.github.com/repos/helmfile/helmfile/releases/assets/77793650
+          - browser_download_url: https://github.com/helmfile/helmfile/releases/download/v0.145.5/helmfile_0.145.5_linux_arm64.tar.gz
+            content_type: application/gzip
+            created_at: "2022-09-14T01:15:08Z"
+            download_count: 97
+            id: 77793649
+            label: ""
+            name: helmfile_0.145.5_linux_arm64.tar.gz
+            node_id: RA_kwDOHEifes4Eowlx
+            size: 10024918
+            state: uploaded
+            updated_at: "2022-09-14T01:15:09Z"
+            uploader:
+              avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+              events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+              followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+              following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+              gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+              gravatar_id: ""
+              html_url: https://github.com/apps/github-actions
+              id: 41898282
+              login: github-actions[bot]
+              node_id: MDM6Qm90NDE4OTgyODI=
+              organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+              received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+              repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+              site_admin: false
+              starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+              subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+              type: Bot
+              url: https://api.github.com/users/github-actions%5Bbot%5D
+            url: https://api.github.com/repos/helmfile/helmfile/releases/assets/77793649
+          - browser_download_url: https://github.com/helmfile/helmfile/releases/download/v0.145.5/helmfile_0.145.5_windows_386.tar.gz
+            content_type: application/gzip
+            created_at: "2022-09-14T01:15:06Z"
+            download_count: 3
+            id: 77793645
+            label: ""
+            name: helmfile_0.145.5_windows_386.tar.gz
+            node_id: RA_kwDOHEifes4Eowlt
+            size: 10714208
+            state: uploaded
+            updated_at: "2022-09-14T01:15:07Z"
+            uploader:
+              avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+              events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+              followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+              following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+              gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+              gravatar_id: ""
+              html_url: https://github.com/apps/github-actions
+              id: 41898282
+              login: github-actions[bot]
+              node_id: MDM6Qm90NDE4OTgyODI=
+              organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+              received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+              repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+              site_admin: false
+              starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+              subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+              type: Bot
+              url: https://api.github.com/users/github-actions%5Bbot%5D
+            url: https://api.github.com/repos/helmfile/helmfile/releases/assets/77793645
+          - browser_download_url: https://github.com/helmfile/helmfile/releases/download/v0.145.5/helmfile_0.145.5_windows_amd64.tar.gz
+            content_type: application/gzip
+            created_at: "2022-09-14T01:15:10Z"
+            download_count: 44
+            id: 77793652
+            label: ""
+            name: helmfile_0.145.5_windows_amd64.tar.gz
+            node_id: RA_kwDOHEifes4Eowl0
+            size: 11057643
+            state: uploaded
+            updated_at: "2022-09-14T01:15:11Z"
+            uploader:
+              avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+              events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+              followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+              following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+              gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+              gravatar_id: ""
+              html_url: https://github.com/apps/github-actions
+              id: 41898282
+              login: github-actions[bot]
+              node_id: MDM6Qm90NDE4OTgyODI=
+              organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+              received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+              repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+              site_admin: false
+              starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+              subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+              type: Bot
+              url: https://api.github.com/users/github-actions%5Bbot%5D
+            url: https://api.github.com/repos/helmfile/helmfile/releases/assets/77793652
+          - browser_download_url: https://github.com/helmfile/helmfile/releases/download/v0.145.5/helmfile_0.145.5_windows_arm64.tar.gz
+            content_type: application/gzip
+            created_at: "2022-09-14T01:15:06Z"
+            download_count: 0
+            id: 77793644
+            label: ""
+            name: helmfile_0.145.5_windows_arm64.tar.gz
+            node_id: RA_kwDOHEifes4Eowls
+            size: 10129380
+            state: uploaded
+            updated_at: "2022-09-14T01:15:07Z"
+            uploader:
+              avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+              events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+              followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+              following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+              gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+              gravatar_id: ""
+              html_url: https://github.com/apps/github-actions
+              id: 41898282
+              login: github-actions[bot]
+              node_id: MDM6Qm90NDE4OTgyODI=
+              organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+              received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+              repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+              site_admin: false
+              starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+              subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+              type: Bot
+              url: https://api.github.com/users/github-actions%5Bbot%5D
+            url: https://api.github.com/repos/helmfile/helmfile/releases/assets/77793644
+          assets_url: https://api.github.com/repos/helmfile/helmfile/releases/77064714/assets
+          author:
+            avatar_url: https://avatars.githubusercontent.com/u/22009?v=4
+            events_url: https://api.github.com/users/mumoshu/events{/privacy}
+            followers_url: https://api.github.com/users/mumoshu/followers
+            following_url: https://api.github.com/users/mumoshu/following{/other_user}
+            gists_url: https://api.github.com/users/mumoshu/gists{/gist_id}
+            gravatar_id: ""
+            html_url: https://github.com/mumoshu
+            id: 22009
+            login: mumoshu
+            node_id: MDQ6VXNlcjIyMDA5
+            organizations_url: https://api.github.com/users/mumoshu/orgs
+            received_events_url: https://api.github.com/users/mumoshu/received_events
+            repos_url: https://api.github.com/users/mumoshu/repos
+            site_admin: false
+            starred_url: https://api.github.com/users/mumoshu/starred{/owner}{/repo}
+            subscriptions_url: https://api.github.com/users/mumoshu/subscriptions
+            type: User
+            url: https://api.github.com/users/mumoshu
+          body: "This patch release is mainly for fixing the default `--skip-needs`
+            setting. If you had to add `--skip-needs` to every helmfile run since
+            v0.145.0, this fixes that- you no longer need to explicitly set `--skip-needs`.
+            To be clear, `--skip-needs` has been the default since v0.139.2. We just
+            unintentionally broke it in v0.145.0! See #339 for more details. Thanks
+            a lot for filing the detailed issue @strainovic, and thanks a lot for
+            fixing the issue @yxxhero!\r\n\r\n## What's Changed\r\n* chore: update
+            Jenkins's main helmfile repository in USERS by @lemeurherve in https://github.com/helmfile/helmfile/pull/320\r\n*
+            fix ci error in issue.2118.yaml by @yxxhero in https://github.com/helmfile/helmfile/pull/319\r\n*
+            Add Users information in Readme.md by @yxxhero in https://github.com/helmfile/helmfile/pull/317\r\n*
+            build(deps): bump go.uber.org/zap from 1.22.0 to 1.23.0 by @dependabot
+            in https://github.com/helmfile/helmfile/pull/322\r\n* Fix typos in docs
+            by @dreglad in https://github.com/helmfile/helmfile/pull/329\r\n* Add
+            --interactive option to sync, delete and destroy / Remove --interactive
+            from global options by @yxxhero in https://github.com/helmfile/helmfile/pull/328\r\n*
+            use helmfile testdata by @yxxhero in https://github.com/helmfile/helmfile/pull/326\r\n*
+            chore: remove 'OSS' from Jenkins name by @lemeurherve in https://github.com/helmfile/helmfile/pull/331\r\n*
+            add subshell to USERS.md by @philmtd in https://github.com/helmfile/helmfile/pull/335\r\n*
+            add NDR to USERS.md by @muffl0n in https://github.com/helmfile/helmfile/pull/336\r\n*
+            feat: honor concurrency in withPreparedCharts by @stek29 in https://github.com/helmfile/helmfile/pull/345\r\n*
+            feat: dont prepare on list by @stek29 in https://github.com/helmfile/helmfile/pull/346\r\n*
+            docs: add docs for helmfile list by @stek29 in https://github.com/helmfile/helmfile/pull/350\r\n*
+            build(deps): bump github.com/urfave/cli from 1.22.9 to 1.22.10 by @dependabot
+            in https://github.com/helmfile/helmfile/pull/351\r\n* build(deps): bump
+            github.com/google/go-cmp from 0.5.8 to 0.5.9 by @dependabot in https://github.com/helmfile/helmfile/pull/353\r\n*
+            fixed: selector help msg style by @yxxhero in https://github.com/helmfile/helmfile/pull/348\r\n*
+            update docs for CLI by @yxxhero in https://github.com/helmfile/helmfile/pull/356\r\n*
+            Fix --skip-needs regression introduced in v0.145.0 by @yxxhero in https://github.com/helmfile/helmfile/pull/342\r\n*
+            fix github ci matrix config by @yxxhero in https://github.com/helmfile/helmfile/pull/361\r\n*
+            Fix incorrent exit code issue introduced in v0.145.0 by @yxxhero in https://github.com/helmfile/helmfile/pull/359\r\n\r\n##
+            New Contributors\r\n* @dreglad made their first contribution in https://github.com/helmfile/helmfile/pull/329\r\n*
+            @philmtd made their first contribution in https://github.com/helmfile/helmfile/pull/335\r\n*
+            @muffl0n made their first contribution in https://github.com/helmfile/helmfile/pull/336\r\n*
+            @stek29 made their first contribution in https://github.com/helmfile/helmfile/pull/345\r\n\r\n**Full
+            Changelog**: https://github.com/helmfile/helmfile/compare/v0.145.4...v0.145.5"
+          created_at: "2022-09-14T00:51:16Z"
+          draft: false
+          html_url: https://github.com/helmfile/helmfile/releases/tag/v0.145.5
+          id: 77064714
+          mentions_count: 8
+          name: v0.145.5
+          node_id: RE_kwDOHEifes4El-oK
+          prerelease: false
+          published_at: "2022-09-14T00:59:09Z"
+          reactions:
+            "+1": 1
+            "-1": 0
+            confused: 0
+            eyes: 0
+            heart: 0
+            hooray: 1
+            laugh: 0
+            rocket: 1
+            total_count: 3
+            url: https://api.github.com/repos/helmfile/helmfile/releases/77064714/reactions
+          tag_name: v0.145.5
+          tarball_url: https://api.github.com/repos/helmfile/helmfile/tarball/v0.145.5
+          target_commitish: main
+          upload_url: https://uploads.github.com/repos/helmfile/helmfile/releases/77064714/assets{?name,label}
+          url: https://api.github.com/repos/helmfile/helmfile/releases/77064714
+          zipball_url: https://api.github.com/repos/helmfile/helmfile/zipball/v0.145.5
     kubectl:
       1.23.5:
         githubRelease:
