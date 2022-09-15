@@ -30,7 +30,8 @@ fi
 phase=$1
 
 # set up an app specific home directory
-# both helmfile and helm (v3) will use this as their base directory to save state
+# helmfile uses this as the base directory to save its cache in the .cache/helmfile subdirectory
+# helm uses a global location set by ArgoCD via $HELM_CACHE_HOME, $HELM_CONFIG_HOME, and $HELM_DATA_HOME
 export HOME="/tmp/argocd-helmfile/apps/${ARGOCD_APP_NAME}"
 if [[ ! -d $HOME ]]; then
   mkdir -p "$HOME"
