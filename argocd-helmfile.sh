@@ -29,6 +29,13 @@ if [[ $# != 1 || ($1 != generate && $1 != init)]]; then
 fi
 phase=$1
 
+# set up an app specific home directory
+# both helmfile and helm (v3) will use this as their base directory to save state
+export HOME="/tmp/argocd-helmfile/apps/${ARGOCD_APP_NAME}"
+if [[ ! -d $HOME ]]; then
+  mkdir -p "$HOME"
+fi
+
 cat >&2 <<EOF
 Phase           : $phase
 Helm version    : $(helm version --short)
