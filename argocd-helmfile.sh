@@ -38,12 +38,12 @@ if [[ ! -d $HOME ]]; then
 fi
 
 cat >&2 <<EOF
-Phase           : $phase
-Helm version    : $(helm version --short)
-Helmfile version: $(helmfile --version)
-Environment     :
+Phase            : $phase
+Helm version     : $(helm version --short)
+Helmfile version : $(helmfile --version)
+Environment      :
 EOF
-printenv | grep -E '^(ARGOCD_APP_|ARGOCD_ENV_|GNUPGHOME)' | sort | sed 's/^/  /g' >&2
+printenv | grep -E '^(ARGOCD_APP_|ARGOCD_ENV_|KUBE_|GNUPGHOME)' | sort | sed 's/^/  /g' >&2
 
 while IFS='=' read -r -d '' name value; do
   if [[ $name == ARGOCD_ENV_* ]]; then
@@ -107,7 +107,8 @@ case $phase in
 
   "generate")
     # shellcheck disable=SC2086
-    ${helmfile} template --skip-deps --args "${HELM_TEMPLATE_OPTIONS}" ${HELMFILE_TEMPLATE_OPTIONS}
+    ${helmfile} template --skip-deps --args "${HELM_TEMPLATE_OPTIONS} --kube-version=${KUBE_VERSION} \
+      --api-versions=${KUBE_API_VERSIONS}" ${HELMFILE_TEMPLATE_OPTIONS}
     ;;
 
   *)
