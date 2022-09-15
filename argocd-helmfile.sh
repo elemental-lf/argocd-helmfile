@@ -35,7 +35,7 @@ Helm version    : $(helm version --short)
 Helmfile version: $(helmfile --version)
 Environment     :
 EOF
-printenv | egrep '^(ARGOCD_APP_|ARGOCD_ENV_|GNUPGHOME)' | sort | sed 's/^/  /g' >&2
+printenv | grep -E '^(ARGOCD_APP_|ARGOCD_ENV_|GNUPGHOME)' | sort | sed 's/^/  /g' >&2
 
 while IFS='=' read -r -d '' name value; do
   if [[ $name == ARGOCD_ENV_* ]]; then
