@@ -23,7 +23,7 @@ dependencies:
     releasesFrom:
       githubReleases:
         source: argoproj/argo-cd
-    version: "^2.0.0"
+    version: "~2.4.0"
   #argocd:
   #  releasesFrom:
   #    jsonPath:
