@@ -1,12 +1,12 @@
-FROM argoproj/argocd:v2.4.21
+FROM argoproj/argocd:v2.5.9
 
-LABEL version="2.4.21-0.150.0-9e110de2de"
-LABEL argocd_version="2.4.21"
+LABEL version="2.5.9-0.150.0-09e95728b6"
+LABEL argocd_version="2.5.9"
 LABEL helmfile_version="0.150.0"
 LABEL kubectl_version="1.26.1"
 LABEL sops_version="3.7.3"
 LABEL helm_diff_version="3.6.0"
-LABEL version_digest="9e110de2de"
+LABEL version_digest="09e95728b6"
 LABEL maintainer="lf@elemental.net"
 
 # Switch to root for the ability to perform install
