@@ -1,18 +1,18 @@
-FROM argoproj/argocd:v2.5.9
+FROM argoproj/argocd:v2.6.3
 
-LABEL version="2.5.9-0.150.0-09e95728b6"
-LABEL argocd_version="2.5.9"
-LABEL helmfile_version="0.150.0"
+LABEL version="2.6.3-0.151.0-6db01ff3d5"
+LABEL argocd_version="2.6.3"
+LABEL helmfile_version="0.151.0"
 LABEL kubectl_version="1.26.1"
 LABEL sops_version="3.7.3"
 LABEL helm_diff_version="3.6.0"
-LABEL version_digest="09e95728b6"
+LABEL version_digest="6db01ff3d5"
 LABEL maintainer="lf@elemental.net"
 
 # Switch to root for the ability to perform install
 USER root
 
-ARG HELMFILE_VERSION=0.150.0
+ARG HELMFILE_VERSION=0.151.0
 ARG KUBECTL_VERSION=1.26.1
 ARG SOPS_VERSION=3.7.3
 ARG HELM_DIFF_VERSION=3.6.0
@@ -33,8 +33,7 @@ RUN apt-get update && \
     chmod +x /usr/local/bin/argocd-helmfile
 
 # Switch back to non-root user
-ARG ARGOCD_USER_ID=999
-USER $ARGOCD_USER_ID
+USER argocd
 
 RUN helm plugin install https://github.com/databus23/helm-diff --version v${HELM_DIFF_VERSION} && \
     helm plugin install https://github.com/jkroepke/helm-secrets && \
