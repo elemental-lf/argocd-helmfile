@@ -33,7 +33,8 @@ RUN apt-get update && \
     chmod +x /usr/local/bin/argocd-helmfile
 
 # Switch back to non-root user
-USER argocd
+ARG ARGOCD_USER_ID=999
+USER $ARGOCD_USER_ID
 
 RUN helm plugin install https://github.com/databus23/helm-diff --version v${HELM_DIFF_VERSION} && \
     helm plugin install https://github.com/jkroepke/helm-secrets && \
