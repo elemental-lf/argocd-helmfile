@@ -1,4 +1,4 @@
-FROM argoproj/argocd:v{{ .argocd_version }}
+FROM quay.io/argoproj/argocd:v{{ .argocd_version }}
 
 LABEL version="{{ .argocd_version }}-{{ .helmfile_version }}-{{ .version_digest }}"
 LABEL argocd_version="{{ .argocd_version }}"

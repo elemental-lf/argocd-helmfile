@@ -1,4 +1,4 @@
-FROM argoproj/argocd:v2.7.5
+FROM quay.io/argoproj/argocd:v2.7.5
 
 LABEL version="2.7.5-0.154.0-dc6bf48e2a"
 LABEL argocd_version="2.7.5"
