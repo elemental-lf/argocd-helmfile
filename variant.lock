@@ -1,21 +1,23 @@
 dependencies:
   argocd:
-    version: 2.6.3
+    version: 2.6.10
+    previousVersion: 2.6.3
     versions:
     - 2.6.3
+    - 2.6.10
     githubRelease:
       assets:
-      - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v2.6.3/argocd-2.6.3-checksums.sig
+      - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v2.6.10/argocd-2.6.10-checksums.sig
         content_type: application/pgp-signature
-        created_at: "2023-02-27T15:20:06Z"
-        download_count: 2
-        id: 97323062
+        created_at: "2023-06-16T15:30:21Z"
+        download_count: 6
+        id: 113079484
         label: ""
-        name: argocd-2.6.3-checksums.sig
-        node_id: RA_kwDOBzS60s4FzQg2
+        name: argocd-2.6.10-checksums.sig
+        node_id: RA_kwDOBzS60s4GvXS8
         size: 97
         state: uploaded
-        updated_at: "2023-02-27T15:20:06Z"
+        updated_at: "2023-06-16T15:30:21Z"
         uploader:
           avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
           events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
@@ -35,18 +37,18 @@ dependencies:
           subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
           type: Bot
           url: https://api.github.com/users/github-actions%5Bbot%5D
-        url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/97323062
-      - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v2.6.3/argocd-2.6.3-checksums.txt
+        url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/113079484
+      - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v2.6.10/argocd-2.6.10-checksums.txt
         content_type: text/plain
-        created_at: "2023-02-27T15:20:07Z"
-        download_count: 2
-        id: 97323066
+        created_at: "2023-06-16T15:30:22Z"
+        download_count: 8
+        id: 113079491
         label: ""
-        name: argocd-2.6.3-checksums.txt
-        node_id: RA_kwDOBzS60s4FzQg6
-        size: 698
+        name: argocd-2.6.10-checksums.txt
+        node_id: RA_kwDOBzS60s4GvXTD
+        size: 605
         state: uploaded
-        updated_at: "2023-02-27T15:20:07Z"
+        updated_at: "2023-06-16T15:30:22Z"
         uploader:
           avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
           events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
@@ -66,18 +68,18 @@ dependencies:
           subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
           type: Bot
           url: https://api.github.com/users/github-actions%5Bbot%5D
-        url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/97323066
-      - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v2.6.3/argocd-cosign.pub
+        url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/113079491
+      - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v2.6.10/argocd-cosign.pub
         content_type: application/x-mspublisher
-        created_at: "2023-02-27T15:20:06Z"
-        download_count: 2
-        id: 97323052
+        created_at: "2023-06-16T15:30:20Z"
+        download_count: 6
+        id: 113079480
         label: ""
         name: argocd-cosign.pub
-        node_id: RA_kwDOBzS60s4FzQgs
+        node_id: RA_kwDOBzS60s4GvXS4
         size: 178
         state: uploaded
-        updated_at: "2023-02-27T15:20:06Z"
+        updated_at: "2023-06-16T15:30:20Z"
         uploader:
           avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
           events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
@@ -97,18 +99,18 @@ dependencies:
           subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
           type: Bot
           url: https://api.github.com/users/github-actions%5Bbot%5D
-        url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/97323052
-      - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v2.6.3/argocd-darwin-amd64
+        url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/113079480
+      - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v2.6.10/argocd-darwin-amd64
         content_type: application/octet-stream
-        created_at: "2023-02-27T15:20:07Z"
-        download_count: 5
-        id: 97323071
+        created_at: "2023-06-16T15:30:20Z"
+        download_count: 6
+        id: 113079481
         label: ""
         name: argocd-darwin-amd64
-        node_id: RA_kwDOBzS60s4FzQg_
-        size: 137633072
+        node_id: RA_kwDOBzS60s4GvXS5
+        size: 138706336
         state: uploaded
-        updated_at: "2023-02-27T15:20:17Z"
+        updated_at: "2023-06-16T15:30:29Z"
         uploader:
           avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
           events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
@@ -128,18 +130,18 @@ dependencies:
           subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
           type: Bot
           url: https://api.github.com/users/github-actions%5Bbot%5D
-        url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/97323071
-      - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v2.6.3/argocd-darwin-arm64
+        url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/113079481
+      - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v2.6.10/argocd-darwin-arm64
         content_type: application/octet-stream
-        created_at: "2023-02-27T15:20:06Z"
-        download_count: 3
-        id: 97323057
+        created_at: "2023-06-16T15:30:21Z"
+        download_count: 6
+        id: 113079487
         label: ""
         name: argocd-darwin-arm64
-        node_id: RA_kwDOBzS60s4FzQgx
-        size: 137547954
+        node_id: RA_kwDOBzS60s4GvXS_
+        size: 137811618
         state: uploaded
-        updated_at: "2023-02-27T15:20:15Z"
+        updated_at: "2023-06-16T15:30:28Z"
         uploader:
           avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
           events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
@@ -159,18 +161,18 @@ dependencies:
           subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
           type: Bot
           url: https://api.github.com/users/github-actions%5Bbot%5D
-        url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/97323057
-      - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v2.6.3/argocd-linux-amd64
+        url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/113079487
+      - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v2.6.10/argocd-linux-amd64
         content_type: application/octet-stream
-        created_at: "2023-02-27T15:20:07Z"
-        download_count: 356
-        id: 97323067
+        created_at: "2023-06-16T15:30:22Z"
+        download_count: 59
+        id: 113079492
         label: ""
         name: argocd-linux-amd64
-        node_id: RA_kwDOBzS60s4FzQg7
-        size: 138619910
+        node_id: RA_kwDOBzS60s4GvXTE
+        size: 139679733
         state: uploaded
-        updated_at: "2023-02-27T15:20:14Z"
+        updated_at: "2023-06-16T15:30:30Z"
         uploader:
           avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
           events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
@@ -190,18 +192,18 @@ dependencies:
           subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
           type: Bot
           url: https://api.github.com/users/github-actions%5Bbot%5D
-        url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/97323067
-      - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v2.6.3/argocd-linux-arm64
+        url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/113079492
+      - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v2.6.10/argocd-linux-arm64
         content_type: application/octet-stream
-        created_at: "2023-02-27T15:20:06Z"
-        download_count: 7
-        id: 97323060
+        created_at: "2023-06-16T15:30:20Z"
+        download_count: 10
+        id: 113079482
         label: ""
         name: argocd-linux-arm64
-        node_id: RA_kwDOBzS60s4FzQg0
-        size: 135300872
+        node_id: RA_kwDOBzS60s4GvXS6
+        size: 135587396
         state: uploaded
-        updated_at: "2023-02-27T15:20:18Z"
+        updated_at: "2023-06-16T15:30:29Z"
         uploader:
           avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
           events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
@@ -221,18 +223,18 @@ dependencies:
           subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
           type: Bot
           url: https://api.github.com/users/github-actions%5Bbot%5D
-        url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/97323060
-      - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v2.6.3/argocd-linux-ppc64le
+        url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/113079482
+      - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v2.6.10/argocd-linux-ppc64le
         content_type: application/octet-stream
-        created_at: "2023-02-27T15:20:06Z"
-        download_count: 2
-        id: 97323061
+        created_at: "2023-06-16T15:30:21Z"
+        download_count: 8
+        id: 113079485
         label: ""
         name: argocd-linux-ppc64le
-        node_id: RA_kwDOBzS60s4FzQg1
-        size: 136134821
+        node_id: RA_kwDOBzS60s4GvXS9
+        size: 136798698
         state: uploaded
-        updated_at: "2023-02-27T15:20:15Z"
+        updated_at: "2023-06-16T15:30:29Z"
         uploader:
           avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
           events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
@@ -252,18 +254,18 @@ dependencies:
           subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
           type: Bot
           url: https://api.github.com/users/github-actions%5Bbot%5D
-        url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/97323061
-      - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v2.6.3/argocd-linux-s390x
+        url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/113079485
+      - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v2.6.10/argocd-linux-s390x
         content_type: application/octet-stream
-        created_at: "2023-02-27T15:20:06Z"
-        download_count: 2
-        id: 97323063
+        created_at: "2023-06-16T15:30:21Z"
+        download_count: 5
+        id: 113079489
         label: ""
         name: argocd-linux-s390x
-        node_id: RA_kwDOBzS60s4FzQg3
-        size: 142444347
+        node_id: RA_kwDOBzS60s4GvXTB
+        size: 143605633
         state: uploaded
-        updated_at: "2023-02-27T15:20:15Z"
+        updated_at: "2023-06-16T15:30:27Z"
         uploader:
           avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
           events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
@@ -283,18 +285,18 @@ dependencies:
           subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
           type: Bot
           url: https://api.github.com/users/github-actions%5Bbot%5D
-        url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/97323063
-      - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v2.6.3/argocd-windows-amd64.exe
+        url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/113079489
+      - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v2.6.10/argocd-windows-amd64.exe
         content_type: application/octet-stream
-        created_at: "2023-02-27T15:20:06Z"
-        download_count: 15
-        id: 97323065
+        created_at: "2023-06-16T15:30:21Z"
+        download_count: 7
+        id: 113079488
         label: ""
         name: argocd-windows-amd64.exe
-        node_id: RA_kwDOBzS60s4FzQg5
-        size: 139001856
+        node_id: RA_kwDOBzS60s4GvXTA
+        size: 140302336
         state: uploaded
-        updated_at: "2023-02-27T15:20:18Z"
+        updated_at: "2023-06-16T15:30:29Z"
         uploader:
           avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
           events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
@@ -314,18 +316,18 @@ dependencies:
           subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
           type: Bot
           url: https://api.github.com/users/github-actions%5Bbot%5D
-        url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/97323065
-      - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v2.6.3/sbom.tar.gz
+        url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/113079488
+      - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v2.6.10/sbom.tar.gz
         content_type: application/gzip
-        created_at: "2023-02-27T15:20:07Z"
-        download_count: 2
-        id: 97323069
+        created_at: "2023-06-16T15:30:21Z"
+        download_count: 6
+        id: 113079486
         label: ""
         name: sbom.tar.gz
-        node_id: RA_kwDOBzS60s4FzQg9
-        size: 326844
+        node_id: RA_kwDOBzS60s4GvXS-
+        size: 326973
         state: uploaded
-        updated_at: "2023-02-27T15:20:07Z"
+        updated_at: "2023-06-16T15:30:22Z"
         uploader:
           avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
           events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
@@ -345,18 +347,18 @@ dependencies:
           subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
           type: Bot
           url: https://api.github.com/users/github-actions%5Bbot%5D
-        url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/97323069
-      - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v2.6.3/sbom.tar.gz.sig
+        url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/113079486
+      - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v2.6.10/sbom.tar.gz.sig
         content_type: application/pgp-signature
-        created_at: "2023-02-27T15:20:07Z"
-        download_count: 2
-        id: 97323070
+        created_at: "2023-06-16T15:30:22Z"
+        download_count: 7
+        id: 113079493
         label: ""
         name: sbom.tar.gz.sig
-        node_id: RA_kwDOBzS60s4FzQg-
+        node_id: RA_kwDOBzS60s4GvXTF
         size: 97
         state: uploaded
-        updated_at: "2023-02-27T15:20:07Z"
+        updated_at: "2023-06-16T15:30:22Z"
         uploader:
           avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
           events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
@@ -376,8 +378,8 @@ dependencies:
           subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
           type: Bot
           url: https://api.github.com/users/github-actions%5Bbot%5D
-        url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/97323070
-      assets_url: https://api.github.com/repos/argoproj/argo-cd/releases/93807312/assets
+        url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/113079493
+      assets_url: https://api.github.com/repos/argoproj/argo-cd/releases/108892919/assets
       author:
         avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
         events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
@@ -397,733 +399,684 @@ dependencies:
         subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
         type: Bot
         url: https://api.github.com/users/github-actions%5Bbot%5D
-      body: "## Quick Start\r\n\r\n### Non-HA:\r\n\r\n```shell\r\nkubectl create namespace
-        argocd\r\nkubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/v2.6.3/manifests/install.yaml\r\n```\r\n\r\n###
-        HA:\r\n\r\n```shell\r\nkubectl create namespace argocd\r\nkubectl apply -n
-        argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/v2.6.3/manifests/ha/install.yaml\r\n```\r\n\r\n##
-        Release signatures\r\n\r\nAll Argo CD container images and CLI binaries are
-        signed by cosign. See the [documentation](https://argo-cd.readthedocs.io/en/stable/operator-manual/signed-release-assets/)
-        on how to verify the signatures.\r\n```shell\r\n-----BEGIN PUBLIC KEY-----\r\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEesHEB7vX5Y2RxXypjMy1nI1z7iRG\r\nJI9/gt/sYqzpsa65aaNP4npM43DDxoIy/MQBo9s/mxGxmA+8UXeDpVC9vw==\r\n-----END
-        PUBLIC KEY-----\r\n```\r\n\r\n## Upgrading\r\n\r\nIf upgrading from a different
-        minor version, be sure to read the [upgrading](https://argo-cd.readthedocs.io/en/stable/operator-manual/upgrading/overview/)
-        documentation.\r\n\r\n## Changes\r\n\r\nThis release includes 19 contributions
-        from 16 contributors (7 of them new) with 0 features and 7 bug fixes.\r\n\r\nA
-        special thanks goes to the 7 new contributors:\r\n- atusy\r\n- Dmitriy Mann\r\n-
-        Michael Chen\r\n- Steve Ramage\r\n- Vaibhav Bhembre\r\n- Wojtek Cichoń\r\n-
-        Zadkiel Aharonian\r\n\r\n### Bug fixes (7)\r\n\r\n- fix: traverse generator
-        tree when getting requeue time (#12407) (#12612)\r\n- fix: evaluate all possible
-        refresh reasons for multi-source apps (#12379) (#12609)\r\n- fix: valid username
-        in webhook URL matching regex (#9055) (#12203)\r\n- fix: setting spec.SyncPolicy
-        crashes 'argocd appset get' output (#12424) (#12425)\r\n- fix(security): add
-        url validation for help chat (#9956) (#10417)\r\n- fix: show full event message
-        in pod event view (#12104) (#12267)\r\n- fix: when resource does not exist
-        node menu and resource details shou… (#12360)\r\n\r\n### Documentation (8)\r\n\r\n-
-        docs: add 2.5->2.6 upgrade notes to table of contents (#12319)\r\n- docs:
-        add multi source app ref in helm section (#12499)\r\n- docs: FAQ improvements
-        (#12146)\r\n- docs: fix a few typos and grammar mistakes (#12280)\r\n- docs:
-        fix typo (#12389)\r\n- docs: Updated link to Jenkins and added GitHub Actions
-        link (#12465)\r\n- docs: fix typo in health documentation (#12497)\r\n- docs:
-        Clarify cascade delete of resource and finalizer (#11064)\r\n\r\n### Other
-        (4)\r\n\r\n- chore: use registry.k8s.io instead of k8s.gcr.io (#12362)\r\n-
-        chore(deps): bump imjasonh/setup-crane from 0.2 to 0.3 (#12504)\r\n- chore(deps):
-        bump docker/setup-buildx-action from 2.4.0 to 2.4.1 (#12308)\r\n- chore(deps):
-        bump actions/cache from 3.2.4 to 3.2.5 (#12433)\r\n\r\n"
-      created_at: "2023-02-27T14:27:28Z"
+      body: |+
+        ## Quick Start
+
+        ### Non-HA:
+
+        ```shell
+        kubectl create namespace argocd
+        kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/v2.6.10/manifests/install.yaml
+        ```
+
+        ### HA:
+
+        ```shell
+        kubectl create namespace argocd
+        kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/v2.6.10/manifests/ha/install.yaml
+        ```
+
+        ## Release signatures
+
+        All Argo CD container images and CLI binaries are signed by cosign. See the [documentation](https://argo-cd.readthedocs.io/en/stable/operator-manual/signed-release-assets/) on how to verify the signatures.
+        ```shell
+        -----BEGIN PUBLIC KEY-----
+        MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEesHEB7vX5Y2RxXypjMy1nI1z7iRG
+        JI9/gt/sYqzpsa65aaNP4npM43DDxoIy/MQBo9s/mxGxmA+8UXeDpVC9vw==
+        -----END PUBLIC KEY-----
+        ```
+
+        ## Upgrading
+
+        If upgrading from a different minor version, be sure to read the [upgrading](https://argo-cd.readthedocs.io/en/stable/operator-manual/upgrading/overview/) documentation.
+
+        ## Changes
+
+        This release includes 8 contributions from 2 contributors with 0 features and 4 bug fixes.
+
+        ### Bug fixes (4)
+
+        - fix(cmp): discover plugins relative to app path (#13940) (#13946) (#14085)
+        - fix: Multi source apps resolve revision in .status field (#14081) (#14087)
+        - fix(cli): support application in any namespace with `argocd app diff` (#13978) (#13980) (#14062)
+        - fix(ui): Fix Patch and Get Manifests (#13949) (#13953)
+
+        ### Documentation (2)
+
+        - docs: add golang upgrade note for 2.5 (#14048) (#14058)
+        - docs: add documentation for child elements of path (#14044) (#14055)
+
+        ### Other (2)
+
+        - chore(deps): upgrade haproxy to 2.6.14-alpine (#14018) (#14052)
+        - chore(deps): upgrade go to 1.19.10 (#13943)
+
+      created_at: "2023-06-16T14:24:19Z"
       draft: false
-      html_url: https://github.com/argoproj/argo-cd/releases/tag/v2.6.3
-      id: 93807312
-      name: v2.6.3
-      node_id: RE_kwDOBzS60s4Fl2LQ
+      html_url: https://github.com/argoproj/argo-cd/releases/tag/v2.6.10
+      id: 108892919
+      name: v2.6.10
+      node_id: RE_kwDOBzS60s4GfZL3
       prerelease: false
-      published_at: "2023-02-27T15:20:04Z"
-      tag_name: v2.6.3
-      tarball_url: https://api.github.com/repos/argoproj/argo-cd/tarball/v2.6.3
+      published_at: "2023-06-16T15:30:18Z"
+      tag_name: v2.6.10
+      tarball_url: https://api.github.com/repos/argoproj/argo-cd/tarball/v2.6.10
       target_commitish: master
-      upload_url: https://uploads.github.com/repos/argoproj/argo-cd/releases/93807312/assets{?name,label}
-      url: https://api.github.com/repos/argoproj/argo-cd/releases/93807312
-      zipball_url: https://api.github.com/repos/argoproj/argo-cd/zipball/v2.6.3
+      upload_url: https://uploads.github.com/repos/argoproj/argo-cd/releases/108892919/assets{?name,label}
+      url: https://api.github.com/repos/argoproj/argo-cd/releases/108892919
+      zipball_url: https://api.github.com/repos/argoproj/argo-cd/zipball/v2.6.10
   helm_diff:
-    version: 3.6.0
+    version: 3.8.1
+    previousVersion: 3.6.0
     versions:
     - 3.6.0
+    - 3.8.1
     githubRelease:
       assets:
-      - browser_download_url: https://github.com/databus23/helm-diff/releases/download/v3.6.0/helm-diff-freebsd-amd64.tgz
+      - browser_download_url: https://github.com/databus23/helm-diff/releases/download/v3.8.1/helm-diff-freebsd-amd64.tgz
         content_type: application/x-gtar
-        created_at: "2022-09-23T12:07:33Z"
-        download_count: 12
-        id: 78779903
+        created_at: "2023-06-04T02:44:38Z"
+        download_count: 2
+        id: 111176442
         label: ""
         name: helm-diff-freebsd-amd64.tgz
-        node_id: RA_kwDOBPv_Ws4EshX_
-        size: 27583916
+        node_id: RA_kwDOBPv_Ws4GoGr6
+        size: 28148204
         state: uploaded
-        updated_at: "2022-09-23T12:07:39Z"
+        updated_at: "2023-06-04T02:44:50Z"
         uploader:
-          avatar_url: https://avatars.githubusercontent.com/u/439223?v=4
-          events_url: https://api.github.com/users/databus23/events{/privacy}
-          followers_url: https://api.github.com/users/databus23/followers
-          following_url: https://api.github.com/users/databus23/following{/other_user}
-          gists_url: https://api.github.com/users/databus23/gists{/gist_id}
+          avatar_url: https://avatars.githubusercontent.com/u/22009?v=4
+          events_url: https://api.github.com/users/mumoshu/events{/privacy}
+          followers_url: https://api.github.com/users/mumoshu/followers
+          following_url: https://api.github.com/users/mumoshu/following{/other_user}
+          gists_url: https://api.github.com/users/mumoshu/gists{/gist_id}
           gravatar_id: ""
-          html_url: https://github.com/databus23
-          id: 439223
-          login: databus23
-          node_id: MDQ6VXNlcjQzOTIyMw==
-          organizations_url: https://api.github.com/users/databus23/orgs
-          received_events_url: https://api.github.com/users/databus23/received_events
-          repos_url: https://api.github.com/users/databus23/repos
+          html_url: https://github.com/mumoshu
+          id: 22009
+          login: mumoshu
+          node_id: MDQ6VXNlcjIyMDA5
+          organizations_url: https://api.github.com/users/mumoshu/orgs
+          received_events_url: https://api.github.com/users/mumoshu/received_events
+          repos_url: https://api.github.com/users/mumoshu/repos
           site_admin: false
-          starred_url: https://api.github.com/users/databus23/starred{/owner}{/repo}
-          subscriptions_url: https://api.github.com/users/databus23/subscriptions
+          starred_url: https://api.github.com/users/mumoshu/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/mumoshu/subscriptions
           type: User
-          url: https://api.github.com/users/databus23
-        url: https://api.github.com/repos/databus23/helm-diff/releases/assets/78779903
-      - browser_download_url: https://github.com/databus23/helm-diff/releases/download/v3.6.0/helm-diff-linux-amd64.tgz
+          url: https://api.github.com/users/mumoshu
+        url: https://api.github.com/repos/databus23/helm-diff/releases/assets/111176442
+      - browser_download_url: https://github.com/databus23/helm-diff/releases/download/v3.8.1/helm-diff-linux-amd64.tgz
         content_type: application/x-gtar
-        created_at: "2022-09-23T12:07:33Z"
-        download_count: 545110
-        id: 78779904
+        created_at: "2023-06-04T02:44:38Z"
+        download_count: 55010
+        id: 111176441
         label: ""
         name: helm-diff-linux-amd64.tgz
-        node_id: RA_kwDOBPv_Ws4EshYA
-        size: 27634459
+        node_id: RA_kwDOBPv_Ws4GoGr5
+        size: 28209600
         state: uploaded
-        updated_at: "2022-09-23T12:07:39Z"
+        updated_at: "2023-06-04T02:44:50Z"
         uploader:
-          avatar_url: https://avatars.githubusercontent.com/u/439223?v=4
-          events_url: https://api.github.com/users/databus23/events{/privacy}
-          followers_url: https://api.github.com/users/databus23/followers
-          following_url: https://api.github.com/users/databus23/following{/other_user}
-          gists_url: https://api.github.com/users/databus23/gists{/gist_id}
+          avatar_url: https://avatars.githubusercontent.com/u/22009?v=4
+          events_url: https://api.github.com/users/mumoshu/events{/privacy}
+          followers_url: https://api.github.com/users/mumoshu/followers
+          following_url: https://api.github.com/users/mumoshu/following{/other_user}
+          gists_url: https://api.github.com/users/mumoshu/gists{/gist_id}
           gravatar_id: ""
-          html_url: https://github.com/databus23
-          id: 439223
-          login: databus23
-          node_id: MDQ6VXNlcjQzOTIyMw==
-          organizations_url: https://api.github.com/users/databus23/orgs
-          received_events_url: https://api.github.com/users/databus23/received_events
-          repos_url: https://api.github.com/users/databus23/repos
+          html_url: https://github.com/mumoshu
+          id: 22009
+          login: mumoshu
+          node_id: MDQ6VXNlcjIyMDA5
+          organizations_url: https://api.github.com/users/mumoshu/orgs
+          received_events_url: https://api.github.com/users/mumoshu/received_events
+          repos_url: https://api.github.com/users/mumoshu/repos
           site_admin: false
-          starred_url: https://api.github.com/users/databus23/starred{/owner}{/repo}
-          subscriptions_url: https://api.github.com/users/databus23/subscriptions
+          starred_url: https://api.github.com/users/mumoshu/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/mumoshu/subscriptions
           type: User
-          url: https://api.github.com/users/databus23
-        url: https://api.github.com/repos/databus23/helm-diff/releases/assets/78779904
-      - browser_download_url: https://github.com/databus23/helm-diff/releases/download/v3.6.0/helm-diff-linux-arm64.tgz
+          url: https://api.github.com/users/mumoshu
+        url: https://api.github.com/repos/databus23/helm-diff/releases/assets/111176441
+      - browser_download_url: https://github.com/databus23/helm-diff/releases/download/v3.8.1/helm-diff-linux-arm64.tgz
         content_type: application/x-gtar
-        created_at: "2022-09-23T12:07:32Z"
-        download_count: 13347
-        id: 78779902
+        created_at: "2023-06-04T02:44:38Z"
+        download_count: 971
+        id: 111176440
         label: ""
         name: helm-diff-linux-arm64.tgz
-        node_id: RA_kwDOBPv_Ws4EshX-
-        size: 25755543
+        node_id: RA_kwDOBPv_Ws4GoGr4
+        size: 26101714
         state: uploaded
-        updated_at: "2022-09-23T12:07:39Z"
+        updated_at: "2023-06-04T02:44:50Z"
         uploader:
-          avatar_url: https://avatars.githubusercontent.com/u/439223?v=4
-          events_url: https://api.github.com/users/databus23/events{/privacy}
-          followers_url: https://api.github.com/users/databus23/followers
-          following_url: https://api.github.com/users/databus23/following{/other_user}
-          gists_url: https://api.github.com/users/databus23/gists{/gist_id}
+          avatar_url: https://avatars.githubusercontent.com/u/22009?v=4
+          events_url: https://api.github.com/users/mumoshu/events{/privacy}
+          followers_url: https://api.github.com/users/mumoshu/followers
+          following_url: https://api.github.com/users/mumoshu/following{/other_user}
+          gists_url: https://api.github.com/users/mumoshu/gists{/gist_id}
           gravatar_id: ""
-          html_url: https://github.com/databus23
-          id: 439223
-          login: databus23
-          node_id: MDQ6VXNlcjQzOTIyMw==
-          organizations_url: https://api.github.com/users/databus23/orgs
-          received_events_url: https://api.github.com/users/databus23/received_events
-          repos_url: https://api.github.com/users/databus23/repos
+          html_url: https://github.com/mumoshu
+          id: 22009
+          login: mumoshu
+          node_id: MDQ6VXNlcjIyMDA5
+          organizations_url: https://api.github.com/users/mumoshu/orgs
+          received_events_url: https://api.github.com/users/mumoshu/received_events
+          repos_url: https://api.github.com/users/mumoshu/repos
           site_admin: false
-          starred_url: https://api.github.com/users/databus23/starred{/owner}{/repo}
-          subscriptions_url: https://api.github.com/users/databus23/subscriptions
+          starred_url: https://api.github.com/users/mumoshu/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/mumoshu/subscriptions
           type: User
-          url: https://api.github.com/users/databus23
-        url: https://api.github.com/repos/databus23/helm-diff/releases/assets/78779902
-      - browser_download_url: https://github.com/databus23/helm-diff/releases/download/v3.6.0/helm-diff-macos-amd64.tgz
+          url: https://api.github.com/users/mumoshu
+        url: https://api.github.com/repos/databus23/helm-diff/releases/assets/111176440
+      - browser_download_url: https://github.com/databus23/helm-diff/releases/download/v3.8.1/helm-diff-macos-amd64.tgz
         content_type: application/x-gtar
-        created_at: "2022-09-23T12:07:32Z"
-        download_count: 5304
-        id: 78779901
+        created_at: "2023-06-04T02:44:38Z"
+        download_count: 400
+        id: 111176443
         label: ""
         name: helm-diff-macos-amd64.tgz
-        node_id: RA_kwDOBPv_Ws4EshX9
-        size: 27379608
+        node_id: RA_kwDOBPv_Ws4GoGr7
+        size: 27960815
         state: uploaded
-        updated_at: "2022-09-23T12:07:40Z"
+        updated_at: "2023-06-04T02:44:50Z"
         uploader:
-          avatar_url: https://avatars.githubusercontent.com/u/439223?v=4
-          events_url: https://api.github.com/users/databus23/events{/privacy}
-          followers_url: https://api.github.com/users/databus23/followers
-          following_url: https://api.github.com/users/databus23/following{/other_user}
-          gists_url: https://api.github.com/users/databus23/gists{/gist_id}
+          avatar_url: https://avatars.githubusercontent.com/u/22009?v=4
+          events_url: https://api.github.com/users/mumoshu/events{/privacy}
+          followers_url: https://api.github.com/users/mumoshu/followers
+          following_url: https://api.github.com/users/mumoshu/following{/other_user}
+          gists_url: https://api.github.com/users/mumoshu/gists{/gist_id}
           gravatar_id: ""
-          html_url: https://github.com/databus23
-          id: 439223
-          login: databus23
-          node_id: MDQ6VXNlcjQzOTIyMw==
-          organizations_url: https://api.github.com/users/databus23/orgs
-          received_events_url: https://api.github.com/users/databus23/received_events
-          repos_url: https://api.github.com/users/databus23/repos
+          html_url: https://github.com/mumoshu
+          id: 22009
+          login: mumoshu
+          node_id: MDQ6VXNlcjIyMDA5
+          organizations_url: https://api.github.com/users/mumoshu/orgs
+          received_events_url: https://api.github.com/users/mumoshu/received_events
+          repos_url: https://api.github.com/users/mumoshu/repos
           site_admin: false
-          starred_url: https://api.github.com/users/databus23/starred{/owner}{/repo}
-          subscriptions_url: https://api.github.com/users/databus23/subscriptions
+          starred_url: https://api.github.com/users/mumoshu/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/mumoshu/subscriptions
           type: User
-          url: https://api.github.com/users/databus23
-        url: https://api.github.com/repos/databus23/helm-diff/releases/assets/78779901
-      - browser_download_url: https://github.com/databus23/helm-diff/releases/download/v3.6.0/helm-diff-macos-arm64.tgz
+          url: https://api.github.com/users/mumoshu
+        url: https://api.github.com/repos/databus23/helm-diff/releases/assets/111176443
+      - browser_download_url: https://github.com/databus23/helm-diff/releases/download/v3.8.1/helm-diff-macos-arm64.tgz
         content_type: application/x-gtar
-        created_at: "2022-09-23T12:07:33Z"
-        download_count: 4822
-        id: 78779905
+        created_at: "2023-06-04T02:44:38Z"
+        download_count: 672
+        id: 111176439
         label: ""
         name: helm-diff-macos-arm64.tgz
-        node_id: RA_kwDOBPv_Ws4EshYB
-        size: 26391115
+        node_id: RA_kwDOBPv_Ws4GoGr3
+        size: 26727086
         state: uploaded
-        updated_at: "2022-09-23T12:07:39Z"
+        updated_at: "2023-06-04T02:44:49Z"
         uploader:
-          avatar_url: https://avatars.githubusercontent.com/u/439223?v=4
-          events_url: https://api.github.com/users/databus23/events{/privacy}
-          followers_url: https://api.github.com/users/databus23/followers
-          following_url: https://api.github.com/users/databus23/following{/other_user}
-          gists_url: https://api.github.com/users/databus23/gists{/gist_id}
+          avatar_url: https://avatars.githubusercontent.com/u/22009?v=4
+          events_url: https://api.github.com/users/mumoshu/events{/privacy}
+          followers_url: https://api.github.com/users/mumoshu/followers
+          following_url: https://api.github.com/users/mumoshu/following{/other_user}
+          gists_url: https://api.github.com/users/mumoshu/gists{/gist_id}
           gravatar_id: ""
-          html_url: https://github.com/databus23
-          id: 439223
-          login: databus23
-          node_id: MDQ6VXNlcjQzOTIyMw==
-          organizations_url: https://api.github.com/users/databus23/orgs
-          received_events_url: https://api.github.com/users/databus23/received_events
-          repos_url: https://api.github.com/users/databus23/repos
+          html_url: https://github.com/mumoshu
+          id: 22009
+          login: mumoshu
+          node_id: MDQ6VXNlcjIyMDA5
+          organizations_url: https://api.github.com/users/mumoshu/orgs
+          received_events_url: https://api.github.com/users/mumoshu/received_events
+          repos_url: https://api.github.com/users/mumoshu/repos
           site_admin: false
-          starred_url: https://api.github.com/users/databus23/starred{/owner}{/repo}
-          subscriptions_url: https://api.github.com/users/databus23/subscriptions
+          starred_url: https://api.github.com/users/mumoshu/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/mumoshu/subscriptions
           type: User
-          url: https://api.github.com/users/databus23
-        url: https://api.github.com/repos/databus23/helm-diff/releases/assets/78779905
-      - browser_download_url: https://github.com/databus23/helm-diff/releases/download/v3.6.0/helm-diff-windows-amd64.tgz
+          url: https://api.github.com/users/mumoshu
+        url: https://api.github.com/repos/databus23/helm-diff/releases/assets/111176439
+      - browser_download_url: https://github.com/databus23/helm-diff/releases/download/v3.8.1/helm-diff-windows-amd64.tgz
         content_type: application/x-gtar
-        created_at: "2022-09-23T12:07:39Z"
-        download_count: 3490
-        id: 78779912
+        created_at: "2023-06-04T02:44:50Z"
+        download_count: 373
+        id: 111176456
         label: ""
         name: helm-diff-windows-amd64.tgz
-        node_id: RA_kwDOBPv_Ws4EshYI
-        size: 27726079
+        node_id: RA_kwDOBPv_Ws4GoGsI
+        size: 28406545
         state: uploaded
-        updated_at: "2022-09-23T12:07:41Z"
+        updated_at: "2023-06-04T02:44:55Z"
         uploader:
-          avatar_url: https://avatars.githubusercontent.com/u/439223?v=4
-          events_url: https://api.github.com/users/databus23/events{/privacy}
-          followers_url: https://api.github.com/users/databus23/followers
-          following_url: https://api.github.com/users/databus23/following{/other_user}
-          gists_url: https://api.github.com/users/databus23/gists{/gist_id}
+          avatar_url: https://avatars.githubusercontent.com/u/22009?v=4
+          events_url: https://api.github.com/users/mumoshu/events{/privacy}
+          followers_url: https://api.github.com/users/mumoshu/followers
+          following_url: https://api.github.com/users/mumoshu/following{/other_user}
+          gists_url: https://api.github.com/users/mumoshu/gists{/gist_id}
           gravatar_id: ""
-          html_url: https://github.com/databus23
-          id: 439223
-          login: databus23
-          node_id: MDQ6VXNlcjQzOTIyMw==
-          organizations_url: https://api.github.com/users/databus23/orgs
-          received_events_url: https://api.github.com/users/databus23/received_events
-          repos_url: https://api.github.com/users/databus23/repos
+          html_url: https://github.com/mumoshu
+          id: 22009
+          login: mumoshu
+          node_id: MDQ6VXNlcjIyMDA5
+          organizations_url: https://api.github.com/users/mumoshu/orgs
+          received_events_url: https://api.github.com/users/mumoshu/received_events
+          repos_url: https://api.github.com/users/mumoshu/repos
           site_admin: false
-          starred_url: https://api.github.com/users/databus23/starred{/owner}{/repo}
-          subscriptions_url: https://api.github.com/users/databus23/subscriptions
+          starred_url: https://api.github.com/users/mumoshu/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/mumoshu/subscriptions
           type: User
-          url: https://api.github.com/users/databus23
-        url: https://api.github.com/repos/databus23/helm-diff/releases/assets/78779912
-      assets_url: https://api.github.com/repos/databus23/helm-diff/releases/77977151/assets
+          url: https://api.github.com/users/mumoshu
+        url: https://api.github.com/repos/databus23/helm-diff/releases/assets/111176456
+      assets_url: https://api.github.com/repos/databus23/helm-diff/releases/106869017/assets
       author:
-        avatar_url: https://avatars.githubusercontent.com/u/439223?v=4
-        events_url: https://api.github.com/users/databus23/events{/privacy}
-        followers_url: https://api.github.com/users/databus23/followers
-        following_url: https://api.github.com/users/databus23/following{/other_user}
-        gists_url: https://api.github.com/users/databus23/gists{/gist_id}
+        avatar_url: https://avatars.githubusercontent.com/u/22009?v=4
+        events_url: https://api.github.com/users/mumoshu/events{/privacy}
+        followers_url: https://api.github.com/users/mumoshu/followers
+        following_url: https://api.github.com/users/mumoshu/following{/other_user}
+        gists_url: https://api.github.com/users/mumoshu/gists{/gist_id}
         gravatar_id: ""
-        html_url: https://github.com/databus23
-        id: 439223
-        login: databus23
-        node_id: MDQ6VXNlcjQzOTIyMw==
-        organizations_url: https://api.github.com/users/databus23/orgs
-        received_events_url: https://api.github.com/users/databus23/received_events
-        repos_url: https://api.github.com/users/databus23/repos
+        html_url: https://github.com/mumoshu
+        id: 22009
+        login: mumoshu
+        node_id: MDQ6VXNlcjIyMDA5
+        organizations_url: https://api.github.com/users/mumoshu/orgs
+        received_events_url: https://api.github.com/users/mumoshu/received_events
+        repos_url: https://api.github.com/users/mumoshu/repos
         site_admin: false
-        starred_url: https://api.github.com/users/databus23/starred{/owner}{/repo}
-        subscriptions_url: https://api.github.com/users/databus23/subscriptions
+        starred_url: https://api.github.com/users/mumoshu/starred{/owner}{/repo}
+        subscriptions_url: https://api.github.com/users/mumoshu/subscriptions
         type: User
-        url: https://api.github.com/users/databus23
-      body: "## What's Changed\r\n* chore: Correct small typo in README.md by @tpoindessous
-        in https://github.com/databus23/helm-diff/pull/391\r\n* Bump helm.sh/helm/v3
-        from 3.8.0 to 3.9.4 by @dependabot in https://github.com/databus23/helm-diff/pull/405\r\n*
-        chore: Remove trailing whitespace and fix some typos in README by @hufterkruk
-        in https://github.com/databus23/helm-diff/pull/395\r\n* add env var HELM_DIFF_NORMALIZE_MANIFESTS=true
-        for flag --normalize-m… by @Anthon129 in https://github.com/databus23/helm-diff/pull/389\r\n*
-        diff: fix secret redaction for secrets with stringData by @majewsky in https://github.com/databus23/helm-diff/pull/407\r\n\r\n##
-        New Contributors\r\n* @tpoindessous made their first contribution in https://github.com/databus23/helm-diff/pull/391\r\n*
-        @dependabot made their first contribution in https://github.com/databus23/helm-diff/pull/405\r\n*
-        @hufterkruk made their first contribution in https://github.com/databus23/helm-diff/pull/395\r\n*
-        @Anthon129 made their first contribution in https://github.com/databus23/helm-diff/pull/389\r\n*
-        @majewsky made their first contribution in https://github.com/databus23/helm-diff/pull/407\r\n\r\n**Full
-        Changelog**: https://github.com/databus23/helm-diff/compare/v3.5.0...v3.6.0"
-      created_at: "2022-09-23T09:54:11Z"
+        url: https://api.github.com/users/mumoshu
+      body: "## What's Changed\r\n* Add support for --insecure-skip-tls-verify by
+        @mumoshu in https://github.com/databus23/helm-diff/pull/462\r\n\r\n\r\n**Full
+        Changelog**: https://github.com/databus23/helm-diff/compare/v3.8.0...v3.8.1"
+      created_at: "2023-06-04T01:34:34Z"
       draft: false
-      html_url: https://github.com/databus23/helm-diff/releases/tag/v3.6.0
-      id: 77977151
-      mentions_count: 5
-      name: v3.6.0
-      node_id: RE_kwDOBPv_Ws4EpdY_
+      html_url: https://github.com/databus23/helm-diff/releases/tag/v3.8.1
+      id: 106869017
+      mentions_count: 1
+      name: v3.8.1
+      node_id: RE_kwDOBPv_Ws4GXrEZ
       prerelease: false
-      published_at: "2022-09-23T12:08:29Z"
-      reactions:
-        "+1": 3
-        "-1": 0
-        confused: 0
-        eyes: 1
-        heart: 1
-        hooray: 2
-        laugh: 1
-        rocket: 1
-        total_count: 9
-        url: https://api.github.com/repos/databus23/helm-diff/releases/77977151/reactions
-      tag_name: v3.6.0
-      tarball_url: https://api.github.com/repos/databus23/helm-diff/tarball/v3.6.0
-      target_commitish: master
-      upload_url: https://uploads.github.com/repos/databus23/helm-diff/releases/77977151/assets{?name,label}
-      url: https://api.github.com/repos/databus23/helm-diff/releases/77977151
-      zipball_url: https://api.github.com/repos/databus23/helm-diff/zipball/v3.6.0
-  helmfile:
-    version: 0.151.0
-    versions:
-    - 0.151.0
-    githubRelease:
-      assets:
-      - browser_download_url: https://github.com/helmfile/helmfile/releases/download/v0.151.0/helmfile_0.151.0_checksums.txt
-        content_type: text/plain; charset=utf-8
-        created_at: "2023-02-17T15:15:57Z"
-        download_count: 36
-        id: 96078166
-        label: ""
-        name: helmfile_0.151.0_checksums.txt
-        node_id: RA_kwDOHEifes4FuglW
-        size: 820
-        state: uploaded
-        updated_at: "2023-02-17T15:15:57Z"
-        uploader:
-          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
-          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
-          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
-          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
-          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
-          gravatar_id: ""
-          html_url: https://github.com/apps/github-actions
-          id: 41898282
-          login: github-actions[bot]
-          node_id: MDM6Qm90NDE4OTgyODI=
-          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
-          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
-          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
-          site_admin: false
-          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
-          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
-          type: Bot
-          url: https://api.github.com/users/github-actions%5Bbot%5D
-        url: https://api.github.com/repos/helmfile/helmfile/releases/assets/96078166
-      - browser_download_url: https://github.com/helmfile/helmfile/releases/download/v0.151.0/helmfile_0.151.0_darwin_amd64.tar.gz
-        content_type: application/gzip
-        created_at: "2023-02-17T15:15:55Z"
-        download_count: 33
-        id: 96078159
-        label: ""
-        name: helmfile_0.151.0_darwin_amd64.tar.gz
-        node_id: RA_kwDOHEifes4FuglP
-        size: 19739030
-        state: uploaded
-        updated_at: "2023-02-17T15:15:56Z"
-        uploader:
-          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
-          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
-          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
-          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
-          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
-          gravatar_id: ""
-          html_url: https://github.com/apps/github-actions
-          id: 41898282
-          login: github-actions[bot]
-          node_id: MDM6Qm90NDE4OTgyODI=
-          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
-          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
-          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
-          site_admin: false
-          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
-          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
-          type: Bot
-          url: https://api.github.com/users/github-actions%5Bbot%5D
-        url: https://api.github.com/repos/helmfile/helmfile/releases/assets/96078159
-      - browser_download_url: https://github.com/helmfile/helmfile/releases/download/v0.151.0/helmfile_0.151.0_darwin_arm64.tar.gz
-        content_type: application/gzip
-        created_at: "2023-02-17T15:15:54Z"
-        download_count: 46
-        id: 96078154
-        label: ""
-        name: helmfile_0.151.0_darwin_arm64.tar.gz
-        node_id: RA_kwDOHEifes4FuglK
-        size: 18830269
-        state: uploaded
-        updated_at: "2023-02-17T15:15:55Z"
-        uploader:
-          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
-          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
-          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
-          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
-          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
-          gravatar_id: ""
-          html_url: https://github.com/apps/github-actions
-          id: 41898282
-          login: github-actions[bot]
-          node_id: MDM6Qm90NDE4OTgyODI=
-          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
-          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
-          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
-          site_admin: false
-          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
-          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
-          type: Bot
-          url: https://api.github.com/users/github-actions%5Bbot%5D
-        url: https://api.github.com/repos/helmfile/helmfile/releases/assets/96078154
-      - browser_download_url: https://github.com/helmfile/helmfile/releases/download/v0.151.0/helmfile_0.151.0_linux_386.tar.gz
-        content_type: application/gzip
-        created_at: "2023-02-17T15:15:52Z"
-        download_count: 18
-        id: 96078142
-        label: ""
-        name: helmfile_0.151.0_linux_386.tar.gz
-        node_id: RA_kwDOHEifes4Fugk-
-        size: 17649123
-        state: uploaded
-        updated_at: "2023-02-17T15:15:53Z"
-        uploader:
-          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
-          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
-          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
-          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
-          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
-          gravatar_id: ""
-          html_url: https://github.com/apps/github-actions
-          id: 41898282
-          login: github-actions[bot]
-          node_id: MDM6Qm90NDE4OTgyODI=
-          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
-          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
-          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
-          site_admin: false
-          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
-          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
-          type: Bot
-          url: https://api.github.com/users/github-actions%5Bbot%5D
-        url: https://api.github.com/repos/helmfile/helmfile/releases/assets/96078142
-      - browser_download_url: https://github.com/helmfile/helmfile/releases/download/v0.151.0/helmfile_0.151.0_linux_amd64.tar.gz
-        content_type: application/gzip
-        created_at: "2023-02-17T15:15:56Z"
-        download_count: 3319
-        id: 96078163
-        label: ""
-        name: helmfile_0.151.0_linux_amd64.tar.gz
-        node_id: RA_kwDOHEifes4FuglT
-        size: 18808656
-        state: uploaded
-        updated_at: "2023-02-17T15:15:57Z"
-        uploader:
-          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
-          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
-          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
-          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
-          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
-          gravatar_id: ""
-          html_url: https://github.com/apps/github-actions
-          id: 41898282
-          login: github-actions[bot]
-          node_id: MDM6Qm90NDE4OTgyODI=
-          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
-          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
-          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
-          site_admin: false
-          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
-          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
-          type: Bot
-          url: https://api.github.com/users/github-actions%5Bbot%5D
-        url: https://api.github.com/repos/helmfile/helmfile/releases/assets/96078163
-      - browser_download_url: https://github.com/helmfile/helmfile/releases/download/v0.151.0/helmfile_0.151.0_linux_arm64.tar.gz
-        content_type: application/gzip
-        created_at: "2023-02-17T15:15:56Z"
-        download_count: 591
-        id: 96078162
-        label: ""
-        name: helmfile_0.151.0_linux_arm64.tar.gz
-        node_id: RA_kwDOHEifes4FuglS
-        size: 16977087
-        state: uploaded
-        updated_at: "2023-02-17T15:15:57Z"
-        uploader:
-          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
-          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
-          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
-          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
-          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
-          gravatar_id: ""
-          html_url: https://github.com/apps/github-actions
-          id: 41898282
-          login: github-actions[bot]
-          node_id: MDM6Qm90NDE4OTgyODI=
-          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
-          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
-          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
-          site_admin: false
-          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
-          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
-          type: Bot
-          url: https://api.github.com/users/github-actions%5Bbot%5D
-        url: https://api.github.com/repos/helmfile/helmfile/releases/assets/96078162
-      - browser_download_url: https://github.com/helmfile/helmfile/releases/download/v0.151.0/helmfile_0.151.0_windows_386.tar.gz
-        content_type: application/gzip
-        created_at: "2023-02-17T15:15:53Z"
-        download_count: 12
-        id: 96078151
-        label: ""
-        name: helmfile_0.151.0_windows_386.tar.gz
-        node_id: RA_kwDOHEifes4FuglH
-        size: 18493296
-        state: uploaded
-        updated_at: "2023-02-17T15:15:55Z"
-        uploader:
-          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
-          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
-          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
-          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
-          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
-          gravatar_id: ""
-          html_url: https://github.com/apps/github-actions
-          id: 41898282
-          login: github-actions[bot]
-          node_id: MDM6Qm90NDE4OTgyODI=
-          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
-          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
-          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
-          site_admin: false
-          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
-          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
-          type: Bot
-          url: https://api.github.com/users/github-actions%5Bbot%5D
-        url: https://api.github.com/repos/helmfile/helmfile/releases/assets/96078151
-      - browser_download_url: https://github.com/helmfile/helmfile/releases/download/v0.151.0/helmfile_0.151.0_windows_amd64.tar.gz
-        content_type: application/gzip
-        created_at: "2023-02-17T15:15:52Z"
-        download_count: 228
-        id: 96078141
-        label: ""
-        name: helmfile_0.151.0_windows_amd64.tar.gz
-        node_id: RA_kwDOHEifes4Fugk9
-        size: 18972887
-        state: uploaded
-        updated_at: "2023-02-17T15:15:53Z"
-        uploader:
-          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
-          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
-          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
-          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
-          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
-          gravatar_id: ""
-          html_url: https://github.com/apps/github-actions
-          id: 41898282
-          login: github-actions[bot]
-          node_id: MDM6Qm90NDE4OTgyODI=
-          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
-          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
-          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
-          site_admin: false
-          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
-          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
-          type: Bot
-          url: https://api.github.com/users/github-actions%5Bbot%5D
-        url: https://api.github.com/repos/helmfile/helmfile/releases/assets/96078141
-      - browser_download_url: https://github.com/helmfile/helmfile/releases/download/v0.151.0/helmfile_0.151.0_windows_arm64.tar.gz
-        content_type: application/gzip
-        created_at: "2023-02-17T15:15:53Z"
-        download_count: 5
-        id: 96078150
-        label: ""
-        name: helmfile_0.151.0_windows_arm64.tar.gz
-        node_id: RA_kwDOHEifes4FuglG
-        size: 17132627
-        state: uploaded
-        updated_at: "2023-02-17T15:15:54Z"
-        uploader:
-          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
-          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
-          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
-          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
-          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
-          gravatar_id: ""
-          html_url: https://github.com/apps/github-actions
-          id: 41898282
-          login: github-actions[bot]
-          node_id: MDM6Qm90NDE4OTgyODI=
-          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
-          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
-          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
-          site_admin: false
-          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
-          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
-          type: Bot
-          url: https://api.github.com/users/github-actions%5Bbot%5D
-        url: https://api.github.com/repos/helmfile/helmfile/releases/assets/96078150
-      assets_url: https://api.github.com/repos/helmfile/helmfile/releases/92801493/assets
-      author:
-        avatar_url: https://avatars.githubusercontent.com/u/3413361?v=4
-        events_url: https://api.github.com/users/xiaomudk/events{/privacy}
-        followers_url: https://api.github.com/users/xiaomudk/followers
-        following_url: https://api.github.com/users/xiaomudk/following{/other_user}
-        gists_url: https://api.github.com/users/xiaomudk/gists{/gist_id}
-        gravatar_id: ""
-        html_url: https://github.com/xiaomudk
-        id: 3413361
-        login: xiaomudk
-        node_id: MDQ6VXNlcjM0MTMzNjE=
-        organizations_url: https://api.github.com/users/xiaomudk/orgs
-        received_events_url: https://api.github.com/users/xiaomudk/received_events
-        repos_url: https://api.github.com/users/xiaomudk/repos
-        site_admin: false
-        starred_url: https://api.github.com/users/xiaomudk/starred{/owner}{/repo}
-        subscriptions_url: https://api.github.com/users/xiaomudk/subscriptions
-        type: User
-        url: https://api.github.com/users/xiaomudk
-      body: "## New feature\r\n* Add --skip-charts for destroy for disable prepare
-        charts (#637)\r\n* Add missingFileHandlerConfig.ignoreMissingGitBranch (#645)\r\n*
-        Disable double-rendering in V1 (#647)\r\n* Add gotmpl file ext when using
-        helmfile.d feature (#649)\r\n* Add chinese readme (#664)\r\n* Add post-renderer
-        flag for diff and template subcommand (#691)\r\n* Support helm 3.11.1 (#695)\r\n\r\n##
-        What's Changed\r\n* feat: add paths-ignore to ci.yaml and lint.yaml by @gaius-qi
-        in https://github.com/helmfile/helmfile/pull/631\r\n* build(deps): bump github.com/containerd/containerd
-        from 1.6.6 to 1.6.12 by @dependabot in https://github.com/helmfile/helmfile/pull/632\r\n*
-        fix inherit chart empty check issue by @yxxhero in https://github.com/helmfile/helmfile/pull/635\r\n*
-        build(deps): bump k8s.io/apimachinery from 0.26.0 to 0.26.1 by @dependabot
-        in https://github.com/helmfile/helmfile/pull/641\r\n* add --skip-charts for
-        destroy for disable prepare charts by @yxxhero in https://github.com/helmfile/helmfile/pull/637\r\n*
-        bump helm to v3.11.0 by @yxxhero in https://github.com/helmfile/helmfile/pull/639\r\n*
-        Remove unused go-getter driver funcs by @mumoshu in https://github.com/helmfile/helmfile/pull/643\r\n*
-        Fix a minor typo in the v1 proposal by @mumoshu in https://github.com/helmfile/helmfile/pull/646\r\n*
-        feat: Add missingFileHandlerConfig.ignoreMissingGitBranch by @mumoshu in https://github.com/helmfile/helmfile/pull/645\r\n*
-        remove helm v2 code in tests by @yxxhero in https://github.com/helmfile/helmfile/pull/648\r\n*
-        Do not load the legacy default charts.yaml in v1 by @mumoshu in https://github.com/helmfile/helmfile/pull/651\r\n*
-        Disable double-rendering in V1 by @mumoshu in https://github.com/helmfile/helmfile/pull/647\r\n*
-        use latest helm previous minor version for helmfile init by @yxxhero in https://github.com/helmfile/helmfile/pull/652\r\n*
-        feat: add gotmpl file ext when using helmfile.d feature by @yxxhero in https://github.com/helmfile/helmfile/pull/649\r\n*
-        fix(docs): transfer issue link for Docs site by @ChetanGoti in https://github.com/helmfile/helmfile/pull/655\r\n*
-        update examples info by @yxxhero in https://github.com/helmfile/helmfile/pull/658\r\n*
-        update hooks docs by @yxxhero in https://github.com/helmfile/helmfile/pull/657\r\n*
-        Bring up the init command in readme #661 by @AmazingTurtle in https://github.com/helmfile/helmfile/pull/662\r\n*
-        docs: Running helmfile withought an internet connection by --skip-deps option
-        by @toyamagu-2021 in https://github.com/helmfile/helmfile/pull/659\r\n* Reformat
-        v1 proposal by @mumoshu in https://github.com/helmfile/helmfile/pull/663\r\n*
-        add build-in objects docs by @yxxhero in https://github.com/helmfile/helmfile/pull/667\r\n*
-        Add chinese readme by @xiaomudk in https://github.com/helmfile/helmfile/pull/664\r\n*
-        fix typo by @yxxhero in https://github.com/helmfile/helmfile/pull/670\r\n*
-        Bump Go to 1.20 by @yxxhero in https://github.com/helmfile/helmfile/pull/672\r\n*
-        Use goccy/go-yaml fork to not break dynamic values on helmfile v1 by @mumoshu
-        in https://github.com/helmfile/helmfile/pull/675\r\n* Improve readme readability
-        by @xiaomudk in https://github.com/helmfile/helmfile/pull/678\r\n* Sync Chinese
-        readme by @xiaomudk in https://github.com/helmfile/helmfile/pull/676\r\n*
-        breaking: Fix the inherit feature to support multi-inheritance by @mumoshu
-        in https://github.com/helmfile/helmfile/pull/674\r\n* fix: Make the forbid-env-with-releases
-        policy strict on v1 by @mumoshu in https://github.com/helmfile/helmfile/pull/683\r\n*
-        Remove references to .tpl from v1 proposal by @mumoshu in https://github.com/helmfile/helmfile/pull/685\r\n*
-        build(deps): bump golang.org/x/term from 0.4.0 to 0.5.0 by @dependabot in
-        https://github.com/helmfile/helmfile/pull/686\r\n* Relax the forbid-env-with-releases
-        policy for plain helmfile.yaml on v1 by @mumoshu in https://github.com/helmfile/helmfile/pull/684\r\n*
-        build(deps): bump helm.sh/helm/v3 from 3.11.0 to 3.11.1 by @dependabot in
-        https://github.com/helmfile/helmfile/pull/689\r\n* Fix a typo in the v1 proposal
-        by @mumoshu in https://github.com/helmfile/helmfile/pull/688\r\n* fix panic
-        issue by @yxxhero in https://github.com/helmfile/helmfile/pull/690\r\n* bump
-        helm to 3.11.1 by @yxxhero in https://github.com/helmfile/helmfile/pull/695\r\n*
-        Fix post-renderer flag not working in diff and template subcommand by @xiaomudk
-        in https://github.com/helmfile/helmfile/pull/691\r\n* fix: repos command help
-        message by @yamagai in https://github.com/helmfile/helmfile/pull/698\r\n*
-        build(deps): bump github.com/hashicorp/go-getter from 1.6.2 to 1.7.0 by @dependabot
-        in https://github.com/helmfile/helmfile/pull/697\r\n* build(deps): bump github.com/containerd/containerd
-        from 1.6.15 to 1.6.18 by @dependabot in https://github.com/helmfile/helmfile/pull/701\r\n*
-        bump chartify to v0.13.0 by @yxxhero in https://github.com/helmfile/helmfile/pull/702\r\n*
-        bump vals to v0.22.0 by @yxxhero in https://github.com/helmfile/helmfile/pull/703\r\n\r\n##
-        New Contributors\r\n* @gaius-qi made their first contribution in https://github.com/helmfile/helmfile/pull/631\r\n*
-        @ChetanGoti made their first contribution in https://github.com/helmfile/helmfile/pull/655\r\n*
-        @AmazingTurtle made their first contribution in https://github.com/helmfile/helmfile/pull/662\r\n*
-        @toyamagu-2021 made their first contribution in https://github.com/helmfile/helmfile/pull/659\r\n*
-        @yamagai made their first contribution in https://github.com/helmfile/helmfile/pull/698\r\n\r\n**Full
-        Changelog**: https://github.com/helmfile/helmfile/compare/v0.150.0...v0.151.0"
-      created_at: "2023-02-17T06:09:49Z"
-      draft: false
-      html_url: https://github.com/helmfile/helmfile/releases/tag/v0.151.0
-      id: 92801493
-      mentions_count: 9
-      name: v0.151.0
-      node_id: RE_kwDOHEifes4FiAnV
-      prerelease: false
-      published_at: "2023-02-17T15:01:46Z"
+      published_at: "2023-06-04T02:45:20Z"
       reactions:
         "+1": 0
         "-1": 0
         confused: 0
-        eyes: 0
-        heart: 3
-        hooray: 3
+        eyes: 1
+        heart: 0
+        hooray: 0
         laugh: 0
-        rocket: 2
-        total_count: 8
-        url: https://api.github.com/repos/helmfile/helmfile/releases/92801493/reactions
-      tag_name: v0.151.0
-      tarball_url: https://api.github.com/repos/helmfile/helmfile/tarball/v0.151.0
-      target_commitish: main
-      upload_url: https://uploads.github.com/repos/helmfile/helmfile/releases/92801493/assets{?name,label}
-      url: https://api.github.com/repos/helmfile/helmfile/releases/92801493
-      zipball_url: https://api.github.com/repos/helmfile/helmfile/zipball/v0.151.0
-  kubectl:
-    version: 1.26.1
+        rocket: 1
+        total_count: 2
+        url: https://api.github.com/repos/databus23/helm-diff/releases/106869017/reactions
+      tag_name: v3.8.1
+      tarball_url: https://api.github.com/repos/databus23/helm-diff/tarball/v3.8.1
+      target_commitish: master
+      upload_url: https://uploads.github.com/repos/databus23/helm-diff/releases/106869017/assets{?name,label}
+      url: https://api.github.com/repos/databus23/helm-diff/releases/106869017
+      zipball_url: https://api.github.com/repos/databus23/helm-diff/zipball/v3.8.1
+  helmfile:
+    version: 0.154.0
+    previousVersion: 0.151.0
     versions:
-    - 1.26.1
+    - 0.151.0
+    - 0.154.0
     githubRelease:
       assets:
-      - browser_download_url: https://github.com/kubernetes/kubernetes/releases/download/v1.26.1/kubernetes.tar.gz
-        content_type: application/x-gzip
-        created_at: "2023-01-18T21:14:51Z"
-        download_count: 211
-        id: 92195701
-        label: Kubernetes Source Code
-        name: kubernetes.tar.gz
-        node_id: RA_kwDOAToIks4Ffst1
-        size: 527054
+      - browser_download_url: https://github.com/helmfile/helmfile/releases/download/v0.154.0/helmfile_0.154.0_checksums.txt
+        content_type: text/plain; charset=utf-8
+        created_at: "2023-05-23T23:46:37Z"
+        download_count: 357
+        id: 109511912
+        label: ""
+        name: helmfile_0.154.0_checksums.txt
+        node_id: RA_kwDOHEifes4GhwTo
+        size: 820
         state: uploaded
-        updated_at: "2023-01-18T21:14:52Z"
+        updated_at: "2023-05-23T23:46:37Z"
         uploader:
-          avatar_url: https://avatars.githubusercontent.com/u/33505452?v=4
-          events_url: https://api.github.com/users/k8s-release-robot/events{/privacy}
-          followers_url: https://api.github.com/users/k8s-release-robot/followers
-          following_url: https://api.github.com/users/k8s-release-robot/following{/other_user}
-          gists_url: https://api.github.com/users/k8s-release-robot/gists{/gist_id}
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
           gravatar_id: ""
-          html_url: https://github.com/k8s-release-robot
-          id: 33505452
-          login: k8s-release-robot
-          node_id: MDQ6VXNlcjMzNTA1NDUy
-          organizations_url: https://api.github.com/users/k8s-release-robot/orgs
-          received_events_url: https://api.github.com/users/k8s-release-robot/received_events
-          repos_url: https://api.github.com/users/k8s-release-robot/repos
+          html_url: https://github.com/apps/github-actions
+          id: 41898282
+          login: github-actions[bot]
+          node_id: MDM6Qm90NDE4OTgyODI=
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
           site_admin: false
-          starred_url: https://api.github.com/users/k8s-release-robot/starred{/owner}{/repo}
-          subscriptions_url: https://api.github.com/users/k8s-release-robot/subscriptions
-          type: User
-          url: https://api.github.com/users/k8s-release-robot
-        url: https://api.github.com/repos/kubernetes/kubernetes/releases/assets/92195701
-      assets_url: https://api.github.com/repos/kubernetes/kubernetes/releases/89461411/assets
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          type: Bot
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+        url: https://api.github.com/repos/helmfile/helmfile/releases/assets/109511912
+      - browser_download_url: https://github.com/helmfile/helmfile/releases/download/v0.154.0/helmfile_0.154.0_darwin_amd64.tar.gz
+        content_type: application/gzip
+        created_at: "2023-05-23T23:46:30Z"
+        download_count: 186
+        id: 109511899
+        label: ""
+        name: helmfile_0.154.0_darwin_amd64.tar.gz
+        node_id: RA_kwDOHEifes4GhwTb
+        size: 21346353
+        state: uploaded
+        updated_at: "2023-05-23T23:46:31Z"
+        uploader:
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          gravatar_id: ""
+          html_url: https://github.com/apps/github-actions
+          id: 41898282
+          login: github-actions[bot]
+          node_id: MDM6Qm90NDE4OTgyODI=
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          site_admin: false
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          type: Bot
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+        url: https://api.github.com/repos/helmfile/helmfile/releases/assets/109511899
+      - browser_download_url: https://github.com/helmfile/helmfile/releases/download/v0.154.0/helmfile_0.154.0_darwin_arm64.tar.gz
+        content_type: application/gzip
+        created_at: "2023-05-23T23:46:31Z"
+        download_count: 200
+        id: 109511903
+        label: ""
+        name: helmfile_0.154.0_darwin_arm64.tar.gz
+        node_id: RA_kwDOHEifes4GhwTf
+        size: 20579083
+        state: uploaded
+        updated_at: "2023-05-23T23:46:32Z"
+        uploader:
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          gravatar_id: ""
+          html_url: https://github.com/apps/github-actions
+          id: 41898282
+          login: github-actions[bot]
+          node_id: MDM6Qm90NDE4OTgyODI=
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          site_admin: false
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          type: Bot
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+        url: https://api.github.com/repos/helmfile/helmfile/releases/assets/109511903
+      - browser_download_url: https://github.com/helmfile/helmfile/releases/download/v0.154.0/helmfile_0.154.0_linux_386.tar.gz
+        content_type: application/gzip
+        created_at: "2023-05-23T23:46:34Z"
+        download_count: 75
+        id: 109511906
+        label: ""
+        name: helmfile_0.154.0_linux_386.tar.gz
+        node_id: RA_kwDOHEifes4GhwTi
+        size: 19028869
+        state: uploaded
+        updated_at: "2023-05-23T23:46:35Z"
+        uploader:
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          gravatar_id: ""
+          html_url: https://github.com/apps/github-actions
+          id: 41898282
+          login: github-actions[bot]
+          node_id: MDM6Qm90NDE4OTgyODI=
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          site_admin: false
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          type: Bot
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+        url: https://api.github.com/repos/helmfile/helmfile/releases/assets/109511906
+      - browser_download_url: https://github.com/helmfile/helmfile/releases/download/v0.154.0/helmfile_0.154.0_linux_amd64.tar.gz
+        content_type: application/gzip
+        created_at: "2023-05-23T23:46:35Z"
+        download_count: 12962
+        id: 109511908
+        label: ""
+        name: helmfile_0.154.0_linux_amd64.tar.gz
+        node_id: RA_kwDOHEifes4GhwTk
+        size: 20321111
+        state: uploaded
+        updated_at: "2023-05-23T23:46:36Z"
+        uploader:
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          gravatar_id: ""
+          html_url: https://github.com/apps/github-actions
+          id: 41898282
+          login: github-actions[bot]
+          node_id: MDM6Qm90NDE4OTgyODI=
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          site_admin: false
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          type: Bot
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+        url: https://api.github.com/repos/helmfile/helmfile/releases/assets/109511908
+      - browser_download_url: https://github.com/helmfile/helmfile/releases/download/v0.154.0/helmfile_0.154.0_linux_arm64.tar.gz
+        content_type: application/gzip
+        created_at: "2023-05-23T23:46:33Z"
+        download_count: 686
+        id: 109511905
+        label: ""
+        name: helmfile_0.154.0_linux_arm64.tar.gz
+        node_id: RA_kwDOHEifes4GhwTh
+        size: 18392811
+        state: uploaded
+        updated_at: "2023-05-23T23:46:35Z"
+        uploader:
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          gravatar_id: ""
+          html_url: https://github.com/apps/github-actions
+          id: 41898282
+          login: github-actions[bot]
+          node_id: MDM6Qm90NDE4OTgyODI=
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          site_admin: false
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          type: Bot
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+        url: https://api.github.com/repos/helmfile/helmfile/releases/assets/109511905
+      - browser_download_url: https://github.com/helmfile/helmfile/releases/download/v0.154.0/helmfile_0.154.0_windows_386.tar.gz
+        content_type: application/gzip
+        created_at: "2023-05-23T23:46:30Z"
+        download_count: 35
+        id: 109511900
+        label: ""
+        name: helmfile_0.154.0_windows_386.tar.gz
+        node_id: RA_kwDOHEifes4GhwTc
+        size: 19930603
+        state: uploaded
+        updated_at: "2023-05-23T23:46:35Z"
+        uploader:
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          gravatar_id: ""
+          html_url: https://github.com/apps/github-actions
+          id: 41898282
+          login: github-actions[bot]
+          node_id: MDM6Qm90NDE4OTgyODI=
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          site_admin: false
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          type: Bot
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+        url: https://api.github.com/repos/helmfile/helmfile/releases/assets/109511900
+      - browser_download_url: https://github.com/helmfile/helmfile/releases/download/v0.154.0/helmfile_0.154.0_windows_amd64.tar.gz
+        content_type: application/gzip
+        created_at: "2023-05-23T23:46:36Z"
+        download_count: 538
+        id: 109511910
+        label: ""
+        name: helmfile_0.154.0_windows_amd64.tar.gz
+        node_id: RA_kwDOHEifes4GhwTm
+        size: 20491088
+        state: uploaded
+        updated_at: "2023-05-23T23:46:37Z"
+        uploader:
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          gravatar_id: ""
+          html_url: https://github.com/apps/github-actions
+          id: 41898282
+          login: github-actions[bot]
+          node_id: MDM6Qm90NDE4OTgyODI=
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          site_admin: false
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          type: Bot
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+        url: https://api.github.com/repos/helmfile/helmfile/releases/assets/109511910
+      - browser_download_url: https://github.com/helmfile/helmfile/releases/download/v0.154.0/helmfile_0.154.0_windows_arm64.tar.gz
+        content_type: application/gzip
+        created_at: "2023-05-23T23:46:36Z"
+        download_count: 14
+        id: 109511909
+        label: ""
+        name: helmfile_0.154.0_windows_arm64.tar.gz
+        node_id: RA_kwDOHEifes4GhwTl
+        size: 18542413
+        state: uploaded
+        updated_at: "2023-05-23T23:46:36Z"
+        uploader:
+          avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+          events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+          followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+          following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+          gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+          gravatar_id: ""
+          html_url: https://github.com/apps/github-actions
+          id: 41898282
+          login: github-actions[bot]
+          node_id: MDM6Qm90NDE4OTgyODI=
+          organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+          received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+          repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+          site_admin: false
+          starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+          subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+          type: Bot
+          url: https://api.github.com/users/github-actions%5Bbot%5D
+        url: https://api.github.com/repos/helmfile/helmfile/releases/assets/109511909
+      assets_url: https://api.github.com/repos/helmfile/helmfile/releases/104025566/assets
+      author:
+        avatar_url: https://avatars.githubusercontent.com/u/11087727?v=4
+        events_url: https://api.github.com/users/yxxhero/events{/privacy}
+        followers_url: https://api.github.com/users/yxxhero/followers
+        following_url: https://api.github.com/users/yxxhero/following{/other_user}
+        gists_url: https://api.github.com/users/yxxhero/gists{/gist_id}
+        gravatar_id: ""
+        html_url: https://github.com/yxxhero
+        id: 11087727
+        login: yxxhero
+        node_id: MDQ6VXNlcjExMDg3NzI3
+        organizations_url: https://api.github.com/users/yxxhero/orgs
+        received_events_url: https://api.github.com/users/yxxhero/received_events
+        repos_url: https://api.github.com/users/yxxhero/repos
+        site_admin: false
+        starred_url: https://api.github.com/users/yxxhero/starred{/owner}{/repo}
+        subscriptions_url: https://api.github.com/users/yxxhero/subscriptions
+        type: User
+        url: https://api.github.com/users/yxxhero
+      body: "## What's Changed\r\n* Feat: support helm flag --enable-dns by @vincentstchu
+        in https://github.com/helmfile/helmfile/pull/830\r\n* Make helmfile respect
+        signals send by kill command (not only Ctrl+C in terminal) by @dm3ch in https://github.com/helmfile/helmfile/pull/750\r\n*
+        build(deps): bump golang.org/x/term from 0.7.0 to 0.8.0 by @dependabot in
+        https://github.com/helmfile/helmfile/pull/846\r\n* build(deps): bump golang.org/x/sync
+        from 0.1.0 to 0.2.0 by @dependabot in https://github.com/helmfile/helmfile/pull/847\r\n*
+        feat: add --skip-trailing-cr to helmfile diff by @rezonant in https://github.com/helmfile/helmfile/pull/625\r\n*
+        fix: loadBases overrodeEnv issue by @yxxhero in https://github.com/helmfile/helmfile/pull/838\r\n*
+        build(deps): bump go.szostok.io/version from 1.1.0 to 1.2.0 by @dependabot
+        in https://github.com/helmfile/helmfile/pull/852\r\n* bump helm to v3.12.0
+        by @yxxhero in https://github.com/helmfile/helmfile/pull/855\r\n* build(deps):
+        bump github.com/docker/distribution from 2.8.1+incompatible to 2.8.2+incompatible
+        by @dependabot in https://github.com/helmfile/helmfile/pull/857\r\n* Feat
+        add cascade support by @yxxhero in https://github.com/helmfile/helmfile/pull/860\r\n*
+        docs: update cascade by @yxxhero in https://github.com/helmfile/helmfile/pull/861\r\n*
+        fix extra args missing in helmfile apply subcommand by @yxxhero in https://github.com/helmfile/helmfile/pull/858\r\n*
+        build(deps): bump k8s.io/apimachinery from 0.27.1 to 0.27.2 by @dependabot
+        in https://github.com/helmfile/helmfile/pull/865\r\n* build(deps): bump github.com/stretchr/testify
+        from 1.8.2 to 1.8.3 by @dependabot in https://github.com/helmfile/helmfile/pull/866\r\n*
+        feat: make environment context available by @SeWieland in https://github.com/helmfile/helmfile/pull/832\r\n*
+        Fix set flag are ignored when used in conjunction with jsonPatches by @xiaomudk
+        in https://github.com/helmfile/helmfile/pull/867\r\n\r\n## New Contributors\r\n*
+        @vincentstchu made their first contribution in https://github.com/helmfile/helmfile/pull/830\r\n*
+        @dm3ch made their first contribution in https://github.com/helmfile/helmfile/pull/750\r\n*
+        @rezonant made their first contribution in https://github.com/helmfile/helmfile/pull/625\r\n*
+        @SeWieland made their first contribution in https://github.com/helmfile/helmfile/pull/832\r\n\r\n**Full
+        Changelog**: https://github.com/helmfile/helmfile/compare/v0.153.1...v0.154.0"
+      created_at: "2023-05-23T23:29:19Z"
+      draft: false
+      html_url: https://github.com/helmfile/helmfile/releases/tag/v0.154.0
+      id: 104025566
+      mentions_count: 7
+      name: v0.154.0
+      node_id: RE_kwDOHEifes4GM03e
+      prerelease: false
+      published_at: "2023-05-23T23:30:59Z"
+      reactions:
+        "+1": 5
+        "-1": 0
+        confused: 0
+        eyes: 0
+        heart: 0
+        hooray: 2
+        laugh: 0
+        rocket: 0
+        total_count: 7
+        url: https://api.github.com/repos/helmfile/helmfile/releases/104025566/reactions
+      tag_name: v0.154.0
+      tarball_url: https://api.github.com/repos/helmfile/helmfile/tarball/v0.154.0
+      target_commitish: main
+      upload_url: https://uploads.github.com/repos/helmfile/helmfile/releases/104025566/assets{?name,label}
+      url: https://api.github.com/repos/helmfile/helmfile/releases/104025566
+      zipball_url: https://api.github.com/repos/helmfile/helmfile/zipball/v0.154.0
+  kubectl:
+    version: 1.27.3
+    previousVersion: 1.26.1
+    versions:
+    - 1.26.1
+    - 1.27.3
+    githubRelease:
+      assets: []
+      assets_url: https://api.github.com/repos/kubernetes/kubernetes/releases/108644552/assets
       author:
         avatar_url: https://avatars.githubusercontent.com/u/33505452?v=4
         events_url: https://api.github.com/users/k8s-release-robot/events{/privacy}
@@ -1145,37 +1098,37 @@ dependencies:
         url: https://api.github.com/users/k8s-release-robot
       body: |2+
 
-        See [kubernetes-announce@](https://groups.google.com/forum/#!forum/kubernetes-announce). Additional binary downloads are linked in the [CHANGELOG](https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.26.md).
+        See [kubernetes-announce@](https://groups.google.com/forum/#!forum/kubernetes-announce). Additional binary downloads are linked in the [CHANGELOG](https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.27.md).
 
-        See [the CHANGELOG](https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.26.md) for more details.
+        See [the CHANGELOG](https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.27.md) for more details.
 
 
 
-      created_at: "2023-01-18T15:51:24Z"
+      created_at: "2023-06-14T09:47:38Z"
       draft: false
-      html_url: https://github.com/kubernetes/kubernetes/releases/tag/v1.26.1
-      id: 89461411
-      name: Kubernetes v1.26.1
-      node_id: RE_kwDOAToIks4FVRKj
+      html_url: https://github.com/kubernetes/kubernetes/releases/tag/v1.27.3
+      id: 108644552
+      name: Kubernetes v1.27.3
+      node_id: RE_kwDOAToIks4GecjI
       prerelease: false
-      published_at: "2023-01-18T21:14:47Z"
+      published_at: "2023-06-14T21:36:39Z"
       reactions:
-        "+1": 6
+        "+1": 8
         "-1": 0
         confused: 0
-        eyes: 5
-        heart: 2
-        hooray: 4
-        laugh: 1
-        rocket: 1
-        total_count: 19
-        url: https://api.github.com/repos/kubernetes/kubernetes/releases/89461411/reactions
-      tag_name: v1.26.1
-      tarball_url: https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.26.1
+        eyes: 6
+        heart: 3
+        hooray: 15
+        laugh: 2
+        rocket: 5
+        total_count: 39
+        url: https://api.github.com/repos/kubernetes/kubernetes/releases/108644552/reactions
+      tag_name: v1.27.3
+      tarball_url: https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.27.3
       target_commitish: master
-      upload_url: https://uploads.github.com/repos/kubernetes/kubernetes/releases/89461411/assets{?name,label}
-      url: https://api.github.com/repos/kubernetes/kubernetes/releases/89461411
-      zipball_url: https://api.github.com/repos/kubernetes/kubernetes/zipball/v1.26.1
+      upload_url: https://uploads.github.com/repos/kubernetes/kubernetes/releases/108644552/assets{?name,label}
+      url: https://api.github.com/repos/kubernetes/kubernetes/releases/108644552
+      zipball_url: https://api.github.com/repos/kubernetes/kubernetes/zipball/v1.27.3
   sops:
     version: 3.7.3
     versions:
@@ -2065,6 +2018,467 @@ meta:
           upload_url: https://uploads.github.com/repos/argoproj/argo-cd/releases/93807312/assets{?name,label}
           url: https://api.github.com/repos/argoproj/argo-cd/releases/93807312
           zipball_url: https://api.github.com/repos/argoproj/argo-cd/zipball/v2.6.3
+      2.6.10:
+        githubRelease:
+          assets:
+          - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v2.6.10/argocd-2.6.10-checksums.sig
+            content_type: application/pgp-signature
+            created_at: "2023-06-16T15:30:21Z"
+            download_count: 6
+            id: 113079484
+            label: ""
+            name: argocd-2.6.10-checksums.sig
+            node_id: RA_kwDOBzS60s4GvXS8
+            size: 97
+            state: uploaded
+            updated_at: "2023-06-16T15:30:21Z"
+            uploader:
+              avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+              events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+              followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+              following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+              gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+              gravatar_id: ""
+              html_url: https://github.com/apps/github-actions
+              id: 41898282
+              login: github-actions[bot]
+              node_id: MDM6Qm90NDE4OTgyODI=
+              organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+              received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+              repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+              site_admin: false
+              starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+              subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+              type: Bot
+              url: https://api.github.com/users/github-actions%5Bbot%5D
+            url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/113079484
+          - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v2.6.10/argocd-2.6.10-checksums.txt
+            content_type: text/plain
+            created_at: "2023-06-16T15:30:22Z"
+            download_count: 8
+            id: 113079491
+            label: ""
+            name: argocd-2.6.10-checksums.txt
+            node_id: RA_kwDOBzS60s4GvXTD
+            size: 605
+            state: uploaded
+            updated_at: "2023-06-16T15:30:22Z"
+            uploader:
+              avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+              events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+              followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+              following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+              gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+              gravatar_id: ""
+              html_url: https://github.com/apps/github-actions
+              id: 41898282
+              login: github-actions[bot]
+              node_id: MDM6Qm90NDE4OTgyODI=
+              organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+              received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+              repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+              site_admin: false
+              starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+              subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+              type: Bot
+              url: https://api.github.com/users/github-actions%5Bbot%5D
+            url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/113079491
+          - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v2.6.10/argocd-cosign.pub
+            content_type: application/x-mspublisher
+            created_at: "2023-06-16T15:30:20Z"
+            download_count: 6
+            id: 113079480
+            label: ""
+            name: argocd-cosign.pub
+            node_id: RA_kwDOBzS60s4GvXS4
+            size: 178
+            state: uploaded
+            updated_at: "2023-06-16T15:30:20Z"
+            uploader:
+              avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+              events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+              followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+              following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+              gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+              gravatar_id: ""
+              html_url: https://github.com/apps/github-actions
+              id: 41898282
+              login: github-actions[bot]
+              node_id: MDM6Qm90NDE4OTgyODI=
+              organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+              received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+              repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+              site_admin: false
+              starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+              subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+              type: Bot
+              url: https://api.github.com/users/github-actions%5Bbot%5D
+            url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/113079480
+          - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v2.6.10/argocd-darwin-amd64
+            content_type: application/octet-stream
+            created_at: "2023-06-16T15:30:20Z"
+            download_count: 6
+            id: 113079481
+            label: ""
+            name: argocd-darwin-amd64
+            node_id: RA_kwDOBzS60s4GvXS5
+            size: 138706336
+            state: uploaded
+            updated_at: "2023-06-16T15:30:29Z"
+            uploader:
+              avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+              events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+              followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+              following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+              gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+              gravatar_id: ""
+              html_url: https://github.com/apps/github-actions
+              id: 41898282
+              login: github-actions[bot]
+              node_id: MDM6Qm90NDE4OTgyODI=
+              organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+              received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+              repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+              site_admin: false
+              starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+              subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+              type: Bot
+              url: https://api.github.com/users/github-actions%5Bbot%5D
+            url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/113079481
+          - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v2.6.10/argocd-darwin-arm64
+            content_type: application/octet-stream
+            created_at: "2023-06-16T15:30:21Z"
+            download_count: 6
+            id: 113079487
+            label: ""
+            name: argocd-darwin-arm64
+            node_id: RA_kwDOBzS60s4GvXS_
+            size: 137811618
+            state: uploaded
+            updated_at: "2023-06-16T15:30:28Z"
+            uploader:
+              avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+              events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+              followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+              following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+              gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+              gravatar_id: ""
+              html_url: https://github.com/apps/github-actions
+              id: 41898282
+              login: github-actions[bot]
+              node_id: MDM6Qm90NDE4OTgyODI=
+              organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+              received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+              repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+              site_admin: false
+              starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+              subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+              type: Bot
+              url: https://api.github.com/users/github-actions%5Bbot%5D
+            url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/113079487
+          - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v2.6.10/argocd-linux-amd64
+            content_type: application/octet-stream
+            created_at: "2023-06-16T15:30:22Z"
+            download_count: 59
+            id: 113079492
+            label: ""
+            name: argocd-linux-amd64
+            node_id: RA_kwDOBzS60s4GvXTE
+            size: 139679733
+            state: uploaded
+            updated_at: "2023-06-16T15:30:30Z"
+            uploader:
+              avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+              events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+              followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+              following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+              gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+              gravatar_id: ""
+              html_url: https://github.com/apps/github-actions
+              id: 41898282
+              login: github-actions[bot]
+              node_id: MDM6Qm90NDE4OTgyODI=
+              organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+              received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+              repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+              site_admin: false
+              starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+              subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+              type: Bot
+              url: https://api.github.com/users/github-actions%5Bbot%5D
+            url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/113079492
+          - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v2.6.10/argocd-linux-arm64
+            content_type: application/octet-stream
+            created_at: "2023-06-16T15:30:20Z"
+            download_count: 10
+            id: 113079482
+            label: ""
+            name: argocd-linux-arm64
+            node_id: RA_kwDOBzS60s4GvXS6
+            size: 135587396
+            state: uploaded
+            updated_at: "2023-06-16T15:30:29Z"
+            uploader:
+              avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+              events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+              followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+              following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+              gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+              gravatar_id: ""
+              html_url: https://github.com/apps/github-actions
+              id: 41898282
+              login: github-actions[bot]
+              node_id: MDM6Qm90NDE4OTgyODI=
+              organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+              received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+              repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+              site_admin: false
+              starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+              subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+              type: Bot
+              url: https://api.github.com/users/github-actions%5Bbot%5D
+            url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/113079482
+          - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v2.6.10/argocd-linux-ppc64le
+            content_type: application/octet-stream
+            created_at: "2023-06-16T15:30:21Z"
+            download_count: 8
+            id: 113079485
+            label: ""
+            name: argocd-linux-ppc64le
+            node_id: RA_kwDOBzS60s4GvXS9
+            size: 136798698
+            state: uploaded
+            updated_at: "2023-06-16T15:30:29Z"
+            uploader:
+              avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+              events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+              followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+              following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+              gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+              gravatar_id: ""
+              html_url: https://github.com/apps/github-actions
+              id: 41898282
+              login: github-actions[bot]
+              node_id: MDM6Qm90NDE4OTgyODI=
+              organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+              received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+              repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+              site_admin: false
+              starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+              subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+              type: Bot
+              url: https://api.github.com/users/github-actions%5Bbot%5D
+            url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/113079485
+          - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v2.6.10/argocd-linux-s390x
+            content_type: application/octet-stream
+            created_at: "2023-06-16T15:30:21Z"
+            download_count: 5
+            id: 113079489
+            label: ""
+            name: argocd-linux-s390x
+            node_id: RA_kwDOBzS60s4GvXTB
+            size: 143605633
+            state: uploaded
+            updated_at: "2023-06-16T15:30:27Z"
+            uploader:
+              avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+              events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+              followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+              following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+              gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+              gravatar_id: ""
+              html_url: https://github.com/apps/github-actions
+              id: 41898282
+              login: github-actions[bot]
+              node_id: MDM6Qm90NDE4OTgyODI=
+              organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+              received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+              repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+              site_admin: false
+              starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+              subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+              type: Bot
+              url: https://api.github.com/users/github-actions%5Bbot%5D
+            url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/113079489
+          - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v2.6.10/argocd-windows-amd64.exe
+            content_type: application/octet-stream
+            created_at: "2023-06-16T15:30:21Z"
+            download_count: 7
+            id: 113079488
+            label: ""
+            name: argocd-windows-amd64.exe
+            node_id: RA_kwDOBzS60s4GvXTA
+            size: 140302336
+            state: uploaded
+            updated_at: "2023-06-16T15:30:29Z"
+            uploader:
+              avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+              events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+              followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+              following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+              gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+              gravatar_id: ""
+              html_url: https://github.com/apps/github-actions
+              id: 41898282
+              login: github-actions[bot]
+              node_id: MDM6Qm90NDE4OTgyODI=
+              organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+              received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+              repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+              site_admin: false
+              starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+              subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+              type: Bot
+              url: https://api.github.com/users/github-actions%5Bbot%5D
+            url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/113079488
+          - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v2.6.10/sbom.tar.gz
+            content_type: application/gzip
+            created_at: "2023-06-16T15:30:21Z"
+            download_count: 6
+            id: 113079486
+            label: ""
+            name: sbom.tar.gz
+            node_id: RA_kwDOBzS60s4GvXS-
+            size: 326973
+            state: uploaded
+            updated_at: "2023-06-16T15:30:22Z"
+            uploader:
+              avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+              events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+              followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+              following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+              gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+              gravatar_id: ""
+              html_url: https://github.com/apps/github-actions
+              id: 41898282
+              login: github-actions[bot]
+              node_id: MDM6Qm90NDE4OTgyODI=
+              organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+              received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+              repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+              site_admin: false
+              starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+              subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+              type: Bot
+              url: https://api.github.com/users/github-actions%5Bbot%5D
+            url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/113079486
+          - browser_download_url: https://github.com/argoproj/argo-cd/releases/download/v2.6.10/sbom.tar.gz.sig
+            content_type: application/pgp-signature
+            created_at: "2023-06-16T15:30:22Z"
+            download_count: 7
+            id: 113079493
+            label: ""
+            name: sbom.tar.gz.sig
+            node_id: RA_kwDOBzS60s4GvXTF
+            size: 97
+            state: uploaded
+            updated_at: "2023-06-16T15:30:22Z"
+            uploader:
+              avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+              events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+              followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+              following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+              gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+              gravatar_id: ""
+              html_url: https://github.com/apps/github-actions
+              id: 41898282
+              login: github-actions[bot]
+              node_id: MDM6Qm90NDE4OTgyODI=
+              organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+              received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+              repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+              site_admin: false
+              starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+              subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+              type: Bot
+              url: https://api.github.com/users/github-actions%5Bbot%5D
+            url: https://api.github.com/repos/argoproj/argo-cd/releases/assets/113079493
+          assets_url: https://api.github.com/repos/argoproj/argo-cd/releases/108892919/assets
+          author:
+            avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+            events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+            followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+            following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+            gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+            gravatar_id: ""
+            html_url: https://github.com/apps/github-actions
+            id: 41898282
+            login: github-actions[bot]
+            node_id: MDM6Qm90NDE4OTgyODI=
+            organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+            received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+            repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+            site_admin: false
+            starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+            subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+            type: Bot
+            url: https://api.github.com/users/github-actions%5Bbot%5D
+          body: |+
+            ## Quick Start
+
+            ### Non-HA:
+
+            ```shell
+            kubectl create namespace argocd
+            kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/v2.6.10/manifests/install.yaml
+            ```
+
+            ### HA:
+
+            ```shell
+            kubectl create namespace argocd
+            kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/v2.6.10/manifests/ha/install.yaml
+            ```
+
+            ## Release signatures
+
+            All Argo CD container images and CLI binaries are signed by cosign. See the [documentation](https://argo-cd.readthedocs.io/en/stable/operator-manual/signed-release-assets/) on how to verify the signatures.
+            ```shell
+            -----BEGIN PUBLIC KEY-----
+            MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEesHEB7vX5Y2RxXypjMy1nI1z7iRG
+            JI9/gt/sYqzpsa65aaNP4npM43DDxoIy/MQBo9s/mxGxmA+8UXeDpVC9vw==
+            -----END PUBLIC KEY-----
+            ```
+
+            ## Upgrading
+
+            If upgrading from a different minor version, be sure to read the [upgrading](https://argo-cd.readthedocs.io/en/stable/operator-manual/upgrading/overview/) documentation.
+
+            ## Changes
+
+            This release includes 8 contributions from 2 contributors with 0 features and 4 bug fixes.
+
+            ### Bug fixes (4)
+
+            - fix(cmp): discover plugins relative to app path (#13940) (#13946) (#14085)
+            - fix: Multi source apps resolve revision in .status field (#14081) (#14087)
+            - fix(cli): support application in any namespace with `argocd app diff` (#13978) (#13980) (#14062)
+            - fix(ui): Fix Patch and Get Manifests (#13949) (#13953)
+
+            ### Documentation (2)
+
+            - docs: add golang upgrade note for 2.5 (#14048) (#14058)
+            - docs: add documentation for child elements of path (#14044) (#14055)
+
+            ### Other (2)
+
+            - chore(deps): upgrade haproxy to 2.6.14-alpine (#14018) (#14052)
+            - chore(deps): upgrade go to 1.19.10 (#13943)
+
+          created_at: "2023-06-16T14:24:19Z"
+          draft: false
+          html_url: https://github.com/argoproj/argo-cd/releases/tag/v2.6.10
+          id: 108892919
+          name: v2.6.10
+          node_id: RE_kwDOBzS60s4GfZL3
+          prerelease: false
+          published_at: "2023-06-16T15:30:18Z"
+          tag_name: v2.6.10
+          tarball_url: https://api.github.com/repos/argoproj/argo-cd/tarball/v2.6.10
+          target_commitish: master
+          upload_url: https://uploads.github.com/repos/argoproj/argo-cd/releases/108892919/assets{?name,label}
+          url: https://api.github.com/repos/argoproj/argo-cd/releases/108892919
+          zipball_url: https://api.github.com/repos/argoproj/argo-cd/zipball/v2.6.10
     helm_diff:
       3.6.0:
         githubRelease:
@@ -2315,6 +2729,244 @@ meta:
           upload_url: https://uploads.github.com/repos/databus23/helm-diff/releases/77977151/assets{?name,label}
           url: https://api.github.com/repos/databus23/helm-diff/releases/77977151
           zipball_url: https://api.github.com/repos/databus23/helm-diff/zipball/v3.6.0
+      3.8.1:
+        githubRelease:
+          assets:
+          - browser_download_url: https://github.com/databus23/helm-diff/releases/download/v3.8.1/helm-diff-freebsd-amd64.tgz
+            content_type: application/x-gtar
+            created_at: "2023-06-04T02:44:38Z"
+            download_count: 2
+            id: 111176442
+            label: ""
+            name: helm-diff-freebsd-amd64.tgz
+            node_id: RA_kwDOBPv_Ws4GoGr6
+            size: 28148204
+            state: uploaded
+            updated_at: "2023-06-04T02:44:50Z"
+            uploader:
+              avatar_url: https://avatars.githubusercontent.com/u/22009?v=4
+              events_url: https://api.github.com/users/mumoshu/events{/privacy}
+              followers_url: https://api.github.com/users/mumoshu/followers
+              following_url: https://api.github.com/users/mumoshu/following{/other_user}
+              gists_url: https://api.github.com/users/mumoshu/gists{/gist_id}
+              gravatar_id: ""
+              html_url: https://github.com/mumoshu
+              id: 22009
+              login: mumoshu
+              node_id: MDQ6VXNlcjIyMDA5
+              organizations_url: https://api.github.com/users/mumoshu/orgs
+              received_events_url: https://api.github.com/users/mumoshu/received_events
+              repos_url: https://api.github.com/users/mumoshu/repos
+              site_admin: false
+              starred_url: https://api.github.com/users/mumoshu/starred{/owner}{/repo}
+              subscriptions_url: https://api.github.com/users/mumoshu/subscriptions
+              type: User
+              url: https://api.github.com/users/mumoshu
+            url: https://api.github.com/repos/databus23/helm-diff/releases/assets/111176442
+          - browser_download_url: https://github.com/databus23/helm-diff/releases/download/v3.8.1/helm-diff-linux-amd64.tgz
+            content_type: application/x-gtar
+            created_at: "2023-06-04T02:44:38Z"
+            download_count: 55010
+            id: 111176441
+            label: ""
+            name: helm-diff-linux-amd64.tgz
+            node_id: RA_kwDOBPv_Ws4GoGr5
+            size: 28209600
+            state: uploaded
+            updated_at: "2023-06-04T02:44:50Z"
+            uploader:
+              avatar_url: https://avatars.githubusercontent.com/u/22009?v=4
+              events_url: https://api.github.com/users/mumoshu/events{/privacy}
+              followers_url: https://api.github.com/users/mumoshu/followers
+              following_url: https://api.github.com/users/mumoshu/following{/other_user}
+              gists_url: https://api.github.com/users/mumoshu/gists{/gist_id}
+              gravatar_id: ""
+              html_url: https://github.com/mumoshu
+              id: 22009
+              login: mumoshu
+              node_id: MDQ6VXNlcjIyMDA5
+              organizations_url: https://api.github.com/users/mumoshu/orgs
+              received_events_url: https://api.github.com/users/mumoshu/received_events
+              repos_url: https://api.github.com/users/mumoshu/repos
+              site_admin: false
+              starred_url: https://api.github.com/users/mumoshu/starred{/owner}{/repo}
+              subscriptions_url: https://api.github.com/users/mumoshu/subscriptions
+              type: User
+              url: https://api.github.com/users/mumoshu
+            url: https://api.github.com/repos/databus23/helm-diff/releases/assets/111176441
+          - browser_download_url: https://github.com/databus23/helm-diff/releases/download/v3.8.1/helm-diff-linux-arm64.tgz
+            content_type: application/x-gtar
+            created_at: "2023-06-04T02:44:38Z"
+            download_count: 971
+            id: 111176440
+            label: ""
+            name: helm-diff-linux-arm64.tgz
+            node_id: RA_kwDOBPv_Ws4GoGr4
+            size: 26101714
+            state: uploaded
+            updated_at: "2023-06-04T02:44:50Z"
+            uploader:
+              avatar_url: https://avatars.githubusercontent.com/u/22009?v=4
+              events_url: https://api.github.com/users/mumoshu/events{/privacy}
+              followers_url: https://api.github.com/users/mumoshu/followers
+              following_url: https://api.github.com/users/mumoshu/following{/other_user}
+              gists_url: https://api.github.com/users/mumoshu/gists{/gist_id}
+              gravatar_id: ""
+              html_url: https://github.com/mumoshu
+              id: 22009
+              login: mumoshu
+              node_id: MDQ6VXNlcjIyMDA5
+              organizations_url: https://api.github.com/users/mumoshu/orgs
+              received_events_url: https://api.github.com/users/mumoshu/received_events
+              repos_url: https://api.github.com/users/mumoshu/repos
+              site_admin: false
+              starred_url: https://api.github.com/users/mumoshu/starred{/owner}{/repo}
+              subscriptions_url: https://api.github.com/users/mumoshu/subscriptions
+              type: User
+              url: https://api.github.com/users/mumoshu
+            url: https://api.github.com/repos/databus23/helm-diff/releases/assets/111176440
+          - browser_download_url: https://github.com/databus23/helm-diff/releases/download/v3.8.1/helm-diff-macos-amd64.tgz
+            content_type: application/x-gtar
+            created_at: "2023-06-04T02:44:38Z"
+            download_count: 400
+            id: 111176443
+            label: ""
+            name: helm-diff-macos-amd64.tgz
+            node_id: RA_kwDOBPv_Ws4GoGr7
+            size: 27960815
+            state: uploaded
+            updated_at: "2023-06-04T02:44:50Z"
+            uploader:
+              avatar_url: https://avatars.githubusercontent.com/u/22009?v=4
+              events_url: https://api.github.com/users/mumoshu/events{/privacy}
+              followers_url: https://api.github.com/users/mumoshu/followers
+              following_url: https://api.github.com/users/mumoshu/following{/other_user}
+              gists_url: https://api.github.com/users/mumoshu/gists{/gist_id}
+              gravatar_id: ""
+              html_url: https://github.com/mumoshu
+              id: 22009
+              login: mumoshu
+              node_id: MDQ6VXNlcjIyMDA5
+              organizations_url: https://api.github.com/users/mumoshu/orgs
+              received_events_url: https://api.github.com/users/mumoshu/received_events
+              repos_url: https://api.github.com/users/mumoshu/repos
+              site_admin: false
+              starred_url: https://api.github.com/users/mumoshu/starred{/owner}{/repo}
+              subscriptions_url: https://api.github.com/users/mumoshu/subscriptions
+              type: User
+              url: https://api.github.com/users/mumoshu
+            url: https://api.github.com/repos/databus23/helm-diff/releases/assets/111176443
+          - browser_download_url: https://github.com/databus23/helm-diff/releases/download/v3.8.1/helm-diff-macos-arm64.tgz
+            content_type: application/x-gtar
+            created_at: "2023-06-04T02:44:38Z"
+            download_count: 672
+            id: 111176439
+            label: ""
+            name: helm-diff-macos-arm64.tgz
+            node_id: RA_kwDOBPv_Ws4GoGr3
+            size: 26727086
+            state: uploaded
+            updated_at: "2023-06-04T02:44:49Z"
+            uploader:
+              avatar_url: https://avatars.githubusercontent.com/u/22009?v=4
+              events_url: https://api.github.com/users/mumoshu/events{/privacy}
+              followers_url: https://api.github.com/users/mumoshu/followers
+              following_url: https://api.github.com/users/mumoshu/following{/other_user}
+              gists_url: https://api.github.com/users/mumoshu/gists{/gist_id}
+              gravatar_id: ""
+              html_url: https://github.com/mumoshu
+              id: 22009
+              login: mumoshu
+              node_id: MDQ6VXNlcjIyMDA5
+              organizations_url: https://api.github.com/users/mumoshu/orgs
+              received_events_url: https://api.github.com/users/mumoshu/received_events
+              repos_url: https://api.github.com/users/mumoshu/repos
+              site_admin: false
+              starred_url: https://api.github.com/users/mumoshu/starred{/owner}{/repo}
+              subscriptions_url: https://api.github.com/users/mumoshu/subscriptions
+              type: User
+              url: https://api.github.com/users/mumoshu
+            url: https://api.github.com/repos/databus23/helm-diff/releases/assets/111176439
+          - browser_download_url: https://github.com/databus23/helm-diff/releases/download/v3.8.1/helm-diff-windows-amd64.tgz
+            content_type: application/x-gtar
+            created_at: "2023-06-04T02:44:50Z"
+            download_count: 373
+            id: 111176456
+            label: ""
+            name: helm-diff-windows-amd64.tgz
+            node_id: RA_kwDOBPv_Ws4GoGsI
+            size: 28406545
+            state: uploaded
+            updated_at: "2023-06-04T02:44:55Z"
+            uploader:
+              avatar_url: https://avatars.githubusercontent.com/u/22009?v=4
+              events_url: https://api.github.com/users/mumoshu/events{/privacy}
+              followers_url: https://api.github.com/users/mumoshu/followers
+              following_url: https://api.github.com/users/mumoshu/following{/other_user}
+              gists_url: https://api.github.com/users/mumoshu/gists{/gist_id}
+              gravatar_id: ""
+              html_url: https://github.com/mumoshu
+              id: 22009
+              login: mumoshu
+              node_id: MDQ6VXNlcjIyMDA5
+              organizations_url: https://api.github.com/users/mumoshu/orgs
+              received_events_url: https://api.github.com/users/mumoshu/received_events
+              repos_url: https://api.github.com/users/mumoshu/repos
+              site_admin: false
+              starred_url: https://api.github.com/users/mumoshu/starred{/owner}{/repo}
+              subscriptions_url: https://api.github.com/users/mumoshu/subscriptions
+              type: User
+              url: https://api.github.com/users/mumoshu
+            url: https://api.github.com/repos/databus23/helm-diff/releases/assets/111176456
+          assets_url: https://api.github.com/repos/databus23/helm-diff/releases/106869017/assets
+          author:
+            avatar_url: https://avatars.githubusercontent.com/u/22009?v=4
+            events_url: https://api.github.com/users/mumoshu/events{/privacy}
+            followers_url: https://api.github.com/users/mumoshu/followers
+            following_url: https://api.github.com/users/mumoshu/following{/other_user}
+            gists_url: https://api.github.com/users/mumoshu/gists{/gist_id}
+            gravatar_id: ""
+            html_url: https://github.com/mumoshu
+            id: 22009
+            login: mumoshu
+            node_id: MDQ6VXNlcjIyMDA5
+            organizations_url: https://api.github.com/users/mumoshu/orgs
+            received_events_url: https://api.github.com/users/mumoshu/received_events
+            repos_url: https://api.github.com/users/mumoshu/repos
+            site_admin: false
+            starred_url: https://api.github.com/users/mumoshu/starred{/owner}{/repo}
+            subscriptions_url: https://api.github.com/users/mumoshu/subscriptions
+            type: User
+            url: https://api.github.com/users/mumoshu
+          body: "## What's Changed\r\n* Add support for --insecure-skip-tls-verify
+            by @mumoshu in https://github.com/databus23/helm-diff/pull/462\r\n\r\n\r\n**Full
+            Changelog**: https://github.com/databus23/helm-diff/compare/v3.8.0...v3.8.1"
+          created_at: "2023-06-04T01:34:34Z"
+          draft: false
+          html_url: https://github.com/databus23/helm-diff/releases/tag/v3.8.1
+          id: 106869017
+          mentions_count: 1
+          name: v3.8.1
+          node_id: RE_kwDOBPv_Ws4GXrEZ
+          prerelease: false
+          published_at: "2023-06-04T02:45:20Z"
+          reactions:
+            "+1": 0
+            "-1": 0
+            confused: 0
+            eyes: 1
+            heart: 0
+            hooray: 0
+            laugh: 0
+            rocket: 1
+            total_count: 2
+            url: https://api.github.com/repos/databus23/helm-diff/releases/106869017/reactions
+          tag_name: v3.8.1
+          tarball_url: https://api.github.com/repos/databus23/helm-diff/tarball/v3.8.1
+          target_commitish: master
+          upload_url: https://uploads.github.com/repos/databus23/helm-diff/releases/106869017/assets{?name,label}
+          url: https://api.github.com/repos/databus23/helm-diff/releases/106869017
+          zipball_url: https://api.github.com/repos/databus23/helm-diff/zipball/v3.8.1
     helmfile:
       0.151.0:
         githubRelease:
@@ -2710,6 +3362,362 @@ meta:
           upload_url: https://uploads.github.com/repos/helmfile/helmfile/releases/92801493/assets{?name,label}
           url: https://api.github.com/repos/helmfile/helmfile/releases/92801493
           zipball_url: https://api.github.com/repos/helmfile/helmfile/zipball/v0.151.0
+      0.154.0:
+        githubRelease:
+          assets:
+          - browser_download_url: https://github.com/helmfile/helmfile/releases/download/v0.154.0/helmfile_0.154.0_checksums.txt
+            content_type: text/plain; charset=utf-8
+            created_at: "2023-05-23T23:46:37Z"
+            download_count: 357
+            id: 109511912
+            label: ""
+            name: helmfile_0.154.0_checksums.txt
+            node_id: RA_kwDOHEifes4GhwTo
+            size: 820
+            state: uploaded
+            updated_at: "2023-05-23T23:46:37Z"
+            uploader:
+              avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+              events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+              followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+              following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+              gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+              gravatar_id: ""
+              html_url: https://github.com/apps/github-actions
+              id: 41898282
+              login: github-actions[bot]
+              node_id: MDM6Qm90NDE4OTgyODI=
+              organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+              received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+              repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+              site_admin: false
+              starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+              subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+              type: Bot
+              url: https://api.github.com/users/github-actions%5Bbot%5D
+            url: https://api.github.com/repos/helmfile/helmfile/releases/assets/109511912
+          - browser_download_url: https://github.com/helmfile/helmfile/releases/download/v0.154.0/helmfile_0.154.0_darwin_amd64.tar.gz
+            content_type: application/gzip
+            created_at: "2023-05-23T23:46:30Z"
+            download_count: 186
+            id: 109511899
+            label: ""
+            name: helmfile_0.154.0_darwin_amd64.tar.gz
+            node_id: RA_kwDOHEifes4GhwTb
+            size: 21346353
+            state: uploaded
+            updated_at: "2023-05-23T23:46:31Z"
+            uploader:
+              avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+              events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+              followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+              following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+              gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+              gravatar_id: ""
+              html_url: https://github.com/apps/github-actions
+              id: 41898282
+              login: github-actions[bot]
+              node_id: MDM6Qm90NDE4OTgyODI=
+              organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+              received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+              repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+              site_admin: false
+              starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+              subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+              type: Bot
+              url: https://api.github.com/users/github-actions%5Bbot%5D
+            url: https://api.github.com/repos/helmfile/helmfile/releases/assets/109511899
+          - browser_download_url: https://github.com/helmfile/helmfile/releases/download/v0.154.0/helmfile_0.154.0_darwin_arm64.tar.gz
+            content_type: application/gzip
+            created_at: "2023-05-23T23:46:31Z"
+            download_count: 200
+            id: 109511903
+            label: ""
+            name: helmfile_0.154.0_darwin_arm64.tar.gz
+            node_id: RA_kwDOHEifes4GhwTf
+            size: 20579083
+            state: uploaded
+            updated_at: "2023-05-23T23:46:32Z"
+            uploader:
+              avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+              events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+              followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+              following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+              gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+              gravatar_id: ""
+              html_url: https://github.com/apps/github-actions
+              id: 41898282
+              login: github-actions[bot]
+              node_id: MDM6Qm90NDE4OTgyODI=
+              organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+              received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+              repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+              site_admin: false
+              starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+              subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+              type: Bot
+              url: https://api.github.com/users/github-actions%5Bbot%5D
+            url: https://api.github.com/repos/helmfile/helmfile/releases/assets/109511903
+          - browser_download_url: https://github.com/helmfile/helmfile/releases/download/v0.154.0/helmfile_0.154.0_linux_386.tar.gz
+            content_type: application/gzip
+            created_at: "2023-05-23T23:46:34Z"
+            download_count: 75
+            id: 109511906
+            label: ""
+            name: helmfile_0.154.0_linux_386.tar.gz
+            node_id: RA_kwDOHEifes4GhwTi
+            size: 19028869
+            state: uploaded
+            updated_at: "2023-05-23T23:46:35Z"
+            uploader:
+              avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+              events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+              followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+              following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+              gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+              gravatar_id: ""
+              html_url: https://github.com/apps/github-actions
+              id: 41898282
+              login: github-actions[bot]
+              node_id: MDM6Qm90NDE4OTgyODI=
+              organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+              received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+              repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+              site_admin: false
+              starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+              subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+              type: Bot
+              url: https://api.github.com/users/github-actions%5Bbot%5D
+            url: https://api.github.com/repos/helmfile/helmfile/releases/assets/109511906
+          - browser_download_url: https://github.com/helmfile/helmfile/releases/download/v0.154.0/helmfile_0.154.0_linux_amd64.tar.gz
+            content_type: application/gzip
+            created_at: "2023-05-23T23:46:35Z"
+            download_count: 12962
+            id: 109511908
+            label: ""
+            name: helmfile_0.154.0_linux_amd64.tar.gz
+            node_id: RA_kwDOHEifes4GhwTk
+            size: 20321111
+            state: uploaded
+            updated_at: "2023-05-23T23:46:36Z"
+            uploader:
+              avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+              events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+              followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+              following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+              gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+              gravatar_id: ""
+              html_url: https://github.com/apps/github-actions
+              id: 41898282
+              login: github-actions[bot]
+              node_id: MDM6Qm90NDE4OTgyODI=
+              organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+              received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+              repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+              site_admin: false
+              starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+              subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+              type: Bot
+              url: https://api.github.com/users/github-actions%5Bbot%5D
+            url: https://api.github.com/repos/helmfile/helmfile/releases/assets/109511908
+          - browser_download_url: https://github.com/helmfile/helmfile/releases/download/v0.154.0/helmfile_0.154.0_linux_arm64.tar.gz
+            content_type: application/gzip
+            created_at: "2023-05-23T23:46:33Z"
+            download_count: 686
+            id: 109511905
+            label: ""
+            name: helmfile_0.154.0_linux_arm64.tar.gz
+            node_id: RA_kwDOHEifes4GhwTh
+            size: 18392811
+            state: uploaded
+            updated_at: "2023-05-23T23:46:35Z"
+            uploader:
+              avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+              events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+              followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+              following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+              gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+              gravatar_id: ""
+              html_url: https://github.com/apps/github-actions
+              id: 41898282
+              login: github-actions[bot]
+              node_id: MDM6Qm90NDE4OTgyODI=
+              organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+              received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+              repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+              site_admin: false
+              starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+              subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+              type: Bot
+              url: https://api.github.com/users/github-actions%5Bbot%5D
+            url: https://api.github.com/repos/helmfile/helmfile/releases/assets/109511905
+          - browser_download_url: https://github.com/helmfile/helmfile/releases/download/v0.154.0/helmfile_0.154.0_windows_386.tar.gz
+            content_type: application/gzip
+            created_at: "2023-05-23T23:46:30Z"
+            download_count: 35
+            id: 109511900
+            label: ""
+            name: helmfile_0.154.0_windows_386.tar.gz
+            node_id: RA_kwDOHEifes4GhwTc
+            size: 19930603
+            state: uploaded
+            updated_at: "2023-05-23T23:46:35Z"
+            uploader:
+              avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+              events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+              followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+              following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+              gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+              gravatar_id: ""
+              html_url: https://github.com/apps/github-actions
+              id: 41898282
+              login: github-actions[bot]
+              node_id: MDM6Qm90NDE4OTgyODI=
+              organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+              received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+              repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+              site_admin: false
+              starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+              subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+              type: Bot
+              url: https://api.github.com/users/github-actions%5Bbot%5D
+            url: https://api.github.com/repos/helmfile/helmfile/releases/assets/109511900
+          - browser_download_url: https://github.com/helmfile/helmfile/releases/download/v0.154.0/helmfile_0.154.0_windows_amd64.tar.gz
+            content_type: application/gzip
+            created_at: "2023-05-23T23:46:36Z"
+            download_count: 538
+            id: 109511910
+            label: ""
+            name: helmfile_0.154.0_windows_amd64.tar.gz
+            node_id: RA_kwDOHEifes4GhwTm
+            size: 20491088
+            state: uploaded
+            updated_at: "2023-05-23T23:46:37Z"
+            uploader:
+              avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+              events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+              followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+              following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+              gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+              gravatar_id: ""
+              html_url: https://github.com/apps/github-actions
+              id: 41898282
+              login: github-actions[bot]
+              node_id: MDM6Qm90NDE4OTgyODI=
+              organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+              received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+              repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+              site_admin: false
+              starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+              subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+              type: Bot
+              url: https://api.github.com/users/github-actions%5Bbot%5D
+            url: https://api.github.com/repos/helmfile/helmfile/releases/assets/109511910
+          - browser_download_url: https://github.com/helmfile/helmfile/releases/download/v0.154.0/helmfile_0.154.0_windows_arm64.tar.gz
+            content_type: application/gzip
+            created_at: "2023-05-23T23:46:36Z"
+            download_count: 14
+            id: 109511909
+            label: ""
+            name: helmfile_0.154.0_windows_arm64.tar.gz
+            node_id: RA_kwDOHEifes4GhwTl
+            size: 18542413
+            state: uploaded
+            updated_at: "2023-05-23T23:46:36Z"
+            uploader:
+              avatar_url: https://avatars.githubusercontent.com/in/15368?v=4
+              events_url: https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}
+              followers_url: https://api.github.com/users/github-actions%5Bbot%5D/followers
+              following_url: https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}
+              gists_url: https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}
+              gravatar_id: ""
+              html_url: https://github.com/apps/github-actions
+              id: 41898282
+              login: github-actions[bot]
+              node_id: MDM6Qm90NDE4OTgyODI=
+              organizations_url: https://api.github.com/users/github-actions%5Bbot%5D/orgs
+              received_events_url: https://api.github.com/users/github-actions%5Bbot%5D/received_events
+              repos_url: https://api.github.com/users/github-actions%5Bbot%5D/repos
+              site_admin: false
+              starred_url: https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}
+              subscriptions_url: https://api.github.com/users/github-actions%5Bbot%5D/subscriptions
+              type: Bot
+              url: https://api.github.com/users/github-actions%5Bbot%5D
+            url: https://api.github.com/repos/helmfile/helmfile/releases/assets/109511909
+          assets_url: https://api.github.com/repos/helmfile/helmfile/releases/104025566/assets
+          author:
+            avatar_url: https://avatars.githubusercontent.com/u/11087727?v=4
+            events_url: https://api.github.com/users/yxxhero/events{/privacy}
+            followers_url: https://api.github.com/users/yxxhero/followers
+            following_url: https://api.github.com/users/yxxhero/following{/other_user}
+            gists_url: https://api.github.com/users/yxxhero/gists{/gist_id}
+            gravatar_id: ""
+            html_url: https://github.com/yxxhero
+            id: 11087727
+            login: yxxhero
+            node_id: MDQ6VXNlcjExMDg3NzI3
+            organizations_url: https://api.github.com/users/yxxhero/orgs
+            received_events_url: https://api.github.com/users/yxxhero/received_events
+            repos_url: https://api.github.com/users/yxxhero/repos
+            site_admin: false
+            starred_url: https://api.github.com/users/yxxhero/starred{/owner}{/repo}
+            subscriptions_url: https://api.github.com/users/yxxhero/subscriptions
+            type: User
+            url: https://api.github.com/users/yxxhero
+          body: "## What's Changed\r\n* Feat: support helm flag --enable-dns by @vincentstchu
+            in https://github.com/helmfile/helmfile/pull/830\r\n* Make helmfile respect
+            signals send by kill command (not only Ctrl+C in terminal) by @dm3ch in
+            https://github.com/helmfile/helmfile/pull/750\r\n* build(deps): bump golang.org/x/term
+            from 0.7.0 to 0.8.0 by @dependabot in https://github.com/helmfile/helmfile/pull/846\r\n*
+            build(deps): bump golang.org/x/sync from 0.1.0 to 0.2.0 by @dependabot
+            in https://github.com/helmfile/helmfile/pull/847\r\n* feat: add --skip-trailing-cr
+            to helmfile diff by @rezonant in https://github.com/helmfile/helmfile/pull/625\r\n*
+            fix: loadBases overrodeEnv issue by @yxxhero in https://github.com/helmfile/helmfile/pull/838\r\n*
+            build(deps): bump go.szostok.io/version from 1.1.0 to 1.2.0 by @dependabot
+            in https://github.com/helmfile/helmfile/pull/852\r\n* bump helm to v3.12.0
+            by @yxxhero in https://github.com/helmfile/helmfile/pull/855\r\n* build(deps):
+            bump github.com/docker/distribution from 2.8.1+incompatible to 2.8.2+incompatible
+            by @dependabot in https://github.com/helmfile/helmfile/pull/857\r\n* Feat
+            add cascade support by @yxxhero in https://github.com/helmfile/helmfile/pull/860\r\n*
+            docs: update cascade by @yxxhero in https://github.com/helmfile/helmfile/pull/861\r\n*
+            fix extra args missing in helmfile apply subcommand by @yxxhero in https://github.com/helmfile/helmfile/pull/858\r\n*
+            build(deps): bump k8s.io/apimachinery from 0.27.1 to 0.27.2 by @dependabot
+            in https://github.com/helmfile/helmfile/pull/865\r\n* build(deps): bump
+            github.com/stretchr/testify from 1.8.2 to 1.8.3 by @dependabot in https://github.com/helmfile/helmfile/pull/866\r\n*
+            feat: make environment context available by @SeWieland in https://github.com/helmfile/helmfile/pull/832\r\n*
+            Fix set flag are ignored when used in conjunction with jsonPatches by
+            @xiaomudk in https://github.com/helmfile/helmfile/pull/867\r\n\r\n## New
+            Contributors\r\n* @vincentstchu made their first contribution in https://github.com/helmfile/helmfile/pull/830\r\n*
+            @dm3ch made their first contribution in https://github.com/helmfile/helmfile/pull/750\r\n*
+            @rezonant made their first contribution in https://github.com/helmfile/helmfile/pull/625\r\n*
+            @SeWieland made their first contribution in https://github.com/helmfile/helmfile/pull/832\r\n\r\n**Full
+            Changelog**: https://github.com/helmfile/helmfile/compare/v0.153.1...v0.154.0"
+          created_at: "2023-05-23T23:29:19Z"
+          draft: false
+          html_url: https://github.com/helmfile/helmfile/releases/tag/v0.154.0
+          id: 104025566
+          mentions_count: 7
+          name: v0.154.0
+          node_id: RE_kwDOHEifes4GM03e
+          prerelease: false
+          published_at: "2023-05-23T23:30:59Z"
+          reactions:
+            "+1": 5
+            "-1": 0
+            confused: 0
+            eyes: 0
+            heart: 0
+            hooray: 2
+            laugh: 0
+            rocket: 0
+            total_count: 7
+            url: https://api.github.com/repos/helmfile/helmfile/releases/104025566/reactions
+          tag_name: v0.154.0
+          tarball_url: https://api.github.com/repos/helmfile/helmfile/tarball/v0.154.0
+          target_commitish: main
+          upload_url: https://uploads.github.com/repos/helmfile/helmfile/releases/104025566/assets{?name,label}
+          url: https://api.github.com/repos/helmfile/helmfile/releases/104025566
+          zipball_url: https://api.github.com/repos/helmfile/helmfile/zipball/v0.154.0
     kubectl:
       1.26.1:
         githubRelease:
@@ -2798,6 +3806,62 @@ meta:
           upload_url: https://uploads.github.com/repos/kubernetes/kubernetes/releases/89461411/assets{?name,label}
           url: https://api.github.com/repos/kubernetes/kubernetes/releases/89461411
           zipball_url: https://api.github.com/repos/kubernetes/kubernetes/zipball/v1.26.1
+      1.27.3:
+        githubRelease:
+          assets: []
+          assets_url: https://api.github.com/repos/kubernetes/kubernetes/releases/108644552/assets
+          author:
+            avatar_url: https://avatars.githubusercontent.com/u/33505452?v=4
+            events_url: https://api.github.com/users/k8s-release-robot/events{/privacy}
+            followers_url: https://api.github.com/users/k8s-release-robot/followers
+            following_url: https://api.github.com/users/k8s-release-robot/following{/other_user}
+            gists_url: https://api.github.com/users/k8s-release-robot/gists{/gist_id}
+            gravatar_id: ""
+            html_url: https://github.com/k8s-release-robot
+            id: 33505452
+            login: k8s-release-robot
+            node_id: MDQ6VXNlcjMzNTA1NDUy
+            organizations_url: https://api.github.com/users/k8s-release-robot/orgs
+            received_events_url: https://api.github.com/users/k8s-release-robot/received_events
+            repos_url: https://api.github.com/users/k8s-release-robot/repos
+            site_admin: false
+            starred_url: https://api.github.com/users/k8s-release-robot/starred{/owner}{/repo}
+            subscriptions_url: https://api.github.com/users/k8s-release-robot/subscriptions
+            type: User
+            url: https://api.github.com/users/k8s-release-robot
+          body: |2+
+
+            See [kubernetes-announce@](https://groups.google.com/forum/#!forum/kubernetes-announce). Additional binary downloads are linked in the [CHANGELOG](https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.27.md).
+
+            See [the CHANGELOG](https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.27.md) for more details.
+
+
+
+          created_at: "2023-06-14T09:47:38Z"
+          draft: false
+          html_url: https://github.com/kubernetes/kubernetes/releases/tag/v1.27.3
+          id: 108644552
+          name: Kubernetes v1.27.3
+          node_id: RE_kwDOAToIks4GecjI
+          prerelease: false
+          published_at: "2023-06-14T21:36:39Z"
+          reactions:
+            "+1": 8
+            "-1": 0
+            confused: 0
+            eyes: 6
+            heart: 3
+            hooray: 15
+            laugh: 2
+            rocket: 5
+            total_count: 39
+            url: https://api.github.com/repos/kubernetes/kubernetes/releases/108644552/reactions
+          tag_name: v1.27.3
+          tarball_url: https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.27.3
+          target_commitish: master
+          upload_url: https://uploads.github.com/repos/kubernetes/kubernetes/releases/108644552/assets{?name,label}
+          url: https://api.github.com/repos/kubernetes/kubernetes/releases/108644552
+          zipball_url: https://api.github.com/repos/kubernetes/kubernetes/zipball/v1.27.3
     sops:
       3.7.3:
         githubRelease:
