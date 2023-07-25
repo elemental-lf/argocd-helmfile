@@ -60,7 +60,7 @@ jobs:
 
           version="$(make version)"
           echo "::debug::Setting version to ${version}"
-          echo "::set-output name=version::${version}"
+          echo "version=${version}" >>$GITHUB_OUTPUT
 
       # Will reuse the build cache
       - name: Push container image
